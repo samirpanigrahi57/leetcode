@@ -7,9 +7,9 @@ public class PlusOne {
 
     }
 
-    public static void printArray(int[] res){
-        for (int i = 0; i< res.length; i++){
-            System.out.print(res[i]+",");
+    public static void printArray(int[] res) {
+        for (int i = 0; i < res.length; i++) {
+            System.out.print(res[i] + ",");
         }
         System.out.println();
     }
