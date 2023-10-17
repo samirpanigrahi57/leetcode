@@ -1,5 +1,7 @@
 package topInterviewQuestions.easy;
 
+import static topInterviewQuestions.LeetUtils.printArray;
+
 public class PlusOne {
 
     public static void main(String[] args) {
@@ -7,12 +9,7 @@ public class PlusOne {
 
     }
 
-    public static void printArray(int[] res) {
-        for (int i = 0; i < res.length; i++) {
-            System.out.print(res[i] + ",");
-        }
-        System.out.println();
-    }
+
 
     public static int[] plusOne(int[] digits) {
 

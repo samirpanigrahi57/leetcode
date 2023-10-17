@@ -1,5 +1,7 @@
 package topInterviewQuestions.easy;
 
+import static topInterviewQuestions.LeetUtils.printArray;
+
 public class RotateArray {
     public static void main(String[] args) {
         //int[] res = rotateArray(new int[]{1,2,3,4,5,6,7}, 8);
@@ -7,13 +9,6 @@ public class RotateArray {
         System.out.println();
          int[] res = reverseApproach(new int[]{-1,-100,3,99}, 1);
         //printArray(res);
-    }
-
-    public static void printArray(int[] res){
-        for (int i = 0; i< res.length; i++){
-            System.out.print(res[i]+",");
-        }
-        System.out.println();
     }
 
     public static int[] reverseApproach(int[] nums, int k){
