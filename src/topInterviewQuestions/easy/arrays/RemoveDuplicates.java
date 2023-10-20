@@ -1,4 +1,4 @@
-package topInterviewQuestions.easy;
+package topInterviewQuestions.easy.arrays;
 
 public class RemoveDuplicates {
     public static void main(String[] args) {

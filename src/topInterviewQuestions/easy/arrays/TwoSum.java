@@ -1,4 +1,4 @@
-package topInterviewQuestions.easy;
+package topInterviewQuestions.easy.arrays;
 
 import topInterviewQuestions.LeetUtils;
 
