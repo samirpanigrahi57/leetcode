@@ -1,11 +1,11 @@
 package topInterviewQuestions.easy.arrays;
 
-import static topInterviewQuestions.LeetUtils.printArray;
+import static topInterviewQuestions.LeetUtils.printIntArray;
 
 public class PlusOne {
 
     public static void main(String[] args) {
-        printArray(plusOne(new int[]{9, 9, 9, 9}));
+        printIntArray(plusOne(new int[]{9, 9, 9, 9}));
 
     }
 

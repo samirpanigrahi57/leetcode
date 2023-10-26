@@ -1,10 +1,10 @@
 package topInterviewQuestions.easy.arrays;
 
-import static topInterviewQuestions.LeetUtils.printArray;
+import static topInterviewQuestions.LeetUtils.printIntArray;
 
 public class MoveZeroes {
     public static void main(String[] args) {
-        printArray(moveZeroes(new int[]{1, 0, 3, 0, 0, 12}));
+        printIntArray(moveZeroes(new int[]{1, 0, 3, 0, 0, 12}));
     }
 
     public static int[] moveZeroes(int[] nums) {

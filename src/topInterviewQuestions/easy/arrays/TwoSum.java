@@ -7,8 +7,8 @@ import java.util.Map;
 
 public class TwoSum {
     public static void main(String[] args) {
-        LeetUtils.printArray(twoSumBruteForce(new int[]{2, 7, 11, 15}, 18));
-        LeetUtils.printArray(twoSumOnePass(new int[]{2, 7, 11, 15}, 18));
+        LeetUtils.printIntArray(twoSumBruteForce(new int[]{2, 7, 11, 15}, 18));
+        LeetUtils.printIntArray(twoSumOnePass(new int[]{2, 7, 11, 15}, 18));
     }
 
     public static int[] twoSumOnePass(int[] nums, int target) {

@@ -1,6 +1,6 @@
 package topInterviewQuestions.easy.arrays;
 
-import static topInterviewQuestions.LeetUtils.printArray;
+import static topInterviewQuestions.LeetUtils.printIntArray;
 
 public class RotateArray {
     public static void main(String[] args) {
@@ -15,11 +15,11 @@ public class RotateArray {
         k = k % nums.length;
         System.out.println("k value after % is "+k);
         reverse(nums,0,nums.length-1);
-        printArray(nums);
+        printIntArray(nums);
         reverse(nums, 0, k-1);
-        printArray(nums);
+        printIntArray(nums);
         reverse(nums, k, nums.length-1);
-        printArray(nums);
+        printIntArray(nums);
         return nums;
     }
 
