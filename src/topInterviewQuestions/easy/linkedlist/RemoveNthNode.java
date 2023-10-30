@@ -1,6 +1,6 @@
 package topInterviewQuestions.easy.linkedlist;
 
-public class DeleteNthNode {
+public class RemoveNthNode {
 
 
     //Definition for singly-linked list.
