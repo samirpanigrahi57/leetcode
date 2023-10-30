@@ -13,6 +13,7 @@ public class StrStr {
 
     }
 
+    // This is sliding window approach
     public static int strStr(String haystack, String needle) {
         if (needle.length() > haystack.length()) {
             return -1;
