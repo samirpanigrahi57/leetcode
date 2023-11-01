@@ -1,5 +1,7 @@
 package topInterviewQuestions;
 
+import topInterviewQuestions.easy.linkedlist.ReverseLinkedList;
+
 public class LeetUtils {
 
     public static void printIntArray(int[] res) {
@@ -14,5 +16,12 @@ public class LeetUtils {
             System.out.print(res[i] + ",");
         }
         System.out.println();
+    }
+
+    public static void printLinkedList(ReverseLinkedList.ListNode node) {
+        while(node != null){
+            System.out.println(node.val);
+            node = node.next;
+        }
     }
 }
