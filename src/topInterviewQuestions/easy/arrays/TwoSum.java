@@ -1,6 +1,6 @@
 package topInterviewQuestions.easy.arrays;
 
-import topInterviewQuestions.LeetUtils;
+import topInterviewQuestions.utils.LeetUtils;
 
 import java.util.HashMap;
 import java.util.Map;

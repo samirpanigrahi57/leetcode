@@ -1,6 +1,7 @@
 package topInterviewQuestions.easy.linkedlist;
 
-import topInterviewQuestions.LeetUtils;
+import topInterviewQuestions.utils.LeetUtils;
+import topInterviewQuestions.utils.ListNode;
 
 //https://www.youtube.com/watch?v=ugQ2DVJJroc
 public class ReverseLinkedList {

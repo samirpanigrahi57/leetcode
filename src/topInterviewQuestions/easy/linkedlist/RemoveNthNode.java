@@ -1,8 +1,8 @@
 package topInterviewQuestions.easy.linkedlist;
 
-import topInterviewQuestions.LeetUtils;
+import topInterviewQuestions.utils.ListNode;
 
-import static topInterviewQuestions.LeetUtils.printLinkedList;
+import static topInterviewQuestions.utils.LeetUtils.printLinkedList;
 
 public class RemoveNthNode {
 

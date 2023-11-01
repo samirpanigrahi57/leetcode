@@ -1,6 +1,6 @@
 package topInterviewQuestions.easy.arrays;
 
-import static topInterviewQuestions.LeetUtils.printIntArray;
+import static topInterviewQuestions.utils.LeetUtils.printIntArray;
 
 public class MoveZeroes {
     public static void main(String[] args) {

@@ -1,6 +1,6 @@
 package topInterviewQuestions.easy.strings;
 
-import topInterviewQuestions.LeetUtils;
+import topInterviewQuestions.utils.LeetUtils;
 
 public class ReverseString {
 

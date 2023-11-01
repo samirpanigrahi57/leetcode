@@ -1,7 +1,4 @@
-package topInterviewQuestions;
-
-import topInterviewQuestions.easy.linkedlist.ListNode;
-import topInterviewQuestions.easy.linkedlist.ReverseLinkedList;
+package topInterviewQuestions.utils;
 
 public class LeetUtils {
 
