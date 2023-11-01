@@ -7,20 +7,13 @@ import static topInterviewQuestions.utils.LeetUtils.printLinkedList;
 public class MergeTwoSortedArrays {
     public static void main(String[] args) {
         ListNode list1 = new ListNode(1, new ListNode(2, new ListNode(4)));
-        ListNode list2 = new ListNode(1, new ListNode(3, new ListNode(5)));
+        ListNode list2 = new ListNode(1, new ListNode(3, new ListNode(4)));
         printLinkedList(mergeTwoSortedArrays(list1, list2));
 
     }
 
     public static ListNode mergeTwoSortedArrays(ListNode list1, ListNode list2) {
-        if (list1 == null && list2 == null) {
-            return new ListNode();
-        }
-        if (list1 == null) {
-            return list2;
-        } else if (list2 == null) {
-            return list1;
-        }
+
 
         ListNode dummy = new ListNode();
         ListNode tail = dummy;
@@ -37,9 +30,9 @@ public class MergeTwoSortedArrays {
             tail = tail.next;
 
         }
-        if (list1 == null) {
+        if (list1 != null) {
             tail.next = list1;
-        } else if (list2 == null) {
+        } else if (list2 != null) {
             tail.next = list2;
         }
         return dummy.next;
