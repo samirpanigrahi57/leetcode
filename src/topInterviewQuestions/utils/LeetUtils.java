@@ -1,5 +1,7 @@
 package topInterviewQuestions.utils;
 
+import java.util.List;
+
 public class LeetUtils {
 
     public static void printIntArray(int[] res) {
@@ -17,10 +19,14 @@ public class LeetUtils {
     }
 
     public static void printLinkedList(ListNode node) {
-        while(node != null){
-            System.out.print(node.val+"->");
+        while (node != null) {
+            System.out.print(node.val + "->");
             node = node.next;
         }
         System.out.println(node);
+    }
+
+    public static void printListOfStrings(List<String> res) {
+        res.forEach(System.out::println);
     }
 }
