@@ -14,7 +14,10 @@ public class TwoSum {
     public static int[] twoSumOnePass(int[] nums, int target) {
         Map<Integer, Integer> twoSum = new HashMap<>();
         for (int i = 0; i < nums.length; i++) {
+            //calculate the diff
             int diff = target - nums[i];
+            //check if the diff already exists in the map.
+            // If yes return current element and diff (here diff will be an element iterated previously)
             if (twoSum.containsKey(diff)) {
                 return new int[]{nums[i], diff};
             }

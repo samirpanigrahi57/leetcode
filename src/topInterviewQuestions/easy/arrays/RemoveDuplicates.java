@@ -3,7 +3,7 @@ package topInterviewQuestions.easy.arrays;
 public class RemoveDuplicates {
     public static void main(String[] args) {
 
-       removeDuplicates(new int[]{1,1,2,2,2,3,4,5});
+        System.out.println(removeDuplicates(new int[]{1,1,2,2,2,3,4,5}));
         System.out.println(removeDups(new int[]{1,1,2,2,2,3,3,4,5}));
 
     }

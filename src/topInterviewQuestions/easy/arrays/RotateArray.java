@@ -7,7 +7,8 @@ public class RotateArray {
         //int[] res = rotateArray(new int[]{1,2,3,4,5,6,7}, 8);
         //printArray(res);
         System.out.println();
-         int[] res = reverseApproach(new int[]{-1,-100,3,99}, 1);
+         //int[] res = reverseApproach(new int[]{-1,-100,3,99}, 1);
+         printIntArray(rotate(new int[]{-1,-100,3,99}, 2));
         //printArray(res);
     }
 
@@ -38,6 +39,9 @@ public class RotateArray {
     public static int[] rotate(int[] nums, int k){
         int a[] = new int[nums.length];
         for(int i = 0; i < nums.length; i++){
+            System.out.println((i+k) % nums.length);
+            //(i+k) % nums.length this will always <= nums.length - 1.
+            // It will start with indexes after Kth position
             a[(i+k) % nums.length] = nums[i];
 
         }

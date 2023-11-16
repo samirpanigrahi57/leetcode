@@ -12,7 +12,9 @@ public class ContainsDuplicates {
 
     public static boolean containsDuplicates(int[] nums) {
         Arrays.sort(nums);
+        //iterate from second element to last element
         for (int i = 1; i < nums.length; i++) {
+            //check if two consecutive elements are same as it is sorted
             if (nums[i] == nums[i - 1]) {
                 return true;
             }
@@ -22,6 +24,7 @@ public class ContainsDuplicates {
 
     public static boolean containsDuplicatesWithHash(int[] nums) {
         Set<Integer> res = new HashSet<>();
+        //store in set and check if the set already contains element before storing it
         for (int n : nums) {
             if (res.contains(n)) {
                 return true;

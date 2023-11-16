@@ -10,9 +10,10 @@ public class SingleNumber {
 
     public static int singleNumberUsingMap(int nums[]) {
         Map<Integer, Integer> res = new HashMap<>();
-        for (int i = 0; i < nums.length; i++) {
-            res.computeIfPresent(nums[i], (k, v) -> v + 1);
-            res.putIfAbsent(nums[i], 1);
+        for (int num : nums) {
+            //add one to value if key already present
+            res.computeIfPresent(num, (k, v) -> v + 1);
+            res.putIfAbsent(num, 1);
         }
         for (Integer key : res.keySet()) {
             if (res.get(key) == 1) {
