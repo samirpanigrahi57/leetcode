@@ -1,0 +1,28 @@
+SWAGATIKA NAYAK
+Senior Healthcare Data Quality Analyst | SQL | Reporting Quality | Payer Data
+Austin, TX | Authorized to work in the U.S. | No sponsorship required
+
+PROFESSIONAL SUMMARY
+Healthcare data and ETL analyst with 7+ years of experience improving data quality, validating enterprise data flows, and translating business rules into repeatable testing and reporting controls. Best aligned to roles that need healthcare domain fluency, SQL validation, reporting accuracy, and scalable analytics support.
+
+PRIORITY SKILLS
+SQL, Healthcare data quality, Claims data, Data validation, Power BI, Tableau, Documentation, Cross-functional analytics support
+
+TARGET ROLE
+Sr. Healthcare Data Quality Analyst at IMO Health
+
+TAILORED EXPERIENCE HIGHLIGHTS
+- Validated ETL workflows and built reusable data quality checks across claims, member, provider, and payer-operations data.
+- Translated mapping documents and business rules into standardized validation frameworks used across the QA team.
+- Contributed to stakeholder trust in dashboards and downstream KPIs by reducing post-release hotfixes and improving reporting accuracy.
+- Investigated production issues end-to-end and documented defects, test evidence, and resolution details in Agile workflows.
+- Worked across QA, engineering, and business teams to support release readiness and data quality outcomes.
+
+CORE EXPERIENCE
+Elevance Health | ETL Analyst / Healthcare Data Analyst | Sep 2022 - Present
+Initech Global (Client: Amway Corporation) | ETL Analyst | Dec 2021 - Aug 2022
+U.S. Bank | ETL Analyst | Mar 2021 - Oct 2021
+Flipkart | ETL Analyst | Jun 2015 - Aug 2019
+
+NOTE
+This tailored resume preserves employer names and employment dates and only rephrases or reorders truthful experience.

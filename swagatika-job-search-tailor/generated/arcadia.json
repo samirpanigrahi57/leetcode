@@ -1,0 +1,42 @@
+{
+  "job_title": "Data Analyst",
+  "fit_score": 74,
+  "file": "arcadia.json",
+  "experience_focus": [
+    "Prepared and validated large healthcare datasets used by reporting and analytics teams.",
+    "Used advanced SQL to reconcile source and target data across high-volume claims and member records.",
+    "Collaborated with stakeholders across QA, engineering, and business teams to support reporting quality and releases.",
+    "Improved downstream KPI trust through disciplined validation and defect reduction.",
+    "Brought prior banking, retail, and e-commerce ETL experience that supports work across varied enterprise datasets."
+  ],
+  "company": "Arcadia",
+  "gaps": [
+    "Posting looks more customer-facing BI and dashboard creation than ETL-heavy validation",
+    "Requests QuickSight/AWS familiarity rather than current Azure-centered stack"
+  ],
+  "strengths": [
+    "Healthcare and payer-domain relevance",
+    "Strong SQL foundation",
+    "Large data volume experience",
+    "Dashboard/reporting adjacency"
+  ],
+  "skills": [
+    "SQL",
+    "Healthcare data",
+    "Reporting accuracy",
+    "Dashboard support",
+    "Data validation",
+    "Claims and member data",
+    "Tableau",
+    "Power BI"
+  ],
+  "summary": "Healthcare data analyst with strong SQL, ETL validation, and data quality experience across payer-oriented datasets and enterprise reporting environments. Well suited for analyst roles that combine large-scale healthcare data analysis, stakeholder collaboration, and dashboard-ready output.",
+  "headline": "Healthcare Data Analyst | SQL | Large-Scale Data Validation | Dashboard Support",
+  "notes": "Worth applying if she wants broader healthcare analytics roles, but it is weaker than Veeva, IMO, and CareMessage. Tailoring should frame her as analytics-ready rather than purely QA-focused.",
+  "job_description": "# Data Analyst\nCompany: Arcadia\nSource date checked: April 27, 2026\nURL: https://jobs.lever.co/arcadia/cced8545-bd78-4ab6-82e8-28fae21b155e\n\n## Why it fits\n- Remote healthcare analytics role with SQL and dashboard overlap.\n- Involves large data sets, payer use cases, and cross-functional collaboration.\n\n## Key requirements from the posting\n- Build analytics dashboards and scorecards.\n- Analyze tens of millions of healthcare records.\n- Support payer-focused use cases in utilization, cost, quality, and risk.\n- Work with SQL and BI tools.",
+  "job_url": "https://jobs.lever.co/arcadia/cced8545-bd78-4ab6-82e8-28fae21b155e",
+  "source": "Official company posting via Lever",
+  "employment_type": "Unknown",
+  "work_mode": "Remote",
+  "location": "US Remote"
+}

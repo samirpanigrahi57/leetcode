@@ -1,0 +1,28 @@
+{
+  "replacements": [
+    {
+      "replace": "Healthcare Data Analyst | Provider Data | SQL | ETL Validation",
+      "find": "ETL Analyst | Healthcare Data Analyst | Data Quality & Warehouse Analyst"
+    },
+    {
+      "replace": "Healthcare Data & ETL Analyst with 7+ years of experience validating, reconciling, and delivering trusted enterprise data across healthcare domains. Strong expertise in advanced SQL, ETL validation, data quality, and cross-functional issue resolution, with direct relevance to provider-data accuracy and healthcare operations support.",
+      "find": "Healthcare Data & ETL Analyst with 7+ years of experience validating, reconciling, and delivering trusted enterprise data across healthcare (payer), banking, retail, and e-commerce domains. Deep hands-on expertise in advanced SQL, ETL validation, source-to-target testing, data quality, data warehousing, and production data support. Currently extending core skills into Snowflake, Databricks, Azure Data Factory, and Python to support cloud modernization and AI-ready data pipelines. Proven partner to engineering, QA, and business stakeholders\u2014translating mapping documents and business rules into validation frameworks that protect reporting accuracy, regulatory compliance, and downstream analytics readiness."
+    },
+    {
+      "replace": "Medical claims, member eligibility, provider data, payer operations, HIPAA awareness, EDI familiarity",
+      "find": "Medical claims, member eligibility, provider data, payer operations, HIPAA awareness, EDI familiarity"
+    },
+    {
+      "replace": "Validated 60+ ETL workflows across Informatica and Azure Data Factory feeding enterprise healthcare reporting and analytics platforms\u2014including provider, claims, member eligibility, and payer-operations data supporting large healthcare populations.",
+      "find": "Validated 60+ ETL workflows across Informatica and Azure Data Factory feeding enterprise healthcare reporting and analytics platforms\u2014covering claims, member eligibility, provider, and payer-operations data supporting multi-million-member BCBS populations."
+    },
+    {
+      "replace": "Investigated and resolved 70+ production data incidents through end-to-end root-cause analysis with engineering and business partners, protecting SLA-bound pipelines and provider-data accuracy.",
+      "find": "Investigated and resolved 70+ production data incidents through end-to-end root-cause analysis with engineering and business partners, protecting SLA-bound pipelines and member-facing data accuracy."
+    },
+    {
+      "replace": "Partnered with cross-functional teams of 12+ across Agile sprints to clarify requirements, validate outputs, and support healthcare data initiatives with high business visibility.",
+      "find": "Partnered with cross-functional teams of 12+ (Business Analysts, QA, Data Engineers, downstream report owners) across 2-week Agile sprints; managed 150+ JIRA defects through triage, clarification, validation, and closure."
+    }
+  ]
+}

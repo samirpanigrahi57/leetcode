@@ -1,0 +1,18 @@
+{
+  "job_title": "Data Analyst",
+  "score": 74,
+  "source": "Official company posting via Lever",
+  "employment_type": "Unknown",
+  "work_mode": "Remote",
+  "location": "US Remote",
+  "strengths": [
+    "Healthcare and payer-domain relevance",
+    "Strong SQL foundation",
+    "Large data volume experience",
+    "Dashboard/reporting adjacency"
+  ],
+  "gaps": [
+    "Posting looks more customer-facing BI and dashboard creation than ETL-heavy validation",
+    "Requests QuickSight/AWS familiarity rather than current Azure-centered stack"
+  ]
+}

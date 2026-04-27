@@ -1,0 +1,20 @@
+{
+  "replacements": [
+    {
+      "replace": "Healthcare Data Analyst | SQL | Population Health Reporting | Data Validation",
+      "find": "ETL Analyst | Healthcare Data Analyst | Data Quality & Warehouse Analyst"
+    },
+    {
+      "replace": "Healthcare Data & ETL Analyst with 7+ years of experience validating, reconciling, and delivering trusted healthcare data for reporting and analytics. Strong expertise in advanced SQL, source-to-target testing, quality-focused validation, and cross-functional support for dashboards, reporting outputs, and delivery documentation.",
+      "find": "Healthcare Data & ETL Analyst with 7+ years of experience validating, reconciling, and delivering trusted enterprise data across healthcare (payer), banking, retail, and e-commerce domains. Deep hands-on expertise in advanced SQL, ETL validation, source-to-target testing, data quality, data warehousing, and production data support. Currently extending core skills into Snowflake, Databricks, Azure Data Factory, and Python to support cloud modernization and AI-ready data pipelines. Proven partner to engineering, QA, and business stakeholders\u2014translating mapping documents and business rules into validation frameworks that protect reporting accuracy, regulatory compliance, and downstream analytics readiness."
+    },
+    {
+      "replace": "Power BI, Tableau, Excel (advanced \u2013 pivots, lookups, Power Query), dashboard QA and reporting support",
+      "find": "Power BI, Tableau, Excel (advanced \u2013 pivots, lookups, Power Query)"
+    },
+    {
+      "replace": "Contributed to data quality and reporting accuracy initiatives that reduced post-release data hotfixes by ~25% and improved stakeholder trust in dashboards and downstream KPIs.",
+      "find": "Contributed to data quality and reporting accuracy initiatives that reduced post-release data hotfixes by ~25% and improved stakeholder trust in payer-operations dashboards and downstream KPIs."
+    }
+  ]
+}

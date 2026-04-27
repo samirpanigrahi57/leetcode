@@ -1,0 +1,44 @@
+{
+  "source": "LinkedIn",
+  "job_url": "https://www.linkedin.com/jobs/view/healthcare-data-analyst-iii-remote-capable-at-geisinger-4397577349",
+  "job_description": "# Healthcare Data Analyst III (Remote Capable)\nCompany: Geisinger\nSource: LinkedIn\nEmployment type: Full-time\nChecked: April 27, 2026\nURL: https://www.linkedin.com/jobs/view/healthcare-data-analyst-iii-remote-capable-at-geisinger-4397577349\n\n- Healthcare analytics role supporting research and high-quality data products.\n- Emphasizes programming, validation, interpretation, and collaboration.",
+  "strengths": [
+    "Healthcare data and quality support overlap",
+    "Analytical rigor and SQL alignment",
+    "Remote-capable full-time"
+  ],
+  "replacements": [
+    {
+      "replace": "Healthcare Data Analyst | SQL | Data Validation | Analytics Delivery",
+      "find": "ETL Analyst | Healthcare Data Analyst | Data Quality & Warehouse Analyst"
+    },
+    {
+      "replace": "Healthcare Data & ETL Analyst with 7+ years of experience validating, reconciling, and delivering high-quality enterprise data across healthcare and other regulated domains. Strong background in advanced SQL, source-to-target testing, defect reduction, and collaboration with business and technical stakeholders to ensure trusted analytical outputs.",
+      "find": "Healthcare Data & ETL Analyst with 7+ years of experience validating, reconciling, and delivering trusted enterprise data across healthcare (payer), banking, retail, and e-commerce domains. Deep hands-on expertise in advanced SQL, ETL validation, source-to-target testing, data quality, data warehousing, and production data support. Currently extending core skills into Snowflake, Databricks, Azure Data Factory, and Python to support cloud modernization and AI-ready data pipelines. Proven partner to engineering, QA, and business stakeholders\u2014translating mapping documents and business rules into validation frameworks that protect reporting accuracy, regulatory compliance, and downstream analytics readiness."
+    },
+    {
+      "replace": "Source-to-target testing, record counts, duplicate / null / referential / business-rule checks, validation strategy, root-cause analysis, defect triage",
+      "find": "Source-to-target testing, record counts, duplicate / null / referential / business-rule checks, root-cause analysis, defect triage"
+    },
+    {
+      "replace": "Authored 200+ advanced SQL queries for source-to-target reconciliation across 100M+ claim and member records, supporting delivery of reliable analytical outputs across major releases.",
+      "find": "Authored 200+ advanced SQL queries (multi-table joins, window functions, CTEs) for source-to-target reconciliation across 100M+ claim and member records, reducing release-blocking defects by ~30% across major releases."
+    },
+    {
+      "replace": "Built a library of 300+ reusable validation test cases from mapping documents and business rules to improve consistency, quality, and analyst productivity.",
+      "find": "Built a library of 300+ reusable validation test cases from mapping documents and business rules\u2014covering record counts, duplicates, nulls, referential integrity, and business-rule logic\u2014adopted across the QA team to standardize testing and reduce ramp time for new analysts."
+    }
+  ],
+  "gaps": [
+    "Posting leans research and programming more heavily",
+    "Mentoring/code review emphasis is stronger than current resume"
+  ],
+  "notes": "Weaker but relevant. Tailored toward analytic rigor, validation, and delivery of high-quality data products.",
+  "job_title": "Healthcare Data Analyst III (Remote Capable)",
+  "company": "Geisinger",
+  "fit_score": 72,
+  "employment_type": "Full-time",
+  "file": "geisinger.json",
+  "work_mode": "Remote-capable",
+  "location": "Pennsylvania or Remote-capable"
+}

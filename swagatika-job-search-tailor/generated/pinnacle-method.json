@@ -1,0 +1,44 @@
+{
+  "source": "LinkedIn",
+  "job_url": "https://www.linkedin.com/jobs/view/data-quality-analyst-for-real-world-evidence-remote-at-pinnacle-method-consulting-4360105256",
+  "job_description": "# Data Quality Analyst for Real World Evidence (Remote)\nCompany: Pinnacle Method Consulting\nSource: LinkedIn\nEmployment type: Full-time\nChecked: April 27, 2026\nURL: https://www.linkedin.com/jobs/view/data-quality-analyst-for-real-world-evidence-remote-at-pinnacle-method-consulting-4360105256\n\n- Remote data quality role in MedTech/life sciences.\n- Focus on warehouse validation, lineage, traceability, and SQL reasoning.",
+  "strengths": [
+    "Data quality and lineage alignment",
+    "SQL and warehouse validation overlap",
+    "Remote full-time"
+  ],
+  "replacements": [
+    {
+      "replace": "Data Quality Analyst | SQL | Data Lineage | Warehouse Validation",
+      "find": "ETL Analyst | Healthcare Data Analyst | Data Quality & Warehouse Analyst"
+    },
+    {
+      "replace": "Healthcare Data & ETL Analyst with 7+ years of experience validating, reconciling, and tracing enterprise data across healthcare reporting environments. Deep expertise in advanced SQL, source-to-target testing, data quality controls, and documenting lineage-aware validation needed to support trusted analytical data products.",
+      "find": "Healthcare Data & ETL Analyst with 7+ years of experience validating, reconciling, and delivering trusted enterprise data across healthcare (payer), banking, retail, and e-commerce domains. Deep hands-on expertise in advanced SQL, ETL validation, source-to-target testing, data quality, data warehousing, and production data support. Currently extending core skills into Snowflake, Databricks, Azure Data Factory, and Python to support cloud modernization and AI-ready data pipelines. Proven partner to engineering, QA, and business stakeholders\u2014translating mapping documents and business rules into validation frameworks that protect reporting accuracy, regulatory compliance, and downstream analytics readiness."
+    },
+    {
+      "replace": "Source-to-target testing, record counts, duplicate / null / referential / business-rule checks, data lineage awareness, root-cause analysis, defect triage",
+      "find": "Source-to-target testing, record counts, duplicate / null / referential / business-rule checks, root-cause analysis, defect triage"
+    },
+    {
+      "replace": "Built a library of 300+ reusable validation test cases from mapping documents and business rules to standardize traceable validation across record counts, duplicates, nulls, referential integrity, and business-rule logic.",
+      "find": "Built a library of 300+ reusable validation test cases from mapping documents and business rules\u2014covering record counts, duplicates, nulls, referential integrity, and business-rule logic\u2014adopted across the QA team to standardize testing and reduce ramp time for new analysts."
+    },
+    {
+      "replace": "Self-directed learning in Snowflake, Databricks, Python-based validation, and Azure Data Factory\u2014expanding readiness for modern cloud data platforms and AI-ready analytical environments.",
+      "find": "Self-directed learning in Snowflake, Databricks, Python-based validation, and Azure Data Factory\u2014building cloud and AI-ready data pipeline competencies to extend enterprise ETL expertise into modern data stacks."
+    }
+  ],
+  "gaps": [
+    "AWS Databricks lake environment not direct current production experience",
+    "Real world evidence domain is adjacent, not core"
+  ],
+  "notes": "Tailored toward data lineage, warehouse validation, traceability, and analytical correctness.",
+  "job_title": "Data Quality Analyst for Real World Evidence (Remote)",
+  "company": "Pinnacle Method Consulting",
+  "fit_score": 76,
+  "employment_type": "Full-time",
+  "file": "pinnacle-method.json",
+  "work_mode": "Remote",
+  "location": "US Remote"
+}

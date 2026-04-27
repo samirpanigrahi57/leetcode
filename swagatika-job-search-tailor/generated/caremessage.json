@@ -1,0 +1,53 @@
+{
+  "source": "Official company posting via Lever",
+  "job_url": "https://jobs.lever.co/caremessage/be941927-106a-4d8b-8230-2ba4b9c05711",
+  "job_description": "# Data Analyst (Remote, US-based)\nCompany: CareMessage\nSource: Official company posting via Lever\nEmployment type: Full-time\nChecked: April 27, 2026\nURL: https://jobs.lever.co/caremessage/be941927-106a-4d8b-8230-2ba4b9c05711\n\n## Highlights\n- Remote healthcare analyst role.\n- SQL, dashboards, QA, and cross-functional work.\n- No sponsorship, which matches current work authorization.",
+  "strengths": [
+    "Remote healthcare analytics fit",
+    "SQL and QA alignment",
+    "Cross-functional stakeholder support",
+    "Relevant HIPAA and payer-data awareness"
+  ],
+  "replacements": [
+    {
+      "replace": "Healthcare Data Analyst | SQL | Reporting Quality | ETL Validation",
+      "find": "ETL Analyst | Healthcare Data Analyst | Data Quality & Warehouse Analyst"
+    },
+    {
+      "replace": "Healthcare Data & ETL Analyst with 7+ years of experience validating, reconciling, and delivering trusted data for healthcare reporting and analytics. Strong hands-on expertise in advanced SQL, ETL validation, data quality, and cross-functional collaboration with business, QA, and engineering teams. Well aligned to roles that translate business questions into reliable reporting, clean datasets, and actionable analytical outputs.",
+      "find": "Healthcare Data & ETL Analyst with 7+ years of experience validating, reconciling, and delivering trusted enterprise data across healthcare (payer), banking, retail, and e-commerce domains. Deep hands-on expertise in advanced SQL, ETL validation, source-to-target testing, data quality, data warehousing, and production data support. Currently extending core skills into Snowflake, Databricks, Azure Data Factory, and Python to support cloud modernization and AI-ready data pipelines. Proven partner to engineering, QA, and business stakeholders\u2014translating mapping documents and business rules into validation frameworks that protect reporting accuracy, regulatory compliance, and downstream analytics readiness."
+    },
+    {
+      "replace": "Power BI, Tableau, Excel (advanced \u2013 pivots, lookups, Power Query), dashboard QA and reporting support",
+      "find": "Power BI, Tableau, Excel (advanced \u2013 pivots, lookups, Power Query)"
+    },
+    {
+      "replace": "Validated 60+ ETL workflows across Informatica and Azure Data Factory feeding enterprise healthcare reporting and analytics platforms, ensuring accurate claims, member eligibility, provider, and payer-operations data for downstream stakeholders.",
+      "find": "Validated 60+ ETL workflows across Informatica and Azure Data Factory feeding enterprise healthcare reporting and analytics platforms\u2014covering claims, member eligibility, provider, and payer-operations data supporting multi-million-member BCBS populations."
+    },
+    {
+      "replace": "Investigated and resolved 70+ production data incidents through end-to-end root-cause analysis with engineering and business partners, protecting SLA-bound pipelines and stakeholder-facing reporting accuracy.",
+      "find": "Investigated and resolved 70+ production data incidents through end-to-end root-cause analysis with engineering and business partners, protecting SLA-bound pipelines and member-facing data accuracy."
+    },
+    {
+      "replace": "Partnered with cross-functional teams of 12+ including Business Analysts, QA, Data Engineers, and report owners across Agile sprints to clarify requirements, validate outputs, and support data-driven decisions.",
+      "find": "Partnered with cross-functional teams of 12+ (Business Analysts, QA, Data Engineers, downstream report owners) across 2-week Agile sprints; managed 150+ JIRA defects through triage, clarification, validation, and closure."
+    },
+    {
+      "replace": "Self-directed learning in Snowflake, Databricks, Python-based validation, and Azure Data Factory\u2014expanding readiness for modern analytics environments and cloud-based reporting workflows.",
+      "find": "Self-directed learning in Snowflake, Databricks, Python-based validation, and Azure Data Factory\u2014building cloud and AI-ready data pipeline competencies to extend enterprise ETL expertise into modern data stacks."
+    }
+  ],
+  "gaps": [
+    "Posting emphasizes dashboard delivery and business recommendations more than testing",
+    "BigQuery and Metabase are not direct tools on the resume"
+  ],
+  "notes": "Good full-time target. Tailoring emphasizes healthcare analytics, reporting support, SQL analysis, and stakeholder collaboration.",
+  "job_title": "Data Analyst (Remote, US-based)",
+  "company": "CareMessage",
+  "fit_score": 79,
+  "employment_type": "Full-time",
+  "file": "caremessage.json",
+  "work_mode": "Remote",
+  "location": "US-based Remote"
+}

@@ -1,0 +1,40 @@
+{
+  "source": "Dice",
+  "job_url": "https://www.dice.com/job-detail/d9a3b3eb-51b8-4459-a559-e7c6230a5486/",
+  "job_description": "# Healthcare Data Analyst\nCompany: JPC Partners\nSource: Dice\nEmployment type: Contract\nChecked: April 27, 2026\nURL: https://www.dice.com/job-detail/d9a3b3eb-51b8-4459-a559-e7c6230a5486/\n\n- Remote healthcare migration role.\n- Focus on data profiling, mapping, transformation design, and quality validation.",
+  "strengths": [
+    "Healthcare migration quality validation relevance",
+    "SQL and mapping fit",
+    "Remote contract"
+  ],
+  "replacements": [
+    {
+      "replace": "Healthcare Data Analyst | SQL | Data Migration Validation | Data Profiling",
+      "find": "ETL Analyst | Healthcare Data Analyst | Data Quality & Warehouse Analyst"
+    },
+    {
+      "replace": "Healthcare Data & ETL Analyst with 7+ years of experience validating, reconciling, and profiling enterprise data across healthcare and regulated domains. Strong background in advanced SQL, source-to-target mapping, transformation validation, data quality checks, and collaboration with technical teams to ensure secure and accurate data movement.",
+      "find": "Healthcare Data & ETL Analyst with 7+ years of experience validating, reconciling, and delivering trusted enterprise data across healthcare (payer), banking, retail, and e-commerce domains. Deep hands-on expertise in advanced SQL, ETL validation, source-to-target testing, data quality, data warehousing, and production data support. Currently extending core skills into Snowflake, Databricks, Azure Data Factory, and Python to support cloud modernization and AI-ready data pipelines. Proven partner to engineering, QA, and business stakeholders\u2014translating mapping documents and business rules into validation frameworks that protect reporting accuracy, regulatory compliance, and downstream analytics readiness."
+    },
+    {
+      "replace": "Validated 60+ ETL workflows across Informatica and Azure Data Factory feeding enterprise healthcare reporting and analytics platforms and supporting complex transformation and reconciliation requirements.",
+      "find": "Validated 60+ ETL workflows across Informatica and Azure Data Factory feeding enterprise healthcare reporting and analytics platforms\u2014covering claims, member eligibility, provider, and payer-operations data supporting multi-million-member BCBS populations."
+    },
+    {
+      "replace": "Authored 200+ advanced SQL queries for source-to-target reconciliation across 100M+ claim and member records, helping validate transformations and identify migration-related mismatches before release.",
+      "find": "Authored 200+ advanced SQL queries (multi-table joins, window functions, CTEs) for source-to-target reconciliation across 100M+ claim and member records, reducing release-blocking defects by ~30% across major releases."
+    }
+  ],
+  "gaps": [
+    "AWS migration is stronger than current hands-on resume",
+    "HL7 is not established"
+  ],
+  "notes": "Tailored toward profiling, mapping, transformation validation, and compliant healthcare data handling.",
+  "job_title": "Healthcare Data Analyst",
+  "company": "JPC Partners",
+  "fit_score": 74,
+  "employment_type": "Contract",
+  "file": "jpc-partners.json",
+  "work_mode": "Remote",
+  "location": "US Remote"
+}

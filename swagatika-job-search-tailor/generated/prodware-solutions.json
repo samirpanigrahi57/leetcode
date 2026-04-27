@@ -1,0 +1,40 @@
+{
+  "source": "LinkedIn",
+  "job_url": "https://www.linkedin.com/jobs/view/100%25-remote-healthcare-data-analyst-at-jobs-via-dice-4372553583",
+  "job_description": "# 100% Remote - Healthcare Data Analyst\nCompany: Prodware Solutions\nSource: LinkedIn via Jobs via Dice\nEmployment type: Contract\nChecked: April 27, 2026\nURL: https://www.linkedin.com/jobs/view/100%25-remote-healthcare-data-analyst-at-jobs-via-dice-4372553583\n\n- Remote healthcare data analyst role.\n- Focus on data profiling, onboarding, mapping, and validation.\n- Mentions HL7, FHIR, and CCDA requirements.",
+  "strengths": [
+    "Healthcare data analysis and validation overlap",
+    "Remote contract",
+    "Some mapping and source onboarding relevance"
+  ],
+  "replacements": [
+    {
+      "replace": "Healthcare Data Analyst | SQL | Data Profiling | Source-to-Target Validation",
+      "find": "ETL Analyst | Healthcare Data Analyst | Data Quality & Warehouse Analyst"
+    },
+    {
+      "replace": "Healthcare Data & ETL Analyst with 7+ years of experience validating, profiling, and reconciling enterprise data across healthcare and regulated domains. Strong hands-on expertise in advanced SQL, source-to-target testing, business-rule mapping, and data quality analysis supporting accurate downstream reporting and onboarding of complex data assets.",
+      "find": "Healthcare Data & ETL Analyst with 7+ years of experience validating, reconciling, and delivering trusted enterprise data across healthcare (payer), banking, retail, and e-commerce domains. Deep hands-on expertise in advanced SQL, ETL validation, source-to-target testing, data quality, data warehousing, and production data support. Currently extending core skills into Snowflake, Databricks, Azure Data Factory, and Python to support cloud modernization and AI-ready data pipelines. Proven partner to engineering, QA, and business stakeholders\u2014translating mapping documents and business rules into validation frameworks that protect reporting accuracy, regulatory compliance, and downstream analytics readiness."
+    },
+    {
+      "replace": "Validated 60+ ETL workflows across Informatica and Azure Data Factory feeding enterprise healthcare reporting and analytics platforms\u2014covering claims, member eligibility, provider, and payer-operations data and supporting complex source-to-target mapping needs.",
+      "find": "Validated 60+ ETL workflows across Informatica and Azure Data Factory feeding enterprise healthcare reporting and analytics platforms\u2014covering claims, member eligibility, provider, and payer-operations data supporting multi-million-member BCBS populations."
+    },
+    {
+      "replace": "Built a library of 300+ reusable validation test cases from mapping documents and business rules to support structured data onboarding, profiling, and issue detection across enterprise healthcare datasets.",
+      "find": "Built a library of 300+ reusable validation test cases from mapping documents and business rules\u2014covering record counts, duplicates, nulls, referential integrity, and business-rule logic\u2014adopted across the QA team to standardize testing and reduce ramp time for new analysts."
+    }
+  ],
+  "gaps": [
+    "HL7/FHIR/CCDA interoperability is not established on the resume",
+    "Clinical standards focus is a stretch"
+  ],
+  "notes": "Borderline fit. Tailoring only emphasizes data profiling, mapping, and validation, not interoperability expertise.",
+  "job_title": "100% Remote - Healthcare Data Analyst",
+  "company": "Prodware Solutions",
+  "fit_score": 68,
+  "employment_type": "Contract",
+  "file": "prodware-solutions.json",
+  "work_mode": "Remote",
+  "location": "US Remote"
+}

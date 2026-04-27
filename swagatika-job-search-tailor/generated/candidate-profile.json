@@ -1,0 +1,33 @@
+{
+  "name": "Swagatika Nayak",
+  "target_titles": [
+    "Healthcare Data Analyst",
+    "ETL Analyst",
+    "Data Quality Analyst",
+    "Payer Data Analyst",
+    "Claims Data Analyst",
+    "Data Warehouse Analyst"
+  ],
+  "priority_skills": [
+    "SQL",
+    "ETL validation",
+    "source-to-target testing",
+    "data reconciliation",
+    "data quality",
+    "healthcare claims",
+    "member eligibility",
+    "provider data",
+    "Informatica",
+    "Azure Data Factory",
+    "Power BI",
+    "Tableau",
+    "Snowflake",
+    "Databricks",
+    "Python"
+  ],
+  "constraints": {
+    "work_authorization": "Authorized to work in the U.S.; no sponsorship required",
+    "location": "Austin, TX"
+  },
+  "resume_excerpt": "SWAGATIKA NAYAK ETL Analyst | Healthcare Data Analyst | Data Quality & Warehouse Analyst Austin, TX \u2022 ( 616) 264- 4094 \u2022 swagatika.n.nayak@gmail.com \u2022 www.linkedin.com/in/swagatika-n-nayak Authorized to work in the U.S. \u2022 No sponsorship required PROFESSIONAL SUMMARY Healthcare Data & ETL Analyst with 7+ years of experience validating, reconciling, and delivering trusted enterprise data across healthcare (payer), banking, retail, and e-commerce domains. Deep hands-on expertise in advanced SQL, ETL validation, source-to-target testing, data quality, data warehousing, and production data support . Currently extending core skills into Snowflake, Databricks, Azure Data Factory, and Python to support cloud modernization and AI-ready data pipelines . Proven partner to engineering, QA, and business stakeholders\u2014translating mapping documents and business rules into validation frameworks that protect reporting accuracy, regulatory compliance, and downstream analytics readiness. TECHNICAL SKILLS Languages & Querying Advanced SQL (joins, CTEs, window functions, performance tuning), Python (Pandas, PySpark \u2013 upskilling), Shell scripting ETL & Data Integration Informatica PowerCenter, Azure Data Factory, SSIS, source-to-target mapping, ETL validation, data reconciliation Cloud & Modern Stack Snowflake, Databricks, Azure (ADF, Blob, Synapse), AWS fundamentals, dbt ( basic familiarity ) Data Warehousing Star / Snowflake schemas, dimensional modeling, fact & dimension design, Slowly Changing Dimensions (SCD), data lineage Data Quality & Governance Source-to-target testing, record counts, duplicate / null / referential / business-rule checks, root-cause analysis, defect triage Healthcare Data Medical claims, member eligibility, provider data, payer operations, HIPAA awareness, EDI familiarity BI & Reporting Power BI, Tableau, Excel (advanced \u2013 pivots, lookups, Power Query) Tools & Methodology JIRA, Confluence, Git, Agile / Scrum, regression & release validation, production data support AI / Modern Data GenAI-assisted data analysis, prompt engineering for data, AI-ready data pipeline concepts PROFESSIONAL EXPERIENCE Elevance Health \u2014 Austin , TX (Remote) Sep 2022 \u2013 Present ETL Analyst / Healthcare Data Analyst Validated 60+ ETL workflows across Informatica and Azure Data Factory feeding enterprise healthcare reporting and analytics platforms\u2014covering claims, member eligibility, provider, and payer-operations data supporting multi-million-member BCBS populations. Authored 200+ advanced SQL queries (multi-table joins, window functions, CTEs) for source-to-target reconciliation across 100M+ claim and member records, reducing release-blocking defects by ~30% across major releases. Built a library of 300+ reusable validation test cases from mapping documents and business rules\u2014covering record counts, duplicates, nulls, referential integrity, and business-rule logic\u2014adopted across the QA team to standardize testing and reduce ramp time for new analysts. Investigated and resolved 70+ production data incidents through end-to-end root-cause analysis with engineering and business partners, protecting SLA-bound pipelines and member-facing data accuracy. Partnered with cross-functional teams of 12+ (Business Analysts, QA, Data Engineers, downstream report owners) across 2-week Agile sprints; managed 150+ JIRA defects through triage, clarification, validation, and closure. Contributed to data quality and reporting accuracy initiatives that reduced post-release data hotfixes by ~25% and improved stakeholder trust in payer-operations dashboards and downstream KPIs. Self-directed learning in Snowflake, Databricks, Python-based validation, and Azure Data Factory\u2014building cloud and AI-ready data pipeline competencies to extend enterprise ETL expertise into modern data stacks. Initech Global ( Client: Amway Corporation) \u2014 Grand Rapids, MI Dec 2021 \u2013 Aug 2022 ETL Analyst Validated end-to-end data movement across 20+ source-to-target ETL flows for retail / direct-se"
+}

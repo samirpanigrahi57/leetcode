@@ -1,0 +1,1 @@
+Good role, but less direct than Veeva because the posting leans on customer-facing analytics and dashboard ownership. Tailor toward reporting quality, standardized analytics support, and healthcare domain depth.

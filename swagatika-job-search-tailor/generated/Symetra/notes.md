@@ -1,0 +1,1 @@
+LinkedIn full-time target. Tailoring emphasizes claims analysis, reporting, and extracting actionable findings from complex healthcare data.

@@ -1,0 +1,1 @@
+Weaker but relevant. Tailored toward analytic rigor, validation, and delivery of high-quality data products.

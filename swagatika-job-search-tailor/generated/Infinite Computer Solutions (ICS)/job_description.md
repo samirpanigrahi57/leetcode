@@ -1,0 +1,9 @@
+# Clinical Data Analyst - Remote position
+Company: Infinite Computer Solutions (ICS)
+Source: Dice
+Employment type: Full-time
+Checked: April 27, 2026
+URL: https://www.dice.com/job-detail/069bc8fa-4fc4-4f20-9667-b81ba4093c7c
+
+- Remote clinical/healthcare data analyst role.
+- Focus on extraction, transformation, validation, dashboards, and HIPAA-aware delivery.

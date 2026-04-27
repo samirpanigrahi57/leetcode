@@ -1,0 +1,1 @@
+Indeed contract target. Tailoring emphasizes data quality standards, SQL validation routines, dashboards, and governance support.

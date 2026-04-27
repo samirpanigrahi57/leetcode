@@ -1,0 +1,1 @@
+Stretch fit. Tailoring keeps focus on healthcare analytics, SQL, and quality-oriented delivery rather than predictive modeling.

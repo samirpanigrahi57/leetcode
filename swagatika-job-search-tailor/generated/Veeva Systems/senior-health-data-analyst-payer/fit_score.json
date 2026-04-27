@@ -1,0 +1,18 @@
+{
+  "job_title": "Senior Health Data Analyst - Payer",
+  "score": 88,
+  "source": "Official company posting via Lever",
+  "employment_type": "Full-time",
+  "work_mode": "Remote",
+  "location": "US Remote",
+  "strengths": [
+    "Direct payer and claims-domain experience",
+    "Strong SQL and reconciliation background",
+    "High-volume healthcare data validation",
+    "Cross-functional collaboration with QA and engineering"
+  ],
+  "gaps": [
+    "Posting emphasizes payer reference data governance more than ETL testing",
+    "Python is listed as developing rather than deep production use"
+  ]
+}

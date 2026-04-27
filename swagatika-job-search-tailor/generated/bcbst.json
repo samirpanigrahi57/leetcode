@@ -1,0 +1,40 @@
+{
+  "source": "Indeed",
+  "job_url": "https://www.indeed.com/viewjob?jk=2e9338e41901621a",
+  "job_description": "# Healthcare Data Analyst\nCompany: BlueCross BlueShield of Tennessee\nSource: Indeed\nEmployment type: Full-time\nChecked: April 27, 2026\nURL: https://www.indeed.com/viewjob?jk=2e9338e41901621a\n\n- Fully remote healthcare data analyst role.\n- Supports provider consultation and analytics around healthcare costs and quality improvement.\n- Notes that sponsorship is not available.",
+  "strengths": [
+    "Very close payer/health insurance fit",
+    "SQL/Python/Tableau overlap",
+    "Remote full-time and no sponsorship"
+  ],
+  "replacements": [
+    {
+      "replace": "Healthcare Data Analyst | Payer Analytics | SQL | Cost & Quality Reporting",
+      "find": "ETL Analyst | Healthcare Data Analyst | Data Quality & Warehouse Analyst"
+    },
+    {
+      "replace": "Healthcare Data & ETL Analyst with 7+ years of experience validating, reconciling, and delivering trusted payer-oriented data across claims, member, provider, and reporting workflows. Deep hands-on expertise in advanced SQL, data quality, source-to-target testing, and healthcare analytics supporting cost, quality, and operational decision-making.",
+      "find": "Healthcare Data & ETL Analyst with 7+ years of experience validating, reconciling, and delivering trusted enterprise data across healthcare (payer), banking, retail, and e-commerce domains. Deep hands-on expertise in advanced SQL, ETL validation, source-to-target testing, data quality, data warehousing, and production data support. Currently extending core skills into Snowflake, Databricks, Azure Data Factory, and Python to support cloud modernization and AI-ready data pipelines. Proven partner to engineering, QA, and business stakeholders\u2014translating mapping documents and business rules into validation frameworks that protect reporting accuracy, regulatory compliance, and downstream analytics readiness."
+    },
+    {
+      "replace": "Power BI, Tableau, Excel (advanced \u2013 pivots, lookups, Power Query), payer reporting support",
+      "find": "Power BI, Tableau, Excel (advanced \u2013 pivots, lookups, Power Query)"
+    },
+    {
+      "replace": "Contributed to data quality and reporting accuracy initiatives that reduced post-release data hotfixes by ~25% and improved stakeholder trust in payer-operations dashboards, quality metrics, and downstream KPIs.",
+      "find": "Contributed to data quality and reporting accuracy initiatives that reduced post-release data hotfixes by ~25% and improved stakeholder trust in payer-operations dashboards and downstream KPIs."
+    }
+  ],
+  "gaps": [
+    "Python depth is still developing",
+    "Consultation/analytics role may expect more direct business storytelling"
+  ],
+  "notes": "High-priority full-time target. Tailoring emphasizes payer data, SQL, Tableau/Power BI reporting, and healthcare cost/quality analysis.",
+  "job_title": "Healthcare Data Analyst",
+  "company": "BlueCross BlueShield of Tennessee",
+  "fit_score": 85,
+  "employment_type": "Full-time",
+  "file": "bcbst.json",
+  "work_mode": "Remote",
+  "location": "US Remote"
+}

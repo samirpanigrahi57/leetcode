@@ -1,0 +1,52 @@
+{
+  "source": "Indeed",
+  "job_url": "https://www.indeed.com/viewjob?jk=39d5814cb51c99de",
+  "job_description": "# Data Quality Analyst\nCompany: LetsGetChecked\nSource: Indeed\nEmployment type: Full-time\nChecked: April 27, 2026\nURL: https://www.indeed.com/viewjob?jk=39d5814cb51c99de\n\n## Highlights\n- Remote full-time healthcare data quality role.\n- Focus on imported-data QA, data validation, cleansing, monitoring, and documentation.\n- Prefers SQL, cloud familiarity, BI tools, and JIRA/Confluence.",
+  "strengths": [
+    "Healthcare data quality fit",
+    "JIRA, Power BI/Tableau, SQL overlap",
+    "Large data handling and validation alignment"
+  ],
+  "replacements": [
+    {
+      "replace": "Data Quality Analyst | Healthcare Data | SQL | Reporting & Validation",
+      "find": "ETL Analyst | Healthcare Data Analyst | Data Quality & Warehouse Analyst"
+    },
+    {
+      "replace": "Healthcare Data & ETL Analyst with 7+ years of experience validating, reconciling, and delivering trusted enterprise data across healthcare and other data-intensive domains. Deep expertise in advanced SQL, ETL validation, source-to-target testing, data quality monitoring, and documentation. Strong fit for roles focused on imported-data QA, cleansing, issue triage, and reliable reporting support.",
+      "find": "Healthcare Data & ETL Analyst with 7+ years of experience validating, reconciling, and delivering trusted enterprise data across healthcare (payer), banking, retail, and e-commerce domains. Deep hands-on expertise in advanced SQL, ETL validation, source-to-target testing, data quality, data warehousing, and production data support. Currently extending core skills into Snowflake, Databricks, Azure Data Factory, and Python to support cloud modernization and AI-ready data pipelines. Proven partner to engineering, QA, and business stakeholders\u2014translating mapping documents and business rules into validation frameworks that protect reporting accuracy, regulatory compliance, and downstream analytics readiness."
+    },
+    {
+      "replace": "Source-to-target testing, record counts, duplicate / null / referential / business-rule checks, root-cause analysis, defect triage, data validation and cleansing support",
+      "find": "Source-to-target testing, record counts, duplicate / null / referential / business-rule checks, root-cause analysis, defect triage"
+    },
+    {
+      "replace": "Power BI, Tableau, Excel (advanced \u2013 pivots, lookups, Power Query), JIRA-based reporting support",
+      "find": "Power BI, Tableau, Excel (advanced \u2013 pivots, lookups, Power Query)"
+    },
+    {
+      "replace": "Investigated and resolved 70+ production data incidents through end-to-end root-cause analysis with engineering and business partners, protecting SLA-bound pipelines and trusted data delivery.",
+      "find": "Investigated and resolved 70+ production data incidents through end-to-end root-cause analysis with engineering and business partners, protecting SLA-bound pipelines and member-facing data accuracy."
+    },
+    {
+      "replace": "Partnered with cross-functional teams of 12+ across Agile sprints; managed 150+ JIRA defects through triage, clarification, validation, documentation, and closure.",
+      "find": "Partnered with cross-functional teams of 12+ (Business Analysts, QA, Data Engineers, downstream report owners) across 2-week Agile sprints; managed 150+ JIRA defects through triage, clarification, validation, and closure."
+    },
+    {
+      "replace": "Self-directed learning in Snowflake, Databricks, Python-based validation, and Azure Data Factory\u2014extending data quality and ETL expertise into modern cloud environments.",
+      "find": "Self-directed learning in Snowflake, Databricks, Python-based validation, and Azure Data Factory\u2014building cloud and AI-ready data pipeline competencies to extend enterprise ETL expertise into modern data stacks."
+    }
+  ],
+  "gaps": [
+    "Posting prefers AWS/Redshift and T-SQL specifically",
+    "Role mentions master data more directly than current resume"
+  ],
+  "notes": "Indeed full-time target. Tailoring emphasizes imported-data QA, data validation, documentation, JIRA workflow, and large-scale healthcare data handling.",
+  "job_title": "Data Quality Analyst",
+  "company": "LetsGetChecked",
+  "fit_score": 81,
+  "employment_type": "Full-time",
+  "file": "letsgetchecked.json",
+  "work_mode": "Remote",
+  "location": "US Remote"
+}

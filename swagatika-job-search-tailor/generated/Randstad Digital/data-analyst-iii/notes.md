@@ -1,0 +1,1 @@
+Dice contract target. Tailoring emphasizes provider data accuracy, healthcare operations support, and large-scale validation.

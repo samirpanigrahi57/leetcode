@@ -1,0 +1,1 @@
+High-priority full-time target. Tailoring emphasizes payer data, SQL, Tableau/Power BI reporting, and healthcare cost/quality analysis.

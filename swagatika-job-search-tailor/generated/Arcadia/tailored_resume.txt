@@ -1,0 +1,28 @@
+SWAGATIKA NAYAK
+Healthcare Data Analyst | SQL | Large-Scale Data Validation | Dashboard Support
+Austin, TX | Authorized to work in the U.S. | No sponsorship required
+
+PROFESSIONAL SUMMARY
+Healthcare data analyst with strong SQL, ETL validation, and data quality experience across payer-oriented datasets and enterprise reporting environments. Well suited for analyst roles that combine large-scale healthcare data analysis, stakeholder collaboration, and dashboard-ready output.
+
+PRIORITY SKILLS
+SQL, Healthcare data, Reporting accuracy, Dashboard support, Data validation, Claims and member data, Tableau, Power BI
+
+TARGET ROLE
+Data Analyst at Arcadia
+
+TAILORED EXPERIENCE HIGHLIGHTS
+- Prepared and validated large healthcare datasets used by reporting and analytics teams.
+- Used advanced SQL to reconcile source and target data across high-volume claims and member records.
+- Collaborated with stakeholders across QA, engineering, and business teams to support reporting quality and releases.
+- Improved downstream KPI trust through disciplined validation and defect reduction.
+- Brought prior banking, retail, and e-commerce ETL experience that supports work across varied enterprise datasets.
+
+CORE EXPERIENCE
+Elevance Health | ETL Analyst / Healthcare Data Analyst | Sep 2022 - Present
+Initech Global (Client: Amway Corporation) | ETL Analyst | Dec 2021 - Aug 2022
+U.S. Bank | ETL Analyst | Mar 2021 - Oct 2021
+Flipkart | ETL Analyst | Jun 2015 - Aug 2019
+
+NOTE
+This tailored resume preserves employer names and employment dates and only rephrases or reorders truthful experience.

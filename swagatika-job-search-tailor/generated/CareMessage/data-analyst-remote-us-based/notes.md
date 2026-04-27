@@ -1,0 +1,1 @@
+Good full-time target. Tailoring emphasizes healthcare analytics, reporting support, SQL analysis, and stakeholder collaboration.

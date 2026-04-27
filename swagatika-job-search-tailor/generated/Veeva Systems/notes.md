@@ -1,0 +1,1 @@
+High-priority full-time target. Tailoring focuses on payer data, governance, reconciliation, and large-scale healthcare validation.

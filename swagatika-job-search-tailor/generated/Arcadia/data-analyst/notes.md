@@ -1,0 +1,1 @@
+Worth applying if she wants broader healthcare analytics roles, but it is weaker than Veeva, IMO, and CareMessage. Tailoring should frame her as analytics-ready rather than purely QA-focused.

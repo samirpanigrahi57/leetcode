@@ -1,0 +1,36 @@
+{
+  "replacements": [
+    {
+      "replace": "Healthcare Data Analyst | Payer Data Analyst | SQL | Data Quality & Governance",
+      "find": "ETL Analyst | Healthcare Data Analyst | Data Quality & Warehouse Analyst"
+    },
+    {
+      "replace": "Healthcare Data & ETL Analyst with 7+ years of experience validating, reconciling, and improving payer-oriented data across claims, member, provider, and reporting workflows. Deep expertise in advanced SQL, source-to-target validation, data quality controls, and enterprise healthcare reporting. Strong fit for roles requiring payer data stewardship, governance-minded quality checks, and close collaboration across analytics, product, QA, and engineering.",
+      "find": "Healthcare Data & ETL Analyst with 7+ years of experience validating, reconciling, and delivering trusted enterprise data across healthcare (payer), banking, retail, and e-commerce domains. Deep hands-on expertise in advanced SQL, ETL validation, source-to-target testing, data quality, data warehousing, and production data support. Currently extending core skills into Snowflake, Databricks, Azure Data Factory, and Python to support cloud modernization and AI-ready data pipelines. Proven partner to engineering, QA, and business stakeholders\u2014translating mapping documents and business rules into validation frameworks that protect reporting accuracy, regulatory compliance, and downstream analytics readiness."
+    },
+    {
+      "replace": "Source-to-target testing, record counts, duplicate / null / referential / business-rule checks, data quality rule design, root-cause analysis, defect triage, lineage-aware validation",
+      "find": "Source-to-target testing, record counts, duplicate / null / referential / business-rule checks, root-cause analysis, defect triage"
+    },
+    {
+      "replace": "Medical claims, member eligibility, provider data, payer operations, healthcare reporting, HIPAA awareness, EDI familiarity",
+      "find": "Medical claims, member eligibility, provider data, payer operations, HIPAA awareness, EDI familiarity"
+    },
+    {
+      "replace": "Validated 60+ ETL workflows across Informatica and Azure Data Factory feeding enterprise healthcare reporting and analytics platforms\u2014covering claims, member eligibility, provider, and payer-operations data for multi-million-member BCBS populations.",
+      "find": "Validated 60+ ETL workflows across Informatica and Azure Data Factory feeding enterprise healthcare reporting and analytics platforms\u2014covering claims, member eligibility, provider, and payer-operations data supporting multi-million-member BCBS populations."
+    },
+    {
+      "replace": "Authored 200+ advanced SQL queries for source-to-target reconciliation across 100M+ claim and member records, surfacing mismatches and strengthening payer-data accuracy across major releases.",
+      "find": "Authored 200+ advanced SQL queries (multi-table joins, window functions, CTEs) for source-to-target reconciliation across 100M+ claim and member records, reducing release-blocking defects by ~30% across major releases."
+    },
+    {
+      "replace": "Built a library of 300+ reusable validation test cases from mapping documents and business rules\u2014covering record counts, duplicates, nulls, referential integrity, and business-rule logic\u2014to standardize data quality checks and governance-oriented validation.",
+      "find": "Built a library of 300+ reusable validation test cases from mapping documents and business rules\u2014covering record counts, duplicates, nulls, referential integrity, and business-rule logic\u2014adopted across the QA team to standardize testing and reduce ramp time for new analysts."
+    },
+    {
+      "replace": "Contributed to data quality and reporting accuracy initiatives that reduced post-release data hotfixes by ~25% and improved stakeholder trust in payer-operations dashboards, downstream KPIs, and governed healthcare datasets.",
+      "find": "Contributed to data quality and reporting accuracy initiatives that reduced post-release data hotfixes by ~25% and improved stakeholder trust in payer-operations dashboards and downstream KPIs."
+    }
+  ]
+}

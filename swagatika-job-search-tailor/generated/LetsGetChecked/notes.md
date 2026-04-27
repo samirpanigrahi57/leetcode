@@ -1,0 +1,1 @@
+Indeed full-time target. Tailoring emphasizes imported-data QA, data validation, documentation, JIRA workflow, and large-scale healthcare data handling.

@@ -1,0 +1,13 @@
+{
+  "score": 74,
+  "strengths": [
+    "Healthcare and payer-domain relevance",
+    "Strong SQL foundation",
+    "Large data volume experience",
+    "Dashboard/reporting adjacency"
+  ],
+  "gaps": [
+    "Posting looks more customer-facing BI and dashboard creation than ETL-heavy validation",
+    "Requests QuickSight/AWS familiarity rather than current Azure-centered stack"
+  ]
+}
