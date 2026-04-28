@@ -1,0 +1,35 @@
+{
+  "company": "Growth Ortho",
+  "job_title": "Data Analyst",
+  "job_url": "https://www.indeed.com/viewjob?jk=2b0a4679bdd250ba",
+  "source": "Indeed",
+  "employment_type": "Full-time",
+  "work_mode": "Remote",
+  "location": "Remote",
+  "fit_score": 77,
+  "job_description": "# Data Analyst\nCompany: Growth Ortho\nSource: Indeed\nEmployment type: Full-time\nChecked: April 27, 2026\nURL: https://www.indeed.com/viewjob?jk=2b0a4679bdd250ba\n\n## Highlights\n- Remote full-time data analyst role.\n- Focuses on T-SQL, Power BI, data modeling, ETL understanding, dashboard development, root-cause analysis, data governance, and data quality initiatives.\n- Cross-domain role with strong SQL/reporting overlap and solid functional fit under the new all-domain search rule.",
+  "strengths": [
+    "Good overlap with SQL, Power BI, data modeling, ETL concepts, and data quality support.",
+    "Resume supports root-cause analysis, dashboards, reporting, and cross-functional business communication.",
+    "Remote Indeed role not previously tracked."
+  ],
+  "gaps": [
+    "Finance department context is different from the current resume's domain strengths.",
+    "Role appears more BI/reporting focused than strict ETL validation."
+  ],
+  "notes": "Good all-domain miss. Tailor toward SQL, reporting accuracy, Power BI, data quality, and stakeholder-facing analytics. Avoid inventing finance-domain experience.",
+  "replacements": [
+    {
+      "find": "ETL Analyst | Healthcare Data Analyst | Data Quality & Warehouse Analyst",
+      "replace": "Data Analyst | SQL | Power BI | Data Quality & Reporting"
+    },
+    {
+      "find": "Healthcare Data & ETL Analyst with 7+ years of experience validating, reconciling, and delivering trusted enterprise data across healthcare (payer), banking, retail, and e-commerce domains. Deep hands-on expertise in advanced SQL, ETL validation, source-to-target testing, data quality, data warehousing, and production data support. Currently extending core skills into Snowflake, Databricks, Azure Data Factory, and Python to support cloud modernization and AI-ready data pipelines. Proven partner to engineering, QA, and business stakeholders—translating mapping documents and business rules into validation frameworks that protect reporting accuracy, regulatory compliance, and downstream analytics readiness.",
+      "replace": "Data & ETL Analyst with 7+ years of experience validating, reconciling, and delivering trusted enterprise data across multiple business domains. Deep hands-on expertise in advanced SQL, ETL validation, source-to-target testing, data quality, data warehousing, and production data support. Strong fit for remote analyst roles that require dashboarding, reporting accuracy, root-cause analysis, and business-friendly communication."
+    },
+    {
+      "find": "Power BI, Tableau, Excel (advanced – pivots, lookups, Power Query)",
+      "replace": "Power BI, Tableau, Excel (advanced – pivots, lookups, Power Query), self-service reporting support"
+    }
+  ]
+}

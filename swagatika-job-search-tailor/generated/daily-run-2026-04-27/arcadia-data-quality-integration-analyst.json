@@ -1,0 +1,39 @@
+{
+  "company": "Arcadia",
+  "job_title": "Data Quality & Integration Analyst",
+  "job_url": "https://jobs.lever.co/arcadia/52f2bb51-16a2-4f30-87a5-a88e3460a758",
+  "source": "Official company posting via Lever",
+  "employment_type": "Full-time",
+  "work_mode": "Remote",
+  "location": "Remote (USA)",
+  "fit_score": 85,
+  "job_description": "# Data Quality & Integration Analyst\nCompany: Arcadia\nSource: Official company posting via Lever\nEmployment type: Full-time\nChecked: April 27, 2026\nURL: https://jobs.lever.co/arcadia/52f2bb51-16a2-4f30-87a5-a88e3460a758\n\n## Highlights\n- Remote healthcare data quality and integration role supporting population health analytics.\n- Emphasizes advanced SQL, healthcare data ingestion, integration, and data quality ownership.\n- Mentions large-scale record preparation, analysis, and cross-functional collaboration with implementation and engineering teams.\n- Basic Python is helpful, but the strongest overlap is SQL, healthcare data quality, and integration workflows.",
+  "strengths": [
+    "Strong overlap with healthcare data quality, reconciliation, and validation work.",
+    "Advanced SQL and cross-functional delivery map directly to current payer ETL analyst experience.",
+    "Remote US role in a healthcare analytics company."
+  ],
+  "gaps": [
+    "Posting references Python familiarity; resume supports only upskilling/basic exposure.",
+    "Role is integration-heavy and may involve customer implementation context beyond current resume emphasis."
+  ],
+  "notes": "Strong fit for healthcare data quality and integration. Keep tailoring focused on SQL, source-to-target validation, reconciliation, data quality routines, and stakeholder collaboration. Do not overstate Python beyond current upskilling/basic familiarity.",
+  "replacements": [
+    {
+      "find": "ETL Analyst | Healthcare Data Analyst | Data Quality & Warehouse Analyst",
+      "replace": "Healthcare Data Quality & Integration Analyst | SQL | ETL Validation | Payer Data"
+    },
+    {
+      "find": "Healthcare Data & ETL Analyst with 7+ years of experience validating, reconciling, and delivering trusted enterprise data across healthcare (payer), banking, retail, and e-commerce domains. Deep hands-on expertise in advanced SQL, ETL validation, source-to-target testing, data quality, data warehousing, and production data support. Currently extending core skills into Snowflake, Databricks, Azure Data Factory, and Python to support cloud modernization and AI-ready data pipelines. Proven partner to engineering, QA, and business stakeholders—translating mapping documents and business rules into validation frameworks that protect reporting accuracy, regulatory compliance, and downstream analytics readiness.",
+      "replace": "Healthcare Data & ETL Analyst with 7+ years of experience validating, reconciling, and improving trusted enterprise data across healthcare environments. Deep hands-on expertise in advanced SQL, ETL validation, source-to-target testing, data quality, data warehousing, and production data support. Strong fit for integration-focused roles that require healthcare data analysis, issue resolution, and cross-functional partnership with engineering and implementation stakeholders."
+    },
+    {
+      "find": "Source-to-target testing, record counts, duplicate / null / referential / business-rule checks, root-cause analysis, defect triage",
+      "replace": "Source-to-target testing, record counts, duplicate / null / referential / business-rule checks, root-cause analysis, defect triage, integration validation"
+    },
+    {
+      "find": "Built a library of 300+ reusable validation test cases from mapping documents and business rules—covering record counts, duplicates, nulls, referential integrity, and business-rule logic—adopted across the QA team to standardize testing and reduce ramp time for new analysts.",
+      "replace": "Built a library of 300+ reusable validation test cases from mapping documents and business rules—covering record counts, duplicates, nulls, referential integrity, and business-rule logic—to standardize data quality validation across healthcare ETL workflows."
+    }
+  ]
+}

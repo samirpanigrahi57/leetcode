@@ -1,0 +1,35 @@
+{
+  "company": "Kani Solutions",
+  "job_title": "Senior Data Quality Analyst",
+  "job_url": "https://www.dice.com/job-detail/3c81be77-9ff8-4b6f-95d6-6f543652ed7e",
+  "source": "Dice",
+  "employment_type": "Contract",
+  "work_mode": "Remote",
+  "location": "Remote/New York",
+  "fit_score": 79,
+  "job_description": "# Senior Data Quality Analyst\nCompany: Kani Solutions\nSource: Dice\nEmployment type: Contract (W2)\nChecked: April 27, 2026\nURL: https://www.dice.com/job-detail/3c81be77-9ff8-4b6f-95d6-6f543652ed7e\n\n## Highlights\n- Remote senior data quality analyst contract.\n- Posted 7 days ago and updated 4 days ago.\n- Focuses on data quality frameworks, rules, thresholds, profiling, root-cause analysis, governance, documentation, and SQL.\n- Prefers cloud data quality tooling and AWS stack familiarity; strong general data quality fit, lighter direct healthcare alignment.",
+  "strengths": [
+    "Strong overlap with SQL, data quality, profiling, governance, root-cause analysis, and documentation.",
+    "Resume supports validation frameworks and business-rule based quality checks.",
+    "Remote contract within the last 60 days."
+  ],
+  "gaps": [
+    "AWS-specific data quality tooling is more advanced than the current resume support.",
+    "No direct domain signal; this is a function-first fit rather than an industry fit."
+  ],
+  "notes": "Good non-healthcare miss under the new all-domain rule. Tailor toward SQL, validation frameworks, data profiling, issue remediation, and governance support. Do not overstate AWS Glue/Redshift depth.",
+  "replacements": [
+    {
+      "find": "ETL Analyst | Healthcare Data Analyst | Data Quality & Warehouse Analyst",
+      "replace": "Senior Data Quality Analyst | SQL | Data Validation | Governance Support"
+    },
+    {
+      "find": "Healthcare Data & ETL Analyst with 7+ years of experience validating, reconciling, and delivering trusted enterprise data across healthcare (payer), banking, retail, and e-commerce domains. Deep hands-on expertise in advanced SQL, ETL validation, source-to-target testing, data quality, data warehousing, and production data support. Currently extending core skills into Snowflake, Databricks, Azure Data Factory, and Python to support cloud modernization and AI-ready data pipelines. Proven partner to engineering, QA, and business stakeholders—translating mapping documents and business rules into validation frameworks that protect reporting accuracy, regulatory compliance, and downstream analytics readiness.",
+      "replace": "Data & ETL Analyst with 7+ years of experience validating, reconciling, and delivering trusted enterprise data across regulated and large-scale business environments. Deep hands-on expertise in advanced SQL, ETL validation, source-to-target testing, data quality, data warehousing, and production data support. Strong fit for roles requiring data profiling, validation frameworks, root-cause analysis, and governance-minded quality controls."
+    },
+    {
+      "find": "Source-to-target testing, record counts, duplicate / null / referential / business-rule checks, root-cause analysis, defect triage",
+      "replace": "Source-to-target testing, record counts, duplicate / null / referential / business-rule checks, root-cause analysis, defect triage, data profiling"
+    }
+  ]
+}

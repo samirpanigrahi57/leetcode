@@ -1,0 +1,35 @@
+{
+  "company": "Sharecare",
+  "job_title": "Sr. Data Analyst- Remote",
+  "job_url": "https://sharecare.wd1.myworkdayjobs.com/en-US/Sharecare_Careers/job/Sr-Data-Analyst--Remote_R-101790",
+  "source": "Official company posting via Workday",
+  "employment_type": "Full-time",
+  "work_mode": "Remote",
+  "location": "Remote",
+  "fit_score": 84,
+  "job_description": "# Sr. Data Analyst- Remote\nCompany: Sharecare\nSource: Official company posting via Workday\nEmployment type: Full-time\nChecked: April 27, 2026\nURL: https://sharecare.wd1.myworkdayjobs.com/en-US/Sharecare_Careers/job/Sr-Data-Analyst--Remote_R-101790\n\n## Highlights\n- Remote senior data analyst role in digital health.\n- Posted 18 days ago.\n- Focuses on data integrity, membership eligibility, healthcare claims, pharmacy data, SQL querying, anomaly resolution, validation, customer data intake, and BI dashboards.\n- Strong overlap with healthcare domain, SQL, validation, data quality, and operational support.",
+  "strengths": [
+    "Strong match on eligibility, claims, healthcare data integrity, and SQL-heavy analysis.",
+    "Resume already supports validation, anomaly investigation, reporting, and stakeholder coordination.",
+    "Official posting within the last 60 days."
+  ],
+  "gaps": [
+    "Membership intake and customer implementation ownership may be broader than the current resume emphasis.",
+    "Role mentions Python for repeatable tasks; resume supports only modest/upskilling depth."
+  ],
+  "notes": "High-priority official posting. Emphasize healthcare eligibility and claims work, SQL, anomaly/root-cause analysis, data validation, and reporting quality. Keep Python wording conservative.",
+  "replacements": [
+    {
+      "find": "ETL Analyst | Healthcare Data Analyst | Data Quality & Warehouse Analyst",
+      "replace": "Senior Healthcare Data Analyst | SQL | Eligibility & Claims Data | Reporting Quality"
+    },
+    {
+      "find": "Healthcare Data & ETL Analyst with 7+ years of experience validating, reconciling, and delivering trusted enterprise data across healthcare (payer), banking, retail, and e-commerce domains. Deep hands-on expertise in advanced SQL, ETL validation, source-to-target testing, data quality, data warehousing, and production data support. Currently extending core skills into Snowflake, Databricks, Azure Data Factory, and Python to support cloud modernization and AI-ready data pipelines. Proven partner to engineering, QA, and business stakeholders—translating mapping documents and business rules into validation frameworks that protect reporting accuracy, regulatory compliance, and downstream analytics readiness.",
+      "replace": "Senior Healthcare Data & ETL Analyst with 7+ years of experience validating, reconciling, and delivering trusted enterprise data across payer-focused healthcare environments. Deep hands-on expertise in advanced SQL, ETL validation, source-to-target testing, data quality, data warehousing, and production data support. Strong fit for roles centered on eligibility, claims, anomaly investigation, and dependable reporting operations."
+    },
+    {
+      "find": "Contributed to data quality and reporting accuracy initiatives that reduced post-release data hotfixes by ~25% and improved stakeholder trust in payer-operations dashboards and downstream KPIs.",
+      "replace": "Contributed to data quality and reporting accuracy initiatives that reduced post-release data hotfixes by ~25% and improved stakeholder trust in payer data operations, dashboards, and downstream KPIs."
+    }
+  ]
+}

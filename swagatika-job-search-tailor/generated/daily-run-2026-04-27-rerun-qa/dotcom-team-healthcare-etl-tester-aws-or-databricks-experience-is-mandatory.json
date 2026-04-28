@@ -1,0 +1,31 @@
+{
+  "company": "Dotcom Team, LLC",
+  "job_title": "Healthcare ETL Tester- \"AWS OR Databricks experience is mandatory\"",
+  "job_url": "https://www.dice.com/job-detail/ba30753e-7aa4-47b0-80d9-af5b12c37b9f",
+  "source": "Dice",
+  "employment_type": "Contract",
+  "work_mode": "Remote",
+  "location": "Remote",
+  "fit_score": 80,
+  "job_description": "# Healthcare ETL Tester- \"AWS OR Databricks experience is mandatory\"\nCompany: Dotcom Team, LLC\nSource: Dice\nEmployment type: Contract\nChecked: April 27, 2026\nURL: https://www.dice.com/job-detail/ba30753e-7aa4-47b0-80d9-af5b12c37b9f\n\n## Highlights\n- Remote healthcare ETL tester role.\n- Posted 46 minutes ago.\n- Same core ETL QA and SQL validation responsibilities as the related Dotcom Team role, with a stronger requirement for AWS or Databricks exposure.\n- Functional fit remains good, but the cloud requirement makes it a more moderate match.",
+  "strengths": [
+    "Core ETL QA, SQL validation, reconciliation, and healthcare data fit remain strong.",
+    "Resume supports Databricks and cloud tools as upskilling/exposure.",
+    "Separate active posting URL from the related Dotcom Team role."
+  ],
+  "gaps": [
+    "AWS or Databricks is framed as mandatory in the title; resume support is limited and should stay conservative.",
+    "Likely more cloud-stack expectation than the strongest-fit QA roles."
+  ],
+  "notes": "Valid separate posting, but score lower because of the mandatory AWS/Databricks wording. Keep tailoring factual and modest on cloud depth.",
+  "replacements": [
+    {
+      "find": "ETL Analyst | Healthcare Data Analyst | Data Quality & Warehouse Analyst",
+      "replace": "Healthcare ETL Tester | SQL QA Analyst | Data Validation"
+    },
+    {
+      "find": "Self-directed learning in Snowflake, Databricks, Python-based validation, and Azure Data Factory—building cloud and AI-ready data pipeline competencies to extend enterprise ETL expertise into modern data stacks.",
+      "replace": "Self-directed learning in Snowflake, Databricks, Python-based validation, and Azure Data Factory—building practical cloud data validation skills to extend enterprise ETL expertise into modern data platforms."
+    }
+  ]
+}

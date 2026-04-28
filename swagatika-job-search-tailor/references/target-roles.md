@@ -29,6 +29,18 @@
 - Snowflake
 - Databricks
 - Azure Data Factory
+- ETL QA
+- ETL Tester
+- Data QA Analyst
+- SQL QA Analyst
+- Healthcare QA Analyst
+- Data Validation Analyst
+- Data Warehouse QA
+- Claims QA Analyst
+- EDI Tester
+- Healthcare Data QA
+- QA Analyst SQL
+- ETL Data Validation
 
 ## Search Domains
 
