@@ -12,7 +12,6 @@ from urllib.request import Request, urlopen
 
 
 MAX_POSTING_AGE_DAYS = 60
-TODAY = date(2026, 4, 30)
 
 EXPIRED_PATTERNS = [
     "this job has expired",
@@ -95,18 +94,25 @@ def parse_iso_date(value: object) -> date | None:
     return None
 
 
-def parse_natural_date(text: str) -> date | None:
+def parse_run_date(value: str) -> date:
+    try:
+        return datetime.strptime(value, "%Y-%m-%d").date()
+    except ValueError as exc:
+        raise argparse.ArgumentTypeError("--date must use YYYY-MM-DD format") from exc
+
+
+def parse_natural_date(text: str, run_date: date) -> date | None:
     lowered = text.lower()
     match = re.search(r"posted\s+(\d+)\s+(hour|hours|day|days|week|weeks)\s+ago", lowered)
     if match:
         amount = int(match.group(1))
         unit = match.group(2)
         if unit.startswith("hour"):
-            return TODAY
+            return run_date
         if unit.startswith("day"):
-            return TODAY - timedelta(days=amount)
+            return run_date - timedelta(days=amount)
         if unit.startswith("week"):
-            return TODAY - timedelta(days=amount * 7)
+            return run_date - timedelta(days=amount * 7)
 
     match = re.search(r"posted\s+([a-z]+)\s+(\d{1,2}),\s*(\d{4})", lowered)
     if match and match.group(1) in MONTHS:
@@ -134,7 +140,38 @@ def parse_deadline(text: str) -> date | None:
     return None
 
 
-def validate_record(record: dict, path: Path) -> dict:
+def has_current_manual_validation(record: dict, run_date: date) -> bool:
+    notes = str(record.get("validation_notes", "")).lower()
+    if "browser-visible" not in notes and "manual" not in notes:
+        return False
+    if str(record.get("availability_status", "")).strip().lower() != "active":
+        return False
+    if str(record.get("link_status", "")).strip().lower() != "working":
+        return False
+
+    posting_date = parse_iso_date(record.get("posting_date"))
+    if posting_date is None:
+        return False
+    age_days = (run_date - posting_date).days
+    return 0 <= age_days <= MAX_POSTING_AGE_DAYS
+
+
+def active_result_from_manual_validation(record: dict, path: Path, run_date: date, note: str) -> dict:
+    return {
+        "path": str(path),
+        "company": record.get("company", ""),
+        "job_title": record.get("job_title", ""),
+        "job_url": str(record.get("job_url") or record.get("apply_url") or "").strip(),
+        "status": "active",
+        "link_status": "working",
+        "availability_status": "active",
+        "posting_date": record.get("posting_date", ""),
+        "last_verified_date": run_date.isoformat(),
+        "notes": [note],
+    }
+
+
+def validate_record(record: dict, path: Path, run_date: date) -> dict:
     url = str(record.get("job_url") or record.get("apply_url") or "").strip()
     result = {
         "path": str(path),
@@ -145,7 +182,7 @@ def validate_record(record: dict, path: Path) -> dict:
         "link_status": "broken",
         "availability_status": "unavailable",
         "posting_date": record.get("posting_date", ""),
-        "last_verified_date": TODAY.isoformat(),
+        "last_verified_date": run_date.isoformat(),
         "notes": [],
     }
 
@@ -164,9 +201,23 @@ def validate_record(record: dict, path: Path) -> dict:
     text = strip_html(html).lower()
 
     if status_code is None:
+        if has_current_manual_validation(record, run_date):
+            return active_result_from_manual_validation(
+                record,
+                path,
+                run_date,
+                f"scripted request failed ({final_url}); retained current manual/browser-visible validation",
+            )
         result["notes"].append(f"request failed: {final_url}")
         return result
     if status_code >= 400:
+        if has_current_manual_validation(record, run_date):
+            return active_result_from_manual_validation(
+                record,
+                path,
+                run_date,
+                f"scripted request returned HTTP {status_code}; retained current manual/browser-visible validation",
+            )
         result["notes"].append(f"http status {status_code}")
         return result
     if any(pattern in text for pattern in EXPIRED_PATTERNS):
@@ -174,16 +225,20 @@ def validate_record(record: dict, path: Path) -> dict:
         return result
 
     deadline = parse_deadline(text)
-    if deadline and deadline < TODAY:
+    if deadline and deadline < run_date:
         result["notes"].append(f"application deadline passed: {deadline.isoformat()}")
         return result
 
-    posting_date = parse_iso_date(record.get("posting_date")) or parse_natural_date(text) or parse_natural_date(str(record.get("job_description", "")))
+    posting_date = (
+        parse_iso_date(record.get("posting_date"))
+        or parse_natural_date(text, run_date)
+        or parse_natural_date(str(record.get("job_description", "")), run_date)
+    )
     if posting_date is None:
         result["notes"].append("posting date could not be verified")
         return result
 
-    age_days = (TODAY - posting_date).days
+    age_days = (run_date - posting_date).days
     if age_days < 0:
         result["notes"].append(f"posting date is in the future: {posting_date.isoformat()}")
         return result
@@ -223,13 +278,16 @@ def main() -> int:
     parser = argparse.ArgumentParser()
     parser.add_argument("paths", nargs="+", type=Path)
     parser.add_argument("--report", type=Path, required=True)
+    parser.add_argument("--date", type=parse_run_date, default=date.today())
     parser.add_argument("--write", action="store_true")
     args = parser.parse_args()
+
+    args.report.parent.mkdir(parents=True, exist_ok=True)
 
     changes = []
     results = []
     for path, record in iter_records(args.paths):
-        validation = validate_record(record, path)
+        validation = validate_record(record, path, args.date)
         results.append(validation)
         if args.write:
             changed = False
@@ -246,7 +304,7 @@ def main() -> int:
                 changes.append(str(path))
 
     report = {
-        "run_date": TODAY.isoformat(),
+        "run_date": args.date.isoformat(),
         "checked": len(results),
         "active": sum(1 for item in results if item["status"] == "active"),
         "unavailable": sum(1 for item in results if item["status"] != "active"),

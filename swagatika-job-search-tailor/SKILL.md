@@ -46,6 +46,13 @@ Swagatika's strongest fit is:
 - Payer / Claims Data Analyst
 - Data Warehouse QA / Validation Analyst
 
+## Work Mode Policy
+
+- The skill is not remote-only.
+- Prefer remote roles when fit is comparable.
+- Include hybrid or on-site roles when the functional match is strong, the location is reasonable or explicitly requested, and the work mode is clearly shown in the table.
+- Do not label a mixed or unclear posting as remote-only; use `Remote / On-site`, `Hybrid`, or `Unknown` and call out uncertainty in `notes.md`.
+
 ## Workflow
 
 1. Extract the latest source profile from the resume and LinkedIn export.
@@ -58,8 +65,9 @@ Swagatika's strongest fit is:
      - for company sites with stale marketing pages (for example UHG/Radancy plus Taleo), check the official careers search result and the apply requisition; do not rely on an old detail URL alone
 3. Check `generated/seen_job_urls.json` before presenting or regenerating an already tracked posting.
 4. Shortlist roles across all domains that match SQL, ETL validation, data quality, reporting, and cross-functional analytics work.
-   - Do not restrict discovery to healthcare-only roles.
+   - Do not restrict discovery to healthcare-only roles or remote-only roles unless the user explicitly asks for that filter.
    - Healthcare, payer, and claims roles remain higher-fit priorities for scoring, but roles from any industry may be included if the functional match is strong.
+   - Penalize unclear or inconvenient work modes in fit scoring instead of hiding them silently.
 5. Save each selected posting under a company folder and position subfolder:
    - `<Company>/open_positions.json`
    - `<Company>/<JobSlug>/job_description.md`
@@ -107,7 +115,14 @@ When validating existing application folders, run:
 python scripts\validate_job_links.py C:\Users\samir\Documents\swagatika\jobs_application --report generated\validation-report-YYYY-MM-DD-existing.json --write
 ```
 
+Use `--date YYYY-MM-DD` for repeatable runs:
+
+```text
+python scripts\validate_job_links.py C:\Users\samir\Documents\swagatika\jobs_application --report generated\validation-report-YYYY-MM-DD-existing.json --date YYYY-MM-DD --write
+```
+
 Review false negatives from boards that block scripts, especially Dice, before marking a browser-visible current posting as unavailable.
+When a record already has current `availability_status: active`, `link_status: working`, and browser-visible/manual evidence in `validation_notes`, the validator may retain that status even if the board blocks scripted requests.
 
 ## Local Scripts
 
@@ -122,8 +137,9 @@ Review false negatives from boards that block scripts, especially Dice, before m
 - `scripts/export_daily_table.py`
   - Builds the ranked markdown table, appends new same-day rows into the existing dated file, creates a new file for later dates without deleting older exports, and can render clickable resume-folder links when given the applications root path.
 - `scripts/validate_job_links.py`
-  - Checks existing generated records or application folders for broken/expired links, stale posting dates, known closed UHG links, and past application deadlines.
-  - Writes `availability_status`, `link_status`, `posting_date`, `last_verified_date`, and `validation_notes` when run with `--write`.
+   - Checks existing generated records or application folders for broken/expired links, stale posting dates, known closed UHG links, and past application deadlines.
+   - Writes `availability_status`, `link_status`, `posting_date`, `last_verified_date`, and `validation_notes` when run with `--write`.
+   - Accepts `--date YYYY-MM-DD` so validation is reproducible for a specific daily run.
 
 ## Output Standard
 
