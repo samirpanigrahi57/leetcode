@@ -1,0 +1,35 @@
+{
+  "company": "UnitedHealth Group",
+  "job_title": "Senior Data Analyst - Remote",
+  "job_url": "https://careers.unitedhealthgroup.com/job/eden-prairie/senior-data-analyst-remote/34088/94259827424",
+  "source": "Official company posting",
+  "employment_type": "Full-time",
+  "work_mode": "Remote",
+  "location": "Eden Prairie, MN / Remote U.S.",
+  "fit_score": 85,
+  "job_description": "# Senior Data Analyst - Remote\nCompany: UnitedHealth Group / Optum\nSource: Official company careers page\nEmployment type: Full-time\nChecked: April 30, 2026\nURL: https://careers.unitedhealthgroup.com/job/eden-prairie/senior-data-analyst-remote/34088/94259827424\n\n## Highlights\n- Posted April 22, 2026; requisition 2345433.\n- Business & Data Analytics role focused on structured data management, BI tools, trend analysis, normalization, data quality, dashboards, visualizations, decision aids, and stakeholder analytics.\n- Requires 6+ years as Business Analyst or Data Analyst, 6+ years with relational databases such as SQL/Oracle, 2+ years BI visualization, 2+ years Alteryx or SSIS, and expert SQL.\n- Remote flexibility within the U.S.; Minneapolis or Washington, DC hires have an office requirement.",
+  "strengths": [
+    "Strong alignment with 7+ years of data/ETL analysis, SQL, data quality, BI/reporting, and stakeholder support.",
+    "Optum healthcare environment maps to payer operations and healthcare analytics experience.",
+    "SSIS/BI requirements map truthfully to SSIS exposure and Power BI/Tableau experience."
+  ],
+  "gaps": [
+    "Alteryx is not supported by the base resume and should be listed as a gap.",
+    "Role has senior/mentor language; keep resume focused on QA library, defect triage, and cross-functional leadership without implying formal people management."
+  ],
+  "notes": "Apply first. Strong healthcare analytics and SQL match. Tailor headline and summary toward senior data analyst, data quality, SQL, BI, and healthcare reporting.",
+  "replacements": [
+    {
+      "find": "ETL Analyst | Healthcare Data Analyst | Data Quality & Warehouse Analyst",
+      "replace": "Senior Data Analyst | Healthcare Analytics | SQL & Data Quality"
+    },
+    {
+      "find": "Power BI, Tableau, Excel (advanced \u2013 pivots, lookups, Power Query)",
+      "replace": "Power BI, Tableau, Excel (advanced pivots, lookups, Power Query), BI reporting validation"
+    }
+  ],
+  "last_verified_date": "2026-04-30",
+  "availability_status": "unavailable",
+  "link_status": "broken",
+  "validation_notes": "known closed UnitedHealth Group/Taleo requisition"
+}

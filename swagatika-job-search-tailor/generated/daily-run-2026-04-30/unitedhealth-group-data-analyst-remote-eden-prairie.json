@@ -1,0 +1,35 @@
+{
+  "company": "UnitedHealth Group",
+  "job_title": "Data Analyst - Remote (Eden Prairie, MN)",
+  "job_url": "https://careers.unitedhealthgroup.com/job/eden-prairie/data-analyst-remote/34088/94259827232",
+  "source": "Official company posting",
+  "employment_type": "Full-time",
+  "work_mode": "Remote",
+  "location": "Eden Prairie, MN / Remote U.S.",
+  "fit_score": 81,
+  "job_description": "# Data Analyst - Remote\nCompany: UnitedHealth Group / Optum\nSource: Official company careers page\nEmployment type: Full-time\nChecked: April 30, 2026\nURL: https://careers.unitedhealthgroup.com/job/eden-prairie/data-analyst-remote/34088/94259827232\n\n## Highlights\n- Posted April 22, 2026; requisition 2329080.\n- Business & Data Analytics role focused on structured data management, BI tools, pattern/trend analysis, normalization, data quality, dashboards, visualizations, decision aids, and strategic data solutions.\n- Requires 5+ years as Business Analyst or Data Analyst, 3+ years with relational databases such as SQL/Oracle, 2+ years BI visualization, 1+ years Alteryx or SSIS, and intermediate SQL.\n- Remote flexibility within the U.S.; Minneapolis or Washington, DC hires have an office requirement.",
+  "strengths": [
+    "Strong fit with SQL, relational data, Power BI/Tableau, data quality, and data solution support.",
+    "Optum healthcare context maps to payer data and healthcare reporting validation.",
+    "SSIS is adjacent to current ETL toolset and can be presented truthfully."
+  ],
+  "gaps": [
+    "Alteryx is not supported by the base resume.",
+    "Role is broader BI/data analyst rather than explicitly ETL validation."
+  ],
+  "notes": "Apply if time after the senior UHG and Diverge roles. Tailor toward SQL, BI visualization, data quality, and healthcare analytics.",
+  "replacements": [
+    {
+      "find": "ETL Analyst | Healthcare Data Analyst | Data Quality & Warehouse Analyst",
+      "replace": "Data Analyst | Healthcare Analytics | SQL & BI Reporting"
+    },
+    {
+      "find": "Power BI, Tableau, Excel (advanced \u2013 pivots, lookups, Power Query)",
+      "replace": "Power BI, Tableau, Excel (advanced pivots, lookups, Power Query), dashboard and reporting validation"
+    }
+  ],
+  "last_verified_date": "2026-04-30",
+  "availability_status": "unavailable",
+  "link_status": "broken",
+  "validation_notes": "known closed UnitedHealth Group/Taleo requisition"
+}

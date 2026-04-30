@@ -3,7 +3,12 @@ from __future__ import annotations
 import json
 import re
 import sys
+from datetime import datetime
 from pathlib import Path
+
+MAX_POSTING_AGE_DAYS = 60
+ACTIVE_STATUS = "active"
+WORKING_STATUS = "working"
 
 
 BUCKETS = [
@@ -21,7 +26,39 @@ def bucket_for(score: int) -> str:
     return "Below 65"
 
 
-def load_jobs(generated_dir: Path) -> list[dict]:
+def parse_iso_date(value: object) -> datetime | None:
+    if not isinstance(value, str) or not value.strip():
+        return None
+    value = value.strip()
+    for fmt in ("%Y-%m-%d", "%Y-%m-%dT%H:%M:%S", "%Y-%m-%dT%H:%M:%SZ"):
+        try:
+            return datetime.strptime(value, fmt)
+        except ValueError:
+            pass
+    return None
+
+
+def is_verified_current_job(data: dict, export_date: datetime) -> bool:
+    if str(data.get("availability_status", "")).strip().lower() != ACTIVE_STATUS:
+        return False
+    if str(data.get("link_status", "")).strip().lower() != WORKING_STATUS:
+        return False
+
+    posting_date = parse_iso_date(data.get("posting_date"))
+    if posting_date is None:
+        return False
+
+    age_days = (export_date.date() - posting_date.date()).days
+    if age_days < 0 or age_days > MAX_POSTING_AGE_DAYS:
+        return False
+
+    if parse_iso_date(data.get("last_verified_date")) is None:
+        return False
+
+    return True
+
+
+def load_jobs(generated_dir: Path, export_date: datetime) -> list[dict]:
     jobs: list[dict] = []
     for path in sorted(generated_dir.glob("*.json")):
         if path.name in {"candidate-profile.json", "seen_job_urls.json"}:
@@ -30,6 +67,9 @@ def load_jobs(generated_dir: Path) -> list[dict]:
         if not isinstance(data, dict):
             continue
         if "company" not in data or "job_title" not in data or "job_url" not in data:
+            continue
+        if not is_verified_current_job(data, export_date):
+            print(f"Skipping unverified, expired, or unavailable job: {path.name}")
             continue
         jobs.append(data)
     return jobs
@@ -82,11 +122,14 @@ def slugify(value: str) -> str:
     return slug or "role"
 
 
-def merge_rows(existing_rows: list[dict], new_rows: list[dict]) -> list[dict]:
+def merge_rows(existing_rows: list[dict], new_rows: list[dict], export_date: datetime) -> list[dict]:
     merged: dict[str, dict] = {}
     for row in existing_rows + new_rows:
         job_url = row.get("job_url", "").strip()
         if not job_url:
+            continue
+        if not is_verified_current_job(row, export_date):
+            print(f"Skipping unverified, expired, or unavailable existing row: {job_url}")
             continue
         normalized = dict(row)
         normalized["resume_folder"] = row.get("resume_folder") or (
@@ -152,11 +195,12 @@ def main() -> int:
     output_dir = Path(sys.argv[2])
     date_str = sys.argv[3]
     applications_root = Path(sys.argv[4]) if len(sys.argv) == 5 else None
+    export_date = datetime.strptime(date_str, "%Y-%m-%d")
     output_dir.mkdir(parents=True, exist_ok=True)
     out_path = output_dir / f"job-search-table-{date_str}.md"
-    jobs = load_jobs(generated_dir)
+    jobs = load_jobs(generated_dir, export_date)
     existing_rows = parse_existing_export(out_path)
-    merged_rows = merge_rows(existing_rows, jobs)
+    merged_rows = merge_rows(existing_rows, jobs, export_date)
     content = render_table(merged_rows, applications_root)
     out_path.write_text(content, encoding="utf-8")
     print(out_path)

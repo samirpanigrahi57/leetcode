@@ -1,0 +1,35 @@
+{
+  "company": "Humana",
+  "job_title": "Senior Data Manager",
+  "job_url": "https://www.dice.com/job-detail/f1d4c7fe-1d78-44cd-8eea-ae09194ce945",
+  "source": "Dice",
+  "employment_type": "Full-time",
+  "work_mode": "Remote",
+  "location": "Remote",
+  "fit_score": 79,
+  "job_description": "# Senior Data Manager\nCompany: Humana\nSource: Dice\nEmployment type: Full-time\nChecked: April 30, 2026\nURL: https://www.dice.com/job-detail/f1d4c7fe-1d78-44cd-8eea-ae09194ce945\n\n## Highlights\n- Remote full-time role posted 18 days ago and updated recently on Dice.\n- Focuses on acquiring, cleaning, validating, protecting, and developing datasets for business analysis and reporting.\n- Requires 7 years of technical experience in data analysis using ETL tools and developing ETL solutions using SSIS, ADF, and/or Databricks; SQL/SSMS/SSIS; stored procedures/dynamic SQL; cloud technologies such as Azure Synapse/Snowflake; Power BI/Power Platform; root-cause analysis; and stakeholder demos.\n- Preferred healthcare or managed care experience.",
+  "strengths": [
+    "Strong alignment with ETL validation, ADF, SQL, data quality, reporting, Power BI, root-cause analysis, and healthcare managed-care context.",
+    "Remote full-time healthcare role with data lifecycle and governance themes.",
+    "Swagatika's payer ETL validation and incident analysis provide credible fit."
+  ],
+  "gaps": [
+    "Manager title may imply broader ownership than resume supports; keep positioning as senior individual contributor/data management analyst.",
+    "Stored procedures, SSMS, and Power Platform depth should not be overstated unless supported outside the current resume."
+  ],
+  "notes": "Apply if time. Strong technical healthcare data fit, but the manager framing and architecture ownership make it slightly more of a stretch than analyst postings.",
+  "replacements": [
+    {
+      "find": "ETL Analyst | Healthcare Data Analyst | Data Quality & Warehouse Analyst",
+      "replace": "Senior Data Analyst | ETL Data Quality | Healthcare Data"
+    },
+    {
+      "find": "Informatica PowerCenter, Azure Data Factory, SSIS, source-to-target mapping, ETL validation, data reconciliation",
+      "replace": "Informatica PowerCenter, Azure Data Factory, SSIS, source-to-target mapping, ETL validation, data reconciliation, data lifecycle validation"
+    }
+  ],
+  "last_verified_date": "2026-04-30",
+  "availability_status": "unavailable",
+  "link_status": "broken",
+  "validation_notes": "application deadline passed: 2026-04-28"
+}

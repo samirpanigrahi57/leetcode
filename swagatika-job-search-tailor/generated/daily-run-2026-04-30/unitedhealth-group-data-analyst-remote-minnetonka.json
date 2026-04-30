@@ -1,0 +1,35 @@
+{
+  "company": "UnitedHealth Group",
+  "job_title": "Data Analyst - Remote (Minnetonka, MN)",
+  "job_url": "https://careers.unitedhealthgroup.com/job/minnetonka/data-analyst-remote/34088/94451213408",
+  "source": "Official company posting",
+  "employment_type": "Full-time",
+  "work_mode": "Remote",
+  "location": "Minnetonka, MN / Remote U.S.",
+  "fit_score": 82,
+  "job_description": "# Data Analyst - Remote\nCompany: UnitedHealth Group / UnitedHealthcare\nSource: Official company careers page\nEmployment type: Full-time\nChecked: April 30, 2026\nURL: https://careers.unitedhealthgroup.com/job/minnetonka/data-analyst-remote/34088/94451213408\n\n## Highlights\n- Posted April 27, 2026; requisition 2357129.\n- Supports CXR impact reporting, impact requirements, affected member counts, call volumes, pre/post-impact analysis, structured data management, BI tools, trend analysis, normalization, and data quality.\n- Requires 3+ years of data analysis, data storytelling, visualization, large dataset work, Tableau/Power BI/D3, Snowflake, Databricks, SQL, and advanced Excel.\n- Remote flexibility within the U.S.; Minneapolis or Washington, DC hires have an office requirement.",
+  "strengths": [
+    "Excellent SQL, data quality, reporting, Power BI/Tableau, Snowflake/Databricks upskilling, and stakeholder analytics overlap.",
+    "UnitedHealthcare domain aligns with payer operations and member-facing data accuracy experience.",
+    "Large dataset and executive insight requirements map to 100M+ record reconciliation and downstream KPI accuracy work."
+  ],
+  "gaps": [
+    "D3JS is not supported by the base resume.",
+    "Snowflake and Databricks are presented as current upskilling in the resume; do not overstate production ownership."
+  ],
+  "notes": "Apply first if comfortable positioning Snowflake/Databricks as growing skills. Tailor toward member impact reporting, SQL-driven data quality, Power BI/Tableau, and payer data.",
+  "replacements": [
+    {
+      "find": "ETL Analyst | Healthcare Data Analyst | Data Quality & Warehouse Analyst",
+      "replace": "Healthcare Data Analyst | SQL Reporting Analyst | Data Quality"
+    },
+    {
+      "find": "Currently extending core skills into Snowflake, Databricks, Azure Data Factory, and Python to support cloud modernization and AI-ready data pipelines.",
+      "replace": "Currently extending core skills into Snowflake, Databricks, Azure Data Factory, and Python while applying strong SQL, BI validation, and healthcare data quality experience."
+    }
+  ],
+  "last_verified_date": "2026-04-30",
+  "availability_status": "unavailable",
+  "link_status": "broken",
+  "validation_notes": "known closed UnitedHealth Group/Taleo requisition"
+}

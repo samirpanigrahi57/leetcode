@@ -1,0 +1,33 @@
+{
+  "company": "People Force Consulting Inc",
+  "job_title": "Healthcare Data Analyst with Population Health",
+  "job_url": "https://www.dice.com/job-detail/eeda7e98-531e-4e24-bec2-915f1b1b9025",
+  "apply_url": "https://www.dice.com/job-detail/eeda7e98-531e-4e24-bec2-915f1b1b9025",
+  "source": "Dice",
+  "employment_type": "Contract W2 / Contract Corp To Corp",
+  "work_mode": "Remote",
+  "location": "Remote",
+  "fit_score": 86,
+  "posting_date": "2026-04-29",
+  "last_verified_date": "2026-04-30",
+  "availability_status": "active",
+  "link_status": "working",
+  "validation_notes": "Dice detail page loaded in browser-visible source; posted 21 hours ago; Apply Now present; no expired/closed text.",
+  "job_description": "# Healthcare Data Analyst with Population Health\nCompany: People Force Consulting Inc\nSource: Dice\nEmployment type: Contract W2 / Contract Corp To Corp\nChecked: April 30, 2026\nPosted: April 29, 2026\nURL: https://www.dice.com/job-detail/eeda7e98-531e-4e24-bec2-915f1b1b9025\n\n## Highlights\n- Remote healthcare/population health analytics role posted 21 hours ago on Dice.\n- Focuses on advanced SQL, large-scale data analysis, dashboards, BI reporting, data validation, and healthcare/population health insights.\n- Requires BI/dashboarding tools such as AWS QuickSight, Tableau, or Power BI and customer-facing analytics communication.\n- Good-to-have areas include payer analytics, value-based care, utilization, cost of care, quality, and risk use cases.",
+  "strengths": [
+    "Strong fit for healthcare SQL analysis, data validation, BI dashboards, and stakeholder-ready insights.",
+    "Population health, payer analytics, utilization, cost, quality, and risk themes align with healthcare data experience.",
+    "Remote role and data quality language map directly to the candidate profile."
+  ],
+  "gaps": [
+    "AWS QuickSight/Redshift/Athena are not core resume strengths; keep them as adjacent or learning areas.",
+    "Contract role and customer-facing BI expectations should be verified."
+  ],
+  "notes": "Apply first if contract work is acceptable. Tailor toward healthcare SQL, population health analytics, BI validation, Power BI/Tableau, and data quality across large datasets.",
+  "replacements": [
+    {
+      "find": "ETL Analyst | Healthcare Data Analyst | Data Quality & Warehouse Analyst",
+      "replace": "Healthcare Data Analyst | Population Health Analytics | SQL & BI"
+    }
+  ]
+}

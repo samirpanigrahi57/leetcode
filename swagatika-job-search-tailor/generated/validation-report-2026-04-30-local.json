@@ -1,0 +1,123 @@
+{
+  "run_date": "2026-04-30",
+  "checked": 7,
+  "active": 0,
+  "unavailable": 7,
+  "changed_files": [
+    "generated\\daily-run-2026-04-30\\cvs-health-sr-data-engineer.json",
+    "generated\\daily-run-2026-04-30\\diverge-health-healthcare-data-associate.json",
+    "generated\\daily-run-2026-04-30\\humana-senior-data-manager.json",
+    "generated\\daily-run-2026-04-30\\marathon-health-lead-healthcare-analyst.json",
+    "generated\\daily-run-2026-04-30\\unitedhealth-group-data-analyst-remote-eden-prairie.json",
+    "generated\\daily-run-2026-04-30\\unitedhealth-group-data-analyst-remote-minnetonka.json",
+    "generated\\daily-run-2026-04-30\\unitedhealth-group-senior-data-analyst-remote.json"
+  ],
+  "results": [
+    {
+      "path": "generated\\daily-run-2026-04-30\\cvs-health-sr-data-engineer.json",
+      "company": "CVS Health",
+      "job_title": "Sr. Data Engineer (Requiring Python, SQL, SSIS, SSRS, Power BI)",
+      "job_url": "https://www.dice.com/job-detail/3dd12e0e-97aa-48cf-bd71-509d2315278a",
+      "status": "unavailable",
+      "link_status": "broken",
+      "availability_status": "unavailable",
+      "posting_date": "",
+      "last_verified_date": "2026-04-30",
+      "notes": [
+        "http status 410"
+      ],
+      "http_status": 410,
+      "final_url": "https://www.dice.com/job-detail/3dd12e0e-97aa-48cf-bd71-509d2315278a"
+    },
+    {
+      "path": "generated\\daily-run-2026-04-30\\diverge-health-healthcare-data-associate.json",
+      "company": "Diverge Health",
+      "job_title": "Healthcare Data Associate",
+      "job_url": "https://divergehealth.org/careers/",
+      "status": "unavailable",
+      "link_status": "broken",
+      "availability_status": "unavailable",
+      "posting_date": "",
+      "last_verified_date": "2026-04-30",
+      "notes": [
+        "posting date could not be verified"
+      ],
+      "http_status": 200,
+      "final_url": "https://divergehealth.org/careers/"
+    },
+    {
+      "path": "generated\\daily-run-2026-04-30\\humana-senior-data-manager.json",
+      "company": "Humana",
+      "job_title": "Senior Data Manager",
+      "job_url": "https://www.dice.com/job-detail/f1d4c7fe-1d78-44cd-8eea-ae09194ce945",
+      "status": "unavailable",
+      "link_status": "broken",
+      "availability_status": "unavailable",
+      "posting_date": "",
+      "last_verified_date": "2026-04-30",
+      "notes": [
+        "application deadline passed: 2026-04-28"
+      ],
+      "http_status": 200,
+      "final_url": "https://www.dice.com/job-detail/f1d4c7fe-1d78-44cd-8eea-ae09194ce945"
+    },
+    {
+      "path": "generated\\daily-run-2026-04-30\\marathon-health-lead-healthcare-analyst.json",
+      "company": "Marathon Health",
+      "job_title": "Lead Healthcare Analyst",
+      "job_url": "https://www.indeed.com/viewjob?jk=f98d9989e3830d79",
+      "status": "unavailable",
+      "link_status": "broken",
+      "availability_status": "unavailable",
+      "posting_date": "",
+      "last_verified_date": "2026-04-30",
+      "notes": [
+        "http status 403"
+      ],
+      "http_status": 403,
+      "final_url": "https://www.indeed.com/viewjob?jk=f98d9989e3830d79"
+    },
+    {
+      "path": "generated\\daily-run-2026-04-30\\unitedhealth-group-data-analyst-remote-eden-prairie.json",
+      "company": "UnitedHealth Group",
+      "job_title": "Data Analyst - Remote (Eden Prairie, MN)",
+      "job_url": "https://careers.unitedhealthgroup.com/job/eden-prairie/data-analyst-remote/34088/94259827232",
+      "status": "unavailable",
+      "link_status": "broken",
+      "availability_status": "unavailable",
+      "posting_date": "",
+      "last_verified_date": "2026-04-30",
+      "notes": [
+        "known closed UnitedHealth Group/Taleo requisition"
+      ]
+    },
+    {
+      "path": "generated\\daily-run-2026-04-30\\unitedhealth-group-data-analyst-remote-minnetonka.json",
+      "company": "UnitedHealth Group",
+      "job_title": "Data Analyst - Remote (Minnetonka, MN)",
+      "job_url": "https://careers.unitedhealthgroup.com/job/minnetonka/data-analyst-remote/34088/94451213408",
+      "status": "unavailable",
+      "link_status": "broken",
+      "availability_status": "unavailable",
+      "posting_date": "",
+      "last_verified_date": "2026-04-30",
+      "notes": [
+        "known closed UnitedHealth Group/Taleo requisition"
+      ]
+    },
+    {
+      "path": "generated\\daily-run-2026-04-30\\unitedhealth-group-senior-data-analyst-remote.json",
+      "company": "UnitedHealth Group",
+      "job_title": "Senior Data Analyst - Remote",
+      "job_url": "https://careers.unitedhealthgroup.com/job/eden-prairie/senior-data-analyst-remote/34088/94259827424",
+      "status": "unavailable",
+      "link_status": "broken",
+      "availability_status": "unavailable",
+      "posting_date": "",
+      "last_verified_date": "2026-04-30",
+      "notes": [
+        "known closed UnitedHealth Group/Taleo requisition"
+      ]
+    }
+  ]
+}

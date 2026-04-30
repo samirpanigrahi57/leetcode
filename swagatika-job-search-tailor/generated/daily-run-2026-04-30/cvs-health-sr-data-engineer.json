@@ -1,0 +1,35 @@
+{
+  "company": "CVS Health",
+  "job_title": "Sr. Data Engineer (Requiring Python, SQL, SSIS, SSRS, Power BI)",
+  "job_url": "https://www.dice.com/job-detail/3dd12e0e-97aa-48cf-bd71-509d2315278a",
+  "source": "Dice",
+  "employment_type": "Full-time",
+  "work_mode": "Remote",
+  "location": "Remote",
+  "fit_score": 72,
+  "job_description": "# Sr. Data Engineer (Requiring Python, SQL, SSIS, SSRS, Power BI)\nCompany: CVS Health / Aetna Medicare Product Tools & Technology\nSource: Dice\nEmployment type: Full-time\nChecked: April 30, 2026\nURL: https://www.dice.com/job-detail/3dd12e0e-97aa-48cf-bd71-509d2315278a\n\n## Highlights\n- Remote full-time role posted 1 day ago and updated recently on Dice.\n- Aetna Medicare Product Tools & Technology role focused on data structures, ETL workflows, reporting needs, data marts/models, adherence to data quality/accessibility standards, Power BI, SSIS/SSRS, SQL, Python, Databricks, healthcare, and Medicare.\n- Requires 5+ years of healthcare data analysis/systems experience, multiple engineering/data platform tools, and healthcare domain support.",
+  "strengths": [
+    "Healthcare payer/Medicare, ETL, SQL, SSIS, Power BI, data quality, and reporting themes match parts of Swagatika's background.",
+    "Strong current board freshness from Dice.",
+    "Aetna/CVS healthcare context is relevant."
+  ],
+  "gaps": [
+    "This is primarily a senior data engineering role with Python, Hadoop/Hive, MicroStrategy, ML, Java, and infrastructure expectations not fully supported by the base resume.",
+    "Treat as stretch; do not rewrite resume into a software/data engineering profile."
+  ],
+  "notes": "Skip/stretch unless the applicant wants a higher-risk Aetna technical role. Tailor only to ETL validation, SQL, Power BI, data quality, and healthcare domain support.",
+  "replacements": [
+    {
+      "find": "ETL Analyst | Healthcare Data Analyst | Data Quality & Warehouse Analyst",
+      "replace": "Healthcare ETL Analyst | SQL Data Quality | Reporting Validation"
+    },
+    {
+      "find": "Currently extending core skills into Snowflake, Databricks, Azure Data Factory, and Python to support cloud modernization and AI-ready data pipelines.",
+      "replace": "Currently extending core skills into Snowflake, Databricks, Azure Data Factory, and Python while maintaining a foundation in SQL, ETL validation, reporting accuracy, and healthcare data quality."
+    }
+  ],
+  "last_verified_date": "2026-04-30",
+  "availability_status": "unavailable",
+  "link_status": "broken",
+  "validation_notes": "http status 410"
+}

@@ -1,0 +1,39 @@
+{
+  "company": "Diverge Health",
+  "job_title": "Healthcare Data Associate",
+  "job_url": "https://divergehealth.org/careers/",
+  "source": "Official company posting; verified via LinkedIn",
+  "employment_type": "Full-time",
+  "work_mode": "Remote",
+  "location": "United States",
+  "fit_score": 88,
+  "job_description": "# Healthcare Data Associate\nCompany: Diverge Health\nSource: Official company careers page and LinkedIn\nEmployment type: Full-time\nChecked: April 30, 2026\nURL: https://divergehealth.org/careers/\nLinkedIn reference: https://www.linkedin.com/jobs/view/healthcare-data-associate-at-diverge-health-4371034946\n\n## Highlights\n- Remote healthcare data role listed under Population Health: Quality & Risk Adjustment.\n- Focuses on Medicaid and Medicare populations, quality metrics, HEDIS, reporting, dashboards, data reliability, and cross-functional decision support.\n- Requires 5+ years of healthcare data analyst experience and at least 2 years of SQL including complex queries and data validation.\n- Strong match for payer/claims, quality reporting, SQL validation, HIPAA, and stakeholder analytics experience.",
+  "strengths": [
+    "Direct healthcare analytics fit with Medicaid/Medicare, quality reporting, SQL, and data validation.",
+    "Strong overlap with Swagatika's payer data, claims/member eligibility, HIPAA awareness, reporting, and cross-functional stakeholder work.",
+    "Remote role and no-sponsorship requirement align with candidate constraints."
+  ],
+  "gaps": [
+    "Posting calls out HEDIS and risk adjustment; resume supports payer quality and claims data but should not overclaim direct HEDIS ownership if not present.",
+    "Healthcare standards such as SNOMED/LOINC should be treated as exposure/gap unless supported elsewhere."
+  ],
+  "notes": "Apply first. Tailor toward healthcare data quality, Medicaid/Medicare populations, SQL validation, reporting reliability, dashboards, and stakeholder-ready insights. Keep HEDIS/risk adjustment as adjacent exposure unless directly supported.",
+  "replacements": [
+    {
+      "find": "ETL Analyst | Healthcare Data Analyst | Data Quality & Warehouse Analyst",
+      "replace": "Healthcare Data Associate | SQL Data Analyst | Data Quality Analyst"
+    },
+    {
+      "find": "Healthcare Data & ETL Analyst with 7+ years of experience validating, reconciling, and delivering trusted enterprise data across healthcare (payer), banking, retail, and e-commerce domains.",
+      "replace": "Healthcare Data & ETL Analyst with 7+ years of experience validating, reconciling, and translating trusted healthcare data into reporting-ready insights across payer, claims, member eligibility, provider, and enterprise data domains."
+    },
+    {
+      "find": "Source-to-target testing, record counts, duplicate / null / referential / business-rule checks, root-cause analysis, defect triage",
+      "replace": "Source-to-target testing, record counts, duplicate / null / referential / business-rule checks, reporting validation, root-cause analysis, defect triage"
+    }
+  ],
+  "last_verified_date": "2026-04-30",
+  "availability_status": "unavailable",
+  "link_status": "broken",
+  "validation_notes": "posting date could not be verified"
+}

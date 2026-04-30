@@ -1,0 +1,33 @@
+{
+  "company": "HR Pundits",
+  "job_title": "Healthcare Data Analyst",
+  "job_url": "https://www.dice.com/job-detail/6bc93c69-d25a-4350-bf8c-f7794297eca9",
+  "apply_url": "https://www.dice.com/job-detail/6bc93c69-d25a-4350-bf8c-f7794297eca9",
+  "source": "Dice",
+  "employment_type": "Full-time",
+  "work_mode": "Remote / On-site",
+  "location": "Remote or Plano, TX",
+  "fit_score": 78,
+  "posting_date": "2026-04-29",
+  "last_verified_date": "2026-04-30",
+  "availability_status": "active",
+  "link_status": "working",
+  "validation_notes": "Dice detail page loaded in browser-visible source; posted 22 hours ago; Apply link present; no expired/closed text.",
+  "job_description": "# Healthcare Data Analyst\nCompany: HR Pundits\nSource: Dice\nEmployment type: Full-time\nChecked: April 30, 2026\nPosted: April 29, 2026\nURL: https://www.dice.com/job-detail/6bc93c69-d25a-4350-bf8c-f7794297eca9\n\n## Highlights\n- Healthcare data analyst role posted 22 hours ago on Dice.\n- Remote/on-site listing for Plano, TX; full-time only.\n- Requires SQL, healthcare domain experience with Medicare, Medicaid, and claims data, source-to-target mapping, and test case creation.",
+  "strengths": [
+    "Strong match for SQL, healthcare Medicare/Medicaid claims data, source-to-target mapping, and test case creation.",
+    "Data analysis plus test case language maps well to ETL QA and validation experience.",
+    "Full-time role, though work mode needs clarification."
+  ],
+  "gaps": [
+    "Listing is brief and has mixed Remote/On-site wording; verify remote eligibility before applying.",
+    "Employer/client details are limited."
+  ],
+  "notes": "Apply if remote is confirmed. Tailor toward SQL, healthcare claims data, STTM/source-to-target mapping, test cases, and ETL validation.",
+  "replacements": [
+    {
+      "find": "ETL Analyst | Healthcare Data Analyst | Data Quality & Warehouse Analyst",
+      "replace": "Healthcare Data Analyst | SQL Validation | Source-to-Target Mapping"
+    }
+  ]
+}

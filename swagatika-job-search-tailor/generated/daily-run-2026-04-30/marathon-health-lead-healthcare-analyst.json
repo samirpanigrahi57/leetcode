@@ -1,0 +1,35 @@
+{
+  "company": "Marathon Health",
+  "job_title": "Lead Healthcare Analyst",
+  "job_url": "https://www.indeed.com/viewjob?jk=f98d9989e3830d79",
+  "source": "Indeed",
+  "employment_type": "Full-time",
+  "work_mode": "Remote",
+  "location": "Remote",
+  "fit_score": 82,
+  "job_description": "# Lead Healthcare Analyst\nCompany: Marathon Health\nSource: Indeed\nEmployment type: Full-time\nChecked: April 30, 2026\nURL: https://www.indeed.com/viewjob?jk=f98d9989e3830d79\n\n## Highlights\n- Remote healthcare analyst role with salary range shown as $95,000-$120,000.\n- Focuses on volume, utilization, cost, clinical quality, outcomes, patient satisfaction, health center performance, standard/custom Tableau reporting, claims data, demographics, biometrics, ROI, and stakeholder presentations.\n- Requires SQL, Tableau, Excel, PowerPoint, healthcare analytics experience, and communication with clinical/non-technical stakeholders.\n- Indeed notes applications are accepted until a candidate is selected.",
+  "strengths": [
+    "Strong healthcare analytics, claims, SQL, Tableau/Power BI, reporting, and stakeholder communication alignment.",
+    "Good fit for payer/claims data and data storytelling from validated healthcare data.",
+    "Remote and full-time role."
+  ],
+  "gaps": [
+    "Lead/client presentation emphasis is stronger than the base resume; tailor to stakeholder partnership without overstating formal leadership.",
+    "Direct advanced primary care/population health model experience is not explicit."
+  ],
+  "notes": "Apply first/if time. Tailor toward healthcare claims analysis, SQL, Tableau/Power BI reporting, stakeholder-ready insights, and data quality supporting clinical and operational decisions.",
+  "replacements": [
+    {
+      "find": "ETL Analyst | Healthcare Data Analyst | Data Quality & Warehouse Analyst",
+      "replace": "Healthcare Data Analyst | SQL Reporting | Data Quality"
+    },
+    {
+      "find": "Power BI, Tableau, Excel (advanced \u2013 pivots, lookups, Power Query)",
+      "replace": "Power BI, Tableau, Excel (advanced pivots, lookups, Power Query), healthcare reporting"
+    }
+  ],
+  "last_verified_date": "2026-04-30",
+  "availability_status": "unavailable",
+  "link_status": "broken",
+  "validation_notes": "http status 403"
+}
