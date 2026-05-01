@@ -1,0 +1,43 @@
+﻿{
+    "run_date":  "2026-04-30",
+    "checked":  5,
+    "active":  5,
+    "unavailable":  0,
+    "results":  [
+                    {
+                        "company":  "Computer Enterprises, Inc. (CEI)",
+                        "role":  "EDI Data Analyst",
+                        "url":  "https://www.dice.com/job-detail/3119fa73-aeda-43c9-a5b9-a377402eaa24",
+                        "status":  "active",
+                        "evidence":  "Dice page renders title, Posted 2 days ago, Apply Now, no no-longer-available text"
+                    },
+                    {
+                        "company":  "Javen Technologies, Inc",
+                        "role":  "Healthcare Data Analyst - SQL Excel",
+                        "url":  "https://www.dice.com/job-detail/e130c5c4-186c-47f7-a24e-2f7ebb8b620a",
+                        "status":  "active",
+                        "evidence":  "Dice page renders title, Posted 1 day ago, Apply Now, no no-longer-available text"
+                    },
+                    {
+                        "company":  "JPC Partners",
+                        "role":  "Healthcare Data Analyst",
+                        "url":  "https://www.dice.com/job-detail/d9a3b3eb-51b8-4459-a559-e7c6230a5486",
+                        "status":  "active",
+                        "evidence":  "Dice page renders title, Posted 6 days ago, no no-longer-available text"
+                    },
+                    {
+                        "company":  "General Dynamics",
+                        "role":  "Sr. Healthcare Data Analyst (Medicaid)",
+                        "url":  "https://www.dice.com/job-detail/0829c8cb-ebfe-43e1-ab65-ecc8df659c31",
+                        "status":  "active",
+                        "evidence":  "Dice page renders title, Posted 1 day ago, Apply Now, no no-longer-available text"
+                    },
+                    {
+                        "company":  "HR Pundits",
+                        "role":  "Healthcare Data Analyst",
+                        "url":  "https://www.dice.com/job-detail/6bc93c69-d25a-4350-bf8c-f7794297eca9",
+                        "status":  "active",
+                        "evidence":  "Dice page renders title, Posted 22 hours ago, Apply, no no-longer-available text"
+                    }
+                ]
+}

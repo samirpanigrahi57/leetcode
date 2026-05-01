@@ -10,9 +10,9 @@
   "fit_score": 82,
   "posting_date": "2026-04-24",
   "last_verified_date": "2026-04-30",
-  "availability_status": "active",
-  "link_status": "working",
-  "validation_notes": "Normalized Dice URL without trailing slash loaded in browser-visible source; posted 6 days ago; no expired/closed text.",
+  "availability_status": "unavailable",
+  "link_status": "broken",
+  "validation_notes": "Rejected after user/browser check on 2026-04-30: Dice says job is no longer available.",
   "job_description": "# Healthcare Data Analyst\nCompany: JPC Partners\nSource: Dice\nEmployment type: Contract W2\nChecked: April 30, 2026\nPosted: April 24, 2026\nURL: https://www.dice.com/job-detail/d9a3b3eb-51b8-4459-a559-e7c6230a5486\n\n## Highlights\n- Remote healthcare data migration role posted 6 days ago on Dice.\n- Focuses on legacy-to-AWS healthcare data migration, profiling, source-to-target mapping, transformation rules, ETL/ELT validation, data quality, and governance.\n- Healthcare datasets include clinical, claims, provider, patient, eligibility, billing, and EHR/EMR data.\n- Requires advanced SQL, healthcare data standards, PHI/PII handling, and ETL concepts/tools.",
   "strengths": [
     "Excellent match for source-to-target mapping, ETL validation, SQL profiling, reconciliation, and healthcare data quality.",

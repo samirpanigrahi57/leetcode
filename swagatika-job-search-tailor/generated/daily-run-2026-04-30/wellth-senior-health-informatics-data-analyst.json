@@ -1,0 +1,36 @@
+{
+  "company": "Wellth",
+  "job_title": "Senior Health Informatics Data Analyst",
+  "job_url": "https://jobs.ashbyhq.com/wellth/bbd75ba0-95e7-4831-acea-0ad2b409fbf7?locationId=8cde2473-456b-459f-9300-67e15f8d9959",
+  "apply_url": "https://jobs.ashbyhq.com/wellth/bbd75ba0-95e7-4831-acea-0ad2b409fbf7?locationId=8cde2473-456b-459f-9300-67e15f8d9959",
+  "source": "Official company posting via Ashby",
+  "employment_type": "Full-time",
+  "work_mode": "Remote",
+  "location": "Remote",
+  "fit_score": 82,
+  "posting_date": "2026-04-16",
+  "last_verified_date": "2026-04-30",
+  "availability_status": "unavailable",
+  "link_status": "broken",
+  "official_site_checked": true,
+  "official_site_url": "https://jobs.ashbyhq.com/wellth/bbd75ba0-95e7-4831-acea-0ad2b409fbf7?locationId=8cde2473-456b-459f-9300-67e15f8d9959",
+  "official_site_search_notes": "Official Ashby posting found directly for Wellth Senior Health Informatics Data Analyst; search result crawled within the last two weeks and page is live.",
+  "validation_notes": "Rejected 2026-04-30: official Ashby page appears live, but no true posting date was exposed; search-result crawl freshness is not accepted as proof that the job was posted within 60 days.",
+  "job_description": "# Senior Health Informatics Data Analyst\nCompany: Wellth\nSource: Official company posting via Ashby\nEmployment type: Full-time\nChecked: April 30, 2026\nURL: https://jobs.ashbyhq.com/wellth/bbd75ba0-95e7-4831-acea-0ad2b409fbf7?locationId=8cde2473-456b-459f-9300-67e15f8d9959\n\n## Highlights\n- Remote senior health informatics data analyst role at a digital health company focused on Medicare and Medicaid populations.\n- Uses behavioral economics, habit science, and healthcare data to improve outcomes for chronic-condition populations.\n- Data Engineering & Analytics department with likely health outcomes, engagement, and analytics responsibilities.",
+  "strengths": [
+    "Strong healthcare, Medicare/Medicaid, health outcomes, analytics, and data quality alignment.",
+    "Remote full-time role with data engineering/analytics function.",
+    "Healthcare populations and outcomes themes align with payer and member data experience."
+  ],
+  "gaps": [
+    "Health informatics may require clinical terminology or informatics depth not explicit in the base resume.",
+    "Posting excerpt does not expose exact SQL/BI requirements; verify stack before applying."
+  ],
+  "notes": "Apply first/if time. Tailor toward Medicare/Medicaid analytics, health outcomes reporting, SQL data quality, and stakeholder-ready insights.",
+  "replacements": [
+    {
+      "find": "ETL Analyst | Healthcare Data Analyst | Data Quality & Warehouse Analyst",
+      "replace": "Senior Health Informatics Data Analyst | Medicare & Medicaid Analytics | SQL Data Quality"
+    }
+  ]
+}

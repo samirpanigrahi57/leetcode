@@ -1,0 +1,37 @@
+{
+  "company": "Centene Corporation",
+  "job_title": "Data Analyst II SQL, Excel, SFTP",
+  "job_url": "https://jobs.centene.com/us/en/jobs/1634956/data-analyst-ii-sql-excel-sftp/",
+  "apply_url": "https://centene.wd5.myworkdayjobs.com/en-US/CenteneExternal/job/Woodland-Hills-CA/Data-Analyst-II-SQL--Excel--SFTP_1634956",
+  "source": "Official company careers",
+  "employment_type": "Full-time",
+  "work_mode": "Remote Available / location-listed",
+  "location": "Woodland Hills, CA",
+  "fit_score": 84,
+  "posting_date": "2026-04-24",
+  "last_verified_date": "2026-04-30",
+  "availability_status": "active",
+  "link_status": "working",
+  "run_started_at": "2026-04-30T19:18:01-05:00",
+  "official_site_checked": true,
+  "official_site_url": "https://jobs.centene.com/us/en/jobs/1634956/data-analyst-ii-sql-excel-sftp/",
+  "official_site_search_notes": "Built In discovery result was checked against Centene's official career page. Official page loaded, showed Job Number 1634956, Date Posted Apr 24 2026, and Apply Now.",
+  "validation_notes": "Official Centene detail page loaded in browser-visible web check 2026-04-30; page shows Data Analyst II SQL, Excel, SFTP, Job Number 1634956, Date Posted Apr 24 2026, Remote Available, Apply Now, and no closed/unavailable text. Scripted validator receives Centene HTTP 403 bot block, so user-visible official page evidence was used.",
+  "job_description": "# Data Analyst II SQL, Excel, SFTP\nCompany: Centene Corporation\nSource: Official company careers\nEmployment type: Full-time\nChecked: April 30, 2026\nPosted: April 24, 2026\nURL: https://jobs.centene.com/us/en/jobs/1634956/data-analyst-ii-sql-excel-sftp/\n\n## Highlights\n- Healthcare analytics role in Centene's Data & Business Analytics function.\n- Remote available, with official location listed as Woodland Hills, CA.\n- Responsibilities include analyzing integrated healthcare provider, member/patient, and third-party data, supporting large-scale projects, root-cause analysis of data irregularities, process enhancements, automation, and stakeholder communication.\n- Requires SQL/query languages, Excel, large databases, data verification, data management, and preferred BI tools/Python/R.",
+  "strengths": [
+    "Strong healthcare analytics, SQL, Excel, data verification, data management, and stakeholder communication match.",
+    "Official company careers page with visible posting date and Apply Now link.",
+    "Data irregularity/root-cause and process enhancement language maps well to data quality and validation experience."
+  ],
+  "gaps": [
+    "SFTP and Python/R are preferred/visible requirements; do not overstate if not supported by the base resume.",
+    "Location is listed as Woodland Hills, CA even though the posting says Remote Available; confirm remote eligibility before applying."
+  ],
+  "notes": "Apply first. Tailor toward healthcare analytics, SQL, Excel, data verification, root-cause analysis, reporting reliability, and stakeholder-facing insights.",
+  "replacements": [
+    {
+      "find": "ETL Analyst | Healthcare Data Analyst | Data Quality & Warehouse Analyst",
+      "replace": "Healthcare Data Analyst | SQL & Excel Reporting | Data Verification"
+    }
+  ]
+}

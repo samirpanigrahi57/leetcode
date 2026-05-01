@@ -1,0 +1,36 @@
+{
+  "company": "Arcadia",
+  "job_title": "Senior Data Analyst",
+  "job_url": "https://jobs.lever.co/arcadia/0b2c9908-a2f6-46a0-82ef-8c8275a08b3b",
+  "apply_url": "https://jobs.lever.co/arcadia/0b2c9908-a2f6-46a0-82ef-8c8275a08b3b/apply",
+  "source": "Official Lever posting",
+  "employment_type": "Full-time",
+  "work_mode": "Remote",
+  "location": "Remote (USA) / Boston, MA / Washington DC",
+  "fit_score": 82,
+  "posting_date": "2026-04-29",
+  "last_verified_date": "2026-04-30",
+  "availability_status": "active",
+  "link_status": "working",
+  "official_site_checked": true,
+  "official_site_url": "https://jobs.lever.co/arcadia/0b2c9908-a2f6-46a0-82ef-8c8275a08b3b",
+  "official_site_search_notes": "Built In discovery result showed Arcadia Senior Data Analyst reposted within the current day window; official Arcadia Lever posting and application form loaded and matched the same role.",
+  "validation_notes": "Browser-visible web check loaded 2026-04-30; official Lever detail and apply pages show Senior Data Analyst, Remote (USA), application form, and no closed/unavailable text. Scripted validator receives Lever HTTP 404, so user-visible page evidence was used. Posting freshness comes from current Built In discovery result showing reposted within 1 day.",
+  "job_description": "# Senior Data Analyst\nCompany: Arcadia\nSource: Official Lever posting\nEmployment type: Full-time\nChecked: April 30, 2026\nFreshness source: Built In discovery result showed reposted within 1 day\nURL: https://jobs.lever.co/arcadia/0b2c9908-a2f6-46a0-82ef-8c8275a08b3b\nApply: https://jobs.lever.co/arcadia/0b2c9908-a2f6-46a0-82ef-8c8275a08b3b/apply\n\n## Highlights\n- Remote senior data analyst role at a healthcare data platform serving providers and payers.\n- Focuses on healthcare customer insights, population health analytics, customer datasets, data validation, dashboards, and client-facing analytics.\n- Requires healthcare data experience, claims or clinical data, value-based care, advanced SQL, data modeling, and BI tools.\n- Preferred tools include dbt, Redshift, Snowflake, Looker, QuickSight, Tableau, Power BI, FHIR, AWS, Jira, Confluence, GitHub, and Python.",
+  "strengths": [
+    "Strong healthcare data, claims/clinical, payer/provider, population health, SQL, BI, and data validation alignment.",
+    "Official Lever application form is live and user-visible.",
+    "Value-based care/customer analytics maps well to healthcare reporting and stakeholder communication."
+  ],
+  "gaps": [
+    "dbt, GitHub/Jenkins, FHIR, AWS, and Python should not be overstated unless already supported.",
+    "Client-facing value-based care SME expectations may be a stretch depending on Swagatika's exact prior exposure."
+  ],
+  "notes": "Apply first/if time. Tailor toward healthcare claims/clinical data, SQL, reporting validation, data modeling support, customer analytics, payer/provider context, and stakeholder-ready BI outputs.",
+  "replacements": [
+    {
+      "find": "ETL Analyst | Healthcare Data Analyst | Data Quality & Warehouse Analyst",
+      "replace": "Senior Healthcare Data Analyst | Claims & Clinical Analytics | SQL Data Quality"
+    }
+  ]
+}

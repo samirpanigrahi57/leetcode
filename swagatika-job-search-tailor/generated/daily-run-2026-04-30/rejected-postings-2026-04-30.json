@@ -1,0 +1,44 @@
+[
+  {
+    "company": "GitLab",
+    "job_title": "Data Analyst, Product",
+    "job_url": "https://job-boards.greenhouse.io/gitlab/jobs/8455464002",
+    "reason": "Rejected: official Greenhouse URL redirected to generic GitLab openings page with error=true, and Built In detail page says the job was removed on Apr 19, 2026."
+  },
+  {
+    "company": "Jack",
+    "job_title": "Data Analyst",
+    "job_url": "https://www.linkedin.com/jobs/view/data-analyst-at-jack-4400774957",
+    "reason": "Rejected: LinkedIn page loaded but explicitly said No longer accepting applications. Separate active job ID 4407023543 was kept."
+  },
+  {
+    "company": "Amtex Systems Inc",
+    "job_title": "Clinical Data Analyst",
+    "job_url": "https://www.linkedin.com/jobs/view/clinical-data-analyst-at-amtex-systems-inc-4346007938",
+    "reason": "Rejected: LinkedIn redirected to an expired job-search page rather than a current detail page."
+  },
+  {
+    "company": "Centene Corporation",
+    "job_title": "Data Analyst III SQL, SAS",
+    "job_url": "https://builtin.com/job/data-analyst-iii-sql-sas/8680527",
+    "reason": "Rejected: Built In detail page says the job was removed on March 10, 2026."
+  },
+  {
+    "company": "Interra Health",
+    "job_title": "Senior Data Analyst",
+    "job_url": "https://jobs.ashbyhq.com/Interrahealth/b88cf818-bd5a-428b-98b5-49ecddf9fd46",
+    "reason": "Rejected: official Ashby page appears live, but no true posting date was exposed; search-result crawl freshness is not accepted as a posting date."
+  },
+  {
+    "company": "Jump",
+    "job_title": "Data Analyst",
+    "job_url": "https://jobs.ashbyhq.com/jump-app/b34281e0-9db7-4a85-9618-98bc2a5509f5/",
+    "reason": "Rejected for this run: good broad analyst fit, but no true posting date was exposed in the result inspected."
+  },
+  {
+    "company": "Solace",
+    "job_title": "Data Analyst - Customer Experience",
+    "job_url": "https://jobs.ashbyhq.com/solace/0d10836e-2faf-4dd4-b187-9cc830e17613",
+    "reason": "Rejected for this run: relevant healthcare/broad analyst role, but no true posting date was exposed in the result inspected."
+  }
+]

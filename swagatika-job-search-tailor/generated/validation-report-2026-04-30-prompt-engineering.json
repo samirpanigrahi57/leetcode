@@ -1,0 +1,53 @@
+{
+  "run_date": "2026-04-30",
+  "checked": 3,
+  "active": 3,
+  "unavailable": 0,
+  "changed_files": [],
+  "results": [
+    {
+      "path": "generated\\daily-run-2026-04-30\\infomatics-rcm-data-analyst-sql-prompt-engineering.json",
+      "company": "Infomatics Corp",
+      "job_title": "RCM Data Analyst (SQL & Prompt Engineering)",
+      "job_url": "https://www.linkedin.com/jobs/view/rcm-data-analyst-sql-prompt-engineering-at-infomatics-corp-4393838810",
+      "status": "active",
+      "link_status": "working",
+      "availability_status": "active",
+      "posting_date": "2026-04-09",
+      "last_verified_date": "2026-04-30",
+      "notes": [
+        "detail page loaded and posting date is within 60 days"
+      ],
+      "http_status": 200,
+      "final_url": "https://www.linkedin.com/jobs/view/rcm-data-analyst-sql-prompt-engineering-at-infomatics-corp-4393838810"
+    },
+    {
+      "path": "generated\\daily-run-2026-04-30\\cei-edi-data-analyst.json",
+      "company": "Computer Enterprises, Inc. (CEI)",
+      "job_title": "EDI Data Analyst",
+      "job_url": "https://www.dice.com/job-detail/3119fa73-aeda-43c9-a5b9-a377402eaa24",
+      "status": "active",
+      "link_status": "working",
+      "availability_status": "active",
+      "posting_date": "2026-04-30",
+      "last_verified_date": "2026-04-30",
+      "notes": [
+        "scripted request returned HTTP 410; retained current manual/browser-visible validation"
+      ]
+    },
+    {
+      "path": "generated\\daily-run-2026-04-30\\lucem-health-remote-healthcare-data-analyst-clinical-insights-ai.json",
+      "company": "Lucem Health Inc.",
+      "job_title": "Remote Healthcare Data Analyst: Clinical Insights & AI",
+      "job_url": "https://www.ziprecruiter.com/c/Lucem-Health-Inc./Job/Remote-Healthcare-Data-Analyst%3A-Clinical-Insights-%26-AI/-in-Charlotte%2CNC?jid=8cbf48fa5b00173e",
+      "status": "active",
+      "link_status": "working",
+      "availability_status": "active",
+      "posting_date": "2026-04-19",
+      "last_verified_date": "2026-04-30",
+      "notes": [
+        "scripted request returned HTTP 403; retained current manual/browser-visible validation"
+      ]
+    }
+  ]
+}

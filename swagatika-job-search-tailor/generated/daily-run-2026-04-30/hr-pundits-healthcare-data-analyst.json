@@ -10,9 +10,9 @@
   "fit_score": 78,
   "posting_date": "2026-04-29",
   "last_verified_date": "2026-04-30",
-  "availability_status": "active",
-  "link_status": "working",
-  "validation_notes": "Dice detail page loaded in browser-visible source; posted 22 hours ago; Apply link present; no expired/closed text.",
+  "availability_status": "unavailable",
+  "link_status": "broken",
+  "validation_notes": "Rejected after user/browser check on 2026-04-30: Dice says job is no longer available.",
   "job_description": "# Healthcare Data Analyst\nCompany: HR Pundits\nSource: Dice\nEmployment type: Full-time\nChecked: April 30, 2026\nPosted: April 29, 2026\nURL: https://www.dice.com/job-detail/6bc93c69-d25a-4350-bf8c-f7794297eca9\n\n## Highlights\n- Healthcare data analyst role posted 22 hours ago on Dice.\n- Remote/on-site listing for Plano, TX; full-time only.\n- Requires SQL, healthcare domain experience with Medicare, Medicaid, and claims data, source-to-target mapping, and test case creation.",
   "strengths": [
     "Strong match for SQL, healthcare Medicare/Medicaid claims data, source-to-target mapping, and test case creation.",

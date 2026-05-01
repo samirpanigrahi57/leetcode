@@ -1,0 +1,36 @@
+{
+  "company": "Alignment Health",
+  "job_title": "Remote - Sr. Data Analyst - Clinical",
+  "job_url": "https://builtin.com/job/remote-sr-data-analyst-clinical/8766559",
+  "apply_url": "https://builtin.com/job/remote-sr-data-analyst-clinical/8766559",
+  "source": "Built In",
+  "employment_type": "Full-time",
+  "work_mode": "Remote / In-office",
+  "location": "The Center, IN, USA",
+  "fit_score": 79,
+  "posting_date": "2026-04-24",
+  "last_verified_date": "2026-04-30",
+  "availability_status": "active",
+  "link_status": "working",
+  "official_site_checked": true,
+  "official_site_url": "",
+  "official_site_search_notes": "Searched Alignment Health official career-site queries for the exact Sr. Data Analyst - Clinical title and related clinical analyst terms; no stable official company posting URL was found in the current result set. Built In detail page loaded and showed Reposted 6 Days Ago.",
+  "validation_notes": "Browser-visible Built In detail page loaded 2026-04-30; page shows Remote - Sr. Data Analyst - Clinical, Reposted 6 Days Ago, Apply/Continue controls, and no closed/unavailable text. Scripted validator found unrelated closed-job text in page HTML, so user-visible page evidence was used.",
+  "job_description": "# Remote - Sr. Data Analyst - Clinical\nCompany: Alignment Health\nSource: Built In\nEmployment type: Full-time\nChecked: April 30, 2026\nFreshness source: Built In detail page showed Reposted 6 Days Ago\nURL: https://builtin.com/job/remote-sr-data-analyst-clinical/8766559\n\n## Highlights\n- Senior clinical data analyst role in healthcare focused on operational reports, dashboards, performance metrics, and clinical outcomes.\n- Supports performance management initiatives across teams.\n- Health plan/clinical analytics context appears aligned with SQL, reporting, healthcare data quality, and stakeholder support.",
+  "strengths": [
+    "Healthcare clinical analytics, dashboards, performance metrics, and reporting are a strong target-role fit.",
+    "Fresh Built In discovery signal shows a very recent repost.",
+    "Clinical outcomes and performance-management language aligns with healthcare reporting and data validation."
+  ],
+  "gaps": [
+    "Official company posting was not found in the current search result set.",
+    "Built In detail should be checked manually before applying because the final apply path may require account or external redirect."
+  ],
+  "notes": "Apply if time after official-link roles. Tailor toward healthcare reporting, clinical outcomes metrics, SQL validation, dashboards, and stakeholder-ready operational analytics.",
+  "replacements": [
+    {
+      "find": "ETL Analyst | Healthcare Data Analyst | Data Quality & Warehouse Analyst",
+      "replace": "Clinical Data Analyst | Healthcare Reporting | SQL Data Quality"
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "company": "GitLab",
+  "job_title": "Data Analyst, Product",
+  "job_url": "https://job-boards.greenhouse.io/gitlab/jobs/8455464002",
+  "apply_url": "https://job-boards.greenhouse.io/gitlab/jobs/8455464002",
+  "source": "Official Greenhouse posting",
+  "employment_type": "Full-time",
+  "work_mode": "Remote",
+  "location": "Remote, North America",
+  "fit_score": 78,
+  "posting_date": "2026-04-23",
+  "last_verified_date": "2026-04-30",
+  "availability_status": "unavailable",
+  "link_status": "broken",
+  "run_started_at": "2026-04-30T19:18:01-05:00",
+  "official_site_checked": true,
+  "official_site_url": "https://job-boards.greenhouse.io/gitlab/jobs/8455464002",
+  "official_site_search_notes": "Built In discovery result for GitLab Data Analyst, Product was checked against GitLab's official Greenhouse posting. The official Greenhouse page loaded and displayed an Apply form.",
+  "validation_notes": "Rejected 2026-04-30: official Greenhouse job URL redirects to generic GitLab openings page with error=true, and Built In detail page says this job was removed on Apr 19, 2026.",
+  "job_description": "# Data Analyst, Product\nCompany: GitLab\nSource: Official Greenhouse posting\nEmployment type: Full-time\nChecked: April 30, 2026\nFreshness source: Built In discovery result showed Reposted 7 Days Ago\nURL: https://job-boards.greenhouse.io/gitlab/jobs/8455464002\n\n## Highlights\n- Remote product data analyst role supporting Product Managers, Engineering, UX, and leadership.\n- Work includes defining analytical approaches, gathering data from multiple sources, product usage/customer behavior analysis, reporting for new products and features, and data model collaboration.\n- Requires advanced SQL, BI dashboards/visualizations, Tableau or similar, product/engineering stakeholder partnership, data modeling support, A/B testing, and clear communication.\n- Strong broad analyst fit, but not healthcare-specific.",
+  "strengths": [
+    "Strong SQL, BI/dashboarding, stakeholder analytics, product metrics, and data modeling support alignment.",
+    "Official Greenhouse application page is available.",
+    "Remote role with clear data storytelling and cross-functional analytics responsibilities."
+  ],
+  "gaps": [
+    "Product analytics, instrumentation, and A/B testing may be adjacent rather than direct experience.",
+    "No healthcare/payer/claims domain signal; score is lower than healthcare roles."
+  ],
+  "notes": "Apply if time. Tailor toward SQL, reporting, Power BI/dashboarding, stakeholder communication, data quality, and cross-functional analysis. Keep product experimentation/A-B testing as an interest or adjacent skill unless directly supported.",
+  "replacements": [
+    {
+      "find": "ETL Analyst | Healthcare Data Analyst | Data Quality & Warehouse Analyst",
+      "replace": "Product Data Analyst | SQL Reporting | BI & Data Quality"
+    }
+  ]
+}

@@ -2,22 +2,25 @@
 
 | Company | Role | Source | Type | Work Mode | Location | Score | Apply Link | Resume Folder |
 |---|---|---|---|---|---|---:|---|---|
-| People Force Consulting Inc | Healthcare Data Analyst with Population Health | Dice | Contract W2 / Contract Corp To Corp | Remote | Remote | 86 | [Apply](https://www.dice.com/job-detail/eeda7e98-531e-4e24-bec2-915f1b1b9025) | [jobs_application/People Force Consulting Inc/healthcare-data-analyst-with-population-health](<C:/Users/samir/Documents/swagatika/jobs_application/People Force Consulting Inc/healthcare-data-analyst-with-population-health>) |
-| Javen Technologies, Inc | Healthcare Data Analyst - SQL Excel | Dice | Contract W2 / Contract Independent | Remote | Remote | 84 | [Apply](https://www.dice.com/job-detail/e130c5c4-186c-47f7-a24e-2f7ebb8b620a) | [jobs_application/Javen Technologies, Inc/healthcare-data-analyst-sql-excel](<C:/Users/samir/Documents/swagatika/jobs_application/Javen Technologies, Inc/healthcare-data-analyst-sql-excel>) |
-| JPC Partners | Healthcare Data Analyst | Dice | Contract W2 | Remote | Remote | 82 | [Apply](https://www.dice.com/job-detail/d9a3b3eb-51b8-4459-a559-e7c6230a5486) | [jobs_application/JPC Partners/healthcare-data-analyst](<C:/Users/samir/Documents/swagatika/jobs_application/JPC Partners/healthcare-data-analyst>) |
+| Geisinger | Healthcare Data Analyst III (Remote Capable) | Official company careers | Full-time | Remote capable | Work from Home / Danville, PA | 86 | [Apply](https://jobs.geisinger.org/job/danville/healthcare-data-analyst-iii-remote-capable/12064/93499785760) | [jobs_application/Geisinger/healthcare-data-analyst-iii-remote-capable](<C:/Users/samir/Documents/swagatika/jobs_application/Geisinger/healthcare-data-analyst-iii-remote-capable>) |
+| Centene Corporation | Data Analyst II SQL, Excel, SFTP | Official company careers | Full-time | Remote Available / location-listed | Woodland Hills, CA | 84 | [Apply](https://jobs.centene.com/us/en/jobs/1634956/data-analyst-ii-sql-excel-sftp/) | [jobs_application/Centene Corporation/data-analyst-ii-sql-excel-sftp](<C:/Users/samir/Documents/swagatika/jobs_application/Centene Corporation/data-analyst-ii-sql-excel-sftp>) |
+| mPulse Mobile | Sr Data Analyst | Indeed | Full-time | Remote | Remote, USA | 84 | [Apply](https://www.indeed.com/viewjob?jk=127ec4f2c3b2c16c) | [jobs_application/mPulse Mobile/sr-data-analyst](<C:/Users/samir/Documents/swagatika/jobs_application/mPulse Mobile/sr-data-analyst>) |
+| Arcadia | Senior Data Analyst | Official Lever posting | Full-time | Remote | Remote (USA) / Boston, MA / Washington DC | 82 | [Apply](https://jobs.lever.co/arcadia/0b2c9908-a2f6-46a0-82ef-8c8275a08b3b) | [jobs_application/Arcadia/senior-data-analyst](<C:/Users/samir/Documents/swagatika/jobs_application/Arcadia/senior-data-analyst>) |
 
 **Apply If Time**
 
 | Company | Role | Source | Type | Work Mode | Location | Score | Apply Link | Resume Folder |
 |---|---|---|---|---|---|---:|---|---|
 | General Dynamics | Sr. Healthcare Data Analyst (Medicaid) | Dice | Full-time | Remote | Any Location / Remote | 80 | [Apply](https://www.dice.com/job-detail/0829c8cb-ebfe-43e1-ab65-ecc8df659c31) | [jobs_application/General Dynamics/sr-healthcare-data-analyst-medicaid](<C:/Users/samir/Documents/swagatika/jobs_application/General Dynamics/sr-healthcare-data-analyst-medicaid>) |
-| HR Pundits | Healthcare Data Analyst | Dice | Full-time | Remote / On-site | Remote or Plano, TX | 78 | [Apply](https://www.dice.com/job-detail/6bc93c69-d25a-4350-bf8c-f7794297eca9) | [jobs_application/HR Pundits/healthcare-data-analyst](<C:/Users/samir/Documents/swagatika/jobs_application/HR Pundits/healthcare-data-analyst>) |
+| Alignment Health | Remote - Sr. Data Analyst - Clinical | Built In | Full-time | Remote / In-office | The Center, IN, USA | 79 | [Apply](https://builtin.com/job/remote-sr-data-analyst-clinical/8766559) | [jobs_application/Alignment Health/remote-sr-data-analyst-clinical](<C:/Users/samir/Documents/swagatika/jobs_application/Alignment Health/remote-sr-data-analyst-clinical>) |
+| Infomatics Corp | RCM Data Analyst (SQL & Prompt Engineering) | LinkedIn; matching Dice listing found | Contract | Remote | United States | 78 | [Apply](https://www.linkedin.com/jobs/view/rcm-data-analyst-sql-prompt-engineering-at-infomatics-corp-4393838810) | [jobs_application/Infomatics Corp/rcm-data-analyst-sql-prompt-engineering](<C:/Users/samir/Documents/swagatika/jobs_application/Infomatics Corp/rcm-data-analyst-sql-prompt-engineering>) |
+| Pager Health | Clinical Data Analyst | Built In | Full-time | Remote | United States | 76 | [Apply](https://builtin.com/job/clinical-data-analyst/8829683) | [jobs_application/Pager Health/clinical-data-analyst](<C:/Users/samir/Documents/swagatika/jobs_application/Pager Health/clinical-data-analyst>) |
 
 **Skip / Stretch**
 
 | Company | Role | Source | Type | Work Mode | Location | Score | Apply Link | Resume Folder |
 |---|---|---|---|---|---|---:|---|---|
-| None | None | None | None | None | None | N/A | None | None |
+| Jack | Data Analyst | LinkedIn | Full-time | Unknown | United States | 72 | [Apply](https://www.linkedin.com/jobs/view/4407023543) | [jobs_application/Jack/data-analyst](<C:/Users/samir/Documents/swagatika/jobs_application/Jack/data-analyst>) |
 
 **Below 65**
 

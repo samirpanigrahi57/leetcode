@@ -1,0 +1,36 @@
+{
+  "company": "mPulse Mobile",
+  "job_title": "Sr Data Analyst",
+  "job_url": "https://www.indeed.com/viewjob?jk=127ec4f2c3b2c16c",
+  "apply_url": "https://www.indeed.com/viewjob?jk=127ec4f2c3b2c16c",
+  "source": "Indeed",
+  "employment_type": "Full-time",
+  "work_mode": "Remote",
+  "location": "Remote, USA",
+  "fit_score": 84,
+  "posting_date": "2026-03-30",
+  "last_verified_date": "2026-04-30",
+  "availability_status": "active",
+  "link_status": "working",
+  "official_site_checked": true,
+  "official_site_url": "",
+  "official_site_search_notes": "Searched mPulse official career references for requisition SRDAT001313 and role title; no stable official company apply URL was found in the current result set. Indeed detail page loaded and provides company-site apply path.",
+  "validation_notes": "Browser-visible web check loaded 2026-04-30; page shows Sr Data Analyst, Posted March 30, 2026, requisition SRDAT001313, Remote, Apply on company site, and no closed/unavailable text. Scripted validator receives Indeed HTTP 403 bot block, so user-visible page evidence was used.",
+  "job_description": "# Sr Data Analyst\nCompany: mPulse Mobile\nSource: Indeed\nEmployment type: Full-time\nChecked: April 30, 2026\nPosted: March 30, 2026\nURL: https://www.indeed.com/viewjob?jk=127ec4f2c3b2c16c\n\n## Highlights\n- Remote senior healthcare data analyst role focused on healthcare data migration from legacy systems to AWS cloud environments.\n- Responsibilities include data discovery, profiling, gap analysis, source-to-target mapping, transformation rules, and pre/post migration validation.\n- Works with clinical, claims, provider, patient, billing, eligibility, EHR/EMR, and payer data.\n- Requires advanced SQL, data quality rules, ETL/ELT validation, dashboards, documentation, and PHI/PII compliance awareness.",
+  "strengths": [
+    "Excellent alignment with ETL validation, source-to-target mapping, SQL reconciliation, data quality rules, and healthcare datasets.",
+    "Remote role with claims, eligibility, provider, patient, EHR/EMR, billing, and payer-system language.",
+    "Migration validation and documentation map directly to data warehouse QA strengths."
+  ],
+  "gaps": [
+    "Role asks for 10+ years, AWS cloud migration, and specific AWS services; do not overstate unsupported cloud depth.",
+    "Healthcare standards such as HL7/FHIR/ICD/CPT should be listed as exposure only if supported by the base resume."
+  ],
+  "notes": "Apply first if comfortable with a senior stretch. Tailor toward SQL validation, source-to-target mapping, healthcare ETL, PHI/PII care, data quality rules, and migration reconciliation. Keep AWS as adjacent unless directly supported.",
+  "replacements": [
+    {
+      "find": "ETL Analyst | Healthcare Data Analyst | Data Quality & Warehouse Analyst",
+      "replace": "Senior Healthcare Data Analyst | ETL Validation | SQL Data Quality"
+    }
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "run_date": "2026-04-30",
+  "checked": 3,
+  "active": 2,
+  "unavailable": 1,
+  "changed_files": [
+    "generated\\daily-run-2026-04-30\\jack-data-analyst.json",
+    "generated\\daily-run-2026-04-30\\centene-data-analyst-ii-sql-excel-sftp.json",
+    "generated\\daily-run-2026-04-30\\gitlab-data-analyst-product.json"
+  ],
+  "results": [
+    {
+      "path": "generated\\daily-run-2026-04-30\\jack-data-analyst.json",
+      "company": "Jack",
+      "job_title": "Data Analyst",
+      "job_url": "https://www.linkedin.com/jobs/view/4407023543",
+      "status": "active",
+      "link_status": "working",
+      "availability_status": "active",
+      "posting_date": "2026-04-30",
+      "last_verified_date": "2026-04-30",
+      "notes": [
+        "detail page loaded and posting date is within 60 days"
+      ],
+      "http_status": 200,
+      "final_url": "https://www.linkedin.com/jobs/view/4407023543"
+    },
+    {
+      "path": "generated\\daily-run-2026-04-30\\centene-data-analyst-ii-sql-excel-sftp.json",
+      "company": "Centene Corporation",
+      "job_title": "Data Analyst II SQL, Excel, SFTP",
+      "job_url": "https://jobs.centene.com/us/en/jobs/1634956/data-analyst-ii-sql-excel-sftp/",
+      "status": "unavailable",
+      "link_status": "broken",
+      "availability_status": "unavailable",
+      "posting_date": "2026-04-24",
+      "last_verified_date": "2026-04-30",
+      "notes": [
+        "http status 403"
+      ],
+      "http_status": 403,
+      "final_url": "https://jobs.centene.com/us/en/jobs/1634956/data-analyst-ii-sql-excel-sftp/"
+    },
+    {
+      "path": "generated\\daily-run-2026-04-30\\gitlab-data-analyst-product.json",
+      "company": "GitLab",
+      "job_title": "Data Analyst, Product",
+      "job_url": "https://job-boards.greenhouse.io/gitlab/jobs/8455464002",
+      "status": "active",
+      "link_status": "working",
+      "availability_status": "active",
+      "posting_date": "2026-04-23",
+      "last_verified_date": "2026-04-30",
+      "notes": [
+        "detail page loaded and posting date is within 60 days"
+      ],
+      "http_status": 200,
+      "final_url": "https://job-boards.greenhouse.io/gitlab?error=true"
+    }
+  ]
+}

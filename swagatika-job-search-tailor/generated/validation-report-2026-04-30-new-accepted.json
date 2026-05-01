@@ -1,0 +1,95 @@
+{
+  "run_date": "2026-04-30",
+  "checked": 5,
+  "active": 1,
+  "unavailable": 4,
+  "changed_files": [
+    "generated\\daily-run-2026-04-30\\geisinger-healthcare-data-analyst-iii-remote-capable.json",
+    "generated\\daily-run-2026-04-30\\mpulse-mobile-sr-data-analyst.json",
+    "generated\\daily-run-2026-04-30\\arcadia-senior-data-analyst.json",
+    "generated\\daily-run-2026-04-30\\alignment-health-remote-sr-data-analyst-clinical.json",
+    "generated\\daily-run-2026-04-30\\pager-health-clinical-data-analyst.json"
+  ],
+  "results": [
+    {
+      "path": "generated\\daily-run-2026-04-30\\geisinger-healthcare-data-analyst-iii-remote-capable.json",
+      "company": "Geisinger",
+      "job_title": "Healthcare Data Analyst III (Remote Capable)",
+      "job_url": "https://jobs.geisinger.org/job/danville/healthcare-data-analyst-iii-remote-capable/12064/93499785760",
+      "status": "active",
+      "link_status": "working",
+      "availability_status": "active",
+      "posting_date": "2026-04-02",
+      "last_verified_date": "2026-04-30",
+      "notes": [
+        "detail page loaded and posting date is within 60 days"
+      ],
+      "http_status": 200,
+      "final_url": "https://jobs.geisinger.org/job/danville/healthcare-data-analyst-iii-remote-capable/12064/93499785760"
+    },
+    {
+      "path": "generated\\daily-run-2026-04-30\\mpulse-mobile-sr-data-analyst.json",
+      "company": "mPulse Mobile",
+      "job_title": "Sr Data Analyst",
+      "job_url": "https://www.indeed.com/viewjob?jk=127ec4f2c3b2c16c",
+      "status": "unavailable",
+      "link_status": "broken",
+      "availability_status": "unavailable",
+      "posting_date": "2026-03-30",
+      "last_verified_date": "2026-04-30",
+      "notes": [
+        "http status 403"
+      ],
+      "http_status": 403,
+      "final_url": "https://www.indeed.com/viewjob?jk=127ec4f2c3b2c16c"
+    },
+    {
+      "path": "generated\\daily-run-2026-04-30\\arcadia-senior-data-analyst.json",
+      "company": "Arcadia",
+      "job_title": "Senior Data Analyst",
+      "job_url": "https://jobs.lever.co/arcadia/0b2c9908-a2f6-46a0-82ef-8c8275a08b3b",
+      "status": "unavailable",
+      "link_status": "broken",
+      "availability_status": "unavailable",
+      "posting_date": "2026-04-29",
+      "last_verified_date": "2026-04-30",
+      "notes": [
+        "http status 404"
+      ],
+      "http_status": 404,
+      "final_url": "https://jobs.lever.co/arcadia/0b2c9908-a2f6-46a0-82ef-8c8275a08b3b"
+    },
+    {
+      "path": "generated\\daily-run-2026-04-30\\alignment-health-remote-sr-data-analyst-clinical.json",
+      "company": "Alignment Health",
+      "job_title": "Remote - Sr. Data Analyst - Clinical",
+      "job_url": "https://builtin.com/job/remote-sr-data-analyst-clinical/8766559",
+      "status": "unavailable",
+      "link_status": "broken",
+      "availability_status": "unavailable",
+      "posting_date": "2026-04-24",
+      "last_verified_date": "2026-04-30",
+      "notes": [
+        "page contains expired/closed-job text"
+      ],
+      "http_status": 200,
+      "final_url": "https://builtin.com/job/remote-sr-data-analyst-clinical/8766559"
+    },
+    {
+      "path": "generated\\daily-run-2026-04-30\\pager-health-clinical-data-analyst.json",
+      "company": "Pager Health",
+      "job_title": "Clinical Data Analyst",
+      "job_url": "https://builtin.com/job/clinical-data-analyst/8829683",
+      "status": "unavailable",
+      "link_status": "broken",
+      "availability_status": "unavailable",
+      "posting_date": "2026-04-18",
+      "last_verified_date": "2026-04-30",
+      "notes": [
+        "page contains expired/closed-job text"
+      ],
+      "http_status": 200,
+      "final_url": "https://builtin.com/job/clinical-data-analyst/8829683"
+    }
+  ]
+}

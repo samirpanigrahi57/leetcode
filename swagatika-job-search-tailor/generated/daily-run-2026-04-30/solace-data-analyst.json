@@ -1,0 +1,36 @@
+{
+  "company": "Solace",
+  "job_title": "Data Analyst",
+  "job_url": "https://jobs.ashbyhq.com/solace/d33b9659-7c3d-48a9-9a24-dd0f903e3a03/",
+  "apply_url": "https://jobs.ashbyhq.com/solace/d33b9659-7c3d-48a9-9a24-dd0f903e3a03/",
+  "source": "Official company posting via Ashby",
+  "employment_type": "Full-time",
+  "work_mode": "Remote",
+  "location": "United States",
+  "fit_score": 78,
+  "posting_date": "2026-04-16",
+  "last_verified_date": "2026-04-30",
+  "availability_status": "unavailable",
+  "link_status": "broken",
+  "official_site_checked": true,
+  "official_site_url": "https://jobs.ashbyhq.com/solace/d33b9659-7c3d-48a9-9a24-dd0f903e3a03/",
+  "official_site_search_notes": "Official Ashby posting found directly for Solace Data Analyst; search result crawled within the last two weeks and page is live.",
+  "validation_notes": "Rejected 2026-04-30: official Ashby page appears live, but no true posting date was exposed; search-result crawl freshness is not accepted as proof that the job was posted within 60 days.",
+  "job_description": "# Data Analyst\nCompany: Solace\nSource: Official company posting via Ashby\nEmployment type: Full-time\nChecked: April 30, 2026\nURL: https://jobs.ashbyhq.com/solace/d33b9659-7c3d-48a9-9a24-dd0f903e3a03/\n\n## Highlights\n- Remote United States full-time Data Analyst role at a healthcare advocacy/telehealth company.\n- Role is in the Data department and supports operational excellence, scalable analytics systems, and business decision-making.\n- Healthcare context includes helping patients navigate care and improve outcomes.",
+  "strengths": [
+    "Remote full-time healthcare data role with operational analytics and scalable reporting themes.",
+    "Good match for SQL/reporting, stakeholder support, and data quality positioning.",
+    "Health navigation domain aligns adjacent to payer/member experience."
+  ],
+  "gaps": [
+    "Posting excerpt does not expose detailed required tools; verify SQL/BI stack before applying.",
+    "Less explicit payer/claims/ETL validation than strongest target roles."
+  ],
+  "notes": "Apply if time. Tailor toward healthcare operations analytics, SQL reporting, scalable dashboards, stakeholder insights, and data quality.",
+  "replacements": [
+    {
+      "find": "ETL Analyst | Healthcare Data Analyst | Data Quality & Warehouse Analyst",
+      "replace": "Healthcare Data Analyst | Operations Analytics | SQL Reporting"
+    }
+  ]
+}

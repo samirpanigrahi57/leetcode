@@ -1,0 +1,36 @@
+{
+  "company": "Geisinger",
+  "job_title": "Healthcare Data Analyst III (Remote Capable)",
+  "job_url": "https://jobs.geisinger.org/job/danville/healthcare-data-analyst-iii-remote-capable/12064/93499785760",
+  "apply_url": "https://geisinger.wd5.myworkdayjobs.com/en-US/GeisingerExternal/job/Healthcare-Data-Analyst-III--Remote-Capable-_R-94243",
+  "source": "Official company careers",
+  "employment_type": "Full-time",
+  "work_mode": "Remote capable",
+  "location": "Work from Home / Danville, PA",
+  "fit_score": 86,
+  "posting_date": "2026-04-02",
+  "last_verified_date": "2026-04-30",
+  "availability_status": "active",
+  "link_status": "working",
+  "official_site_checked": true,
+  "official_site_url": "https://jobs.geisinger.org/job/danville/healthcare-data-analyst-iii-remote-capable/12064/93499785760",
+  "official_site_search_notes": "Found official Geisinger careers page and Workday apply link for requisition R-94243. The official page shows Date posted 04/02/2026 and an Apply link.",
+  "validation_notes": "detail page loaded and posting date is within 60 days",
+  "job_description": "# Healthcare Data Analyst III (Remote Capable)\nCompany: Geisinger\nSource: Official company careers\nEmployment type: Full-time\nChecked: April 30, 2026\nPosted: April 2, 2026\nURL: https://jobs.geisinger.org/job/danville/healthcare-data-analyst-iii-remote-capable/12064/93499785760\nApply: https://geisinger.wd5.myworkdayjobs.com/en-US/GeisingerExternal/job/Healthcare-Data-Analyst-III--Remote-Capable-_R-94243\n\n## Highlights\n- Remote-capable healthcare data analyst role supporting research analytics.\n- Requires SQL and/or SAS programming with large relational database models.\n- Uses EHR or healthcare claims data, preferably Epic Clarity, for research and healthcare analytics.\n- Focuses on complex data extraction, manipulation, summarization, validation, data integrity, and stakeholder communication.",
+  "strengths": [
+    "Very strong match for healthcare data, SQL, claims/EHR analytics, data validation, and reporting reliability.",
+    "Remote-capable official posting with visible apply link and requisition ID.",
+    "Data integrity, validation, and complex dataset work align closely with ETL/data quality background."
+  ],
+  "gaps": [
+    "SAS and Epic Clarity should be treated as adjacent or preferred unless directly supported in the base resume.",
+    "Research analytics framing may need a resume emphasis on analytical datasets and stakeholder-ready findings."
+  ],
+  "notes": "Apply first. Tailor toward healthcare claims/EHR data, SQL, data extraction, validation, reporting accuracy, and complex source-system reconciliation. Do not claim SAS or Epic Clarity unless already in the base resume.",
+  "replacements": [
+    {
+      "find": "ETL Analyst | Healthcare Data Analyst | Data Quality & Warehouse Analyst",
+      "replace": "Healthcare Data Analyst | SQL Data Quality | Clinical & Claims Analytics"
+    }
+  ]
+}

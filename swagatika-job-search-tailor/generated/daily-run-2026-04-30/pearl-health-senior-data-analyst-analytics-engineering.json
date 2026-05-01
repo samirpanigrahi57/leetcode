@@ -1,0 +1,36 @@
+{
+  "company": "Pearl Health",
+  "job_title": "Senior Data Analyst, Analytics Engineering",
+  "job_url": "https://jobs.ashbyhq.com/pearlhealth/4832509b-c607-4801-af71-5d361ed365fd/",
+  "apply_url": "https://jobs.ashbyhq.com/pearlhealth/4832509b-c607-4801-af71-5d361ed365fd/",
+  "source": "Official company posting via Ashby",
+  "employment_type": "Full-time",
+  "work_mode": "Remote",
+  "location": "New York City, Boston, or Remote",
+  "fit_score": 80,
+  "posting_date": "2026-04-16",
+  "last_verified_date": "2026-04-30",
+  "availability_status": "unavailable",
+  "link_status": "broken",
+  "official_site_checked": true,
+  "official_site_url": "https://jobs.ashbyhq.com/pearlhealth/4832509b-c607-4801-af71-5d361ed365fd/",
+  "official_site_search_notes": "Official Ashby posting found directly for Pearl Health Senior Data Analyst, Analytics Engineering; search result crawled within the last two weeks and page is live.",
+  "validation_notes": "Rejected 2026-04-30: official Ashby page appears live, but no true posting date was exposed; search-result crawl freshness is not accepted as proof that the job was posted within 60 days.",
+  "job_description": "# Senior Data Analyst, Analytics Engineering\nCompany: Pearl Health\nSource: Official company posting via Ashby\nEmployment type: Full-time\nChecked: April 30, 2026\nURL: https://jobs.ashbyhq.com/pearlhealth/4832509b-c607-4801-af71-5d361ed365fd/\n\n## Highlights\n- Remote or hybrid senior data analyst role at a value-based care / primary care healthtech company.\n- Focuses on trusted data models, clinical outcomes, P&L, BI tools, patient spend, practice engagement, network analytics, documentation, Git-based workflow, testing, and CI/CD for analytics pipelines.\n- Healthcare context includes Traditional Medicare and Medicare Advantage performance.",
+  "strengths": [
+    "Strong healthtech, Medicare/Medicare Advantage, data modeling, BI, data quality, and analytics governance alignment.",
+    "Trusted datasets and quality/testing language maps to ETL validation and data reconciliation experience.",
+    "Remote option and healthcare outcomes focus are strong."
+  ],
+  "gaps": [
+    "Analytics engineering expectations such as Git-based workflow, automated testing, and CI/CD are beyond the base resume and should be framed as adjacent or learning areas.",
+    "Senior role may require stronger modeling/dbt ownership than currently supported."
+  ],
+  "notes": "Apply if time. Tailor toward healthcare data quality, BI/reporting validation, trusted data models, Medicare Advantage analytics, and cross-functional stakeholder support.",
+  "replacements": [
+    {
+      "find": "ETL Analyst | Healthcare Data Analyst | Data Quality & Warehouse Analyst",
+      "replace": "Senior Healthcare Data Analyst | Analytics Engineering | SQL Data Quality"
+    }
+  ]
+}

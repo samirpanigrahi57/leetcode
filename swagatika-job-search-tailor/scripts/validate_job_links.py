@@ -22,8 +22,28 @@ EXPIRED_PATTERNS = [
     "not accepting applications",
     "position has been filled",
     "this position is no longer available",
+    "this job was removed",
+    "job was removed",
+    "this job posting has been removed",
+    "posting has been removed",
     "404 not found",
     "page not found",
+]
+
+HARD_EXPIRED_PATTERNS = [
+    "sorry this job is no longer available",
+    "this job has expired",
+    "the job is no longer available",
+    "this position is no longer available",
+]
+
+OPEN_JOB_SIGNALS = [
+    "apply now",
+    "apply save",
+    "apply instructions",
+    "apply for this job",
+    "submit your application",
+    "apply on company site",
 ]
 
 KNOWN_CLOSED_URL_PARTS = [
@@ -140,37 +160,6 @@ def parse_deadline(text: str) -> date | None:
     return None
 
 
-def has_current_manual_validation(record: dict, run_date: date) -> bool:
-    notes = str(record.get("validation_notes", "")).lower()
-    if "browser-visible" not in notes and "manual" not in notes:
-        return False
-    if str(record.get("availability_status", "")).strip().lower() != "active":
-        return False
-    if str(record.get("link_status", "")).strip().lower() != "working":
-        return False
-
-    posting_date = parse_iso_date(record.get("posting_date"))
-    if posting_date is None:
-        return False
-    age_days = (run_date - posting_date).days
-    return 0 <= age_days <= MAX_POSTING_AGE_DAYS
-
-
-def active_result_from_manual_validation(record: dict, path: Path, run_date: date, note: str) -> dict:
-    return {
-        "path": str(path),
-        "company": record.get("company", ""),
-        "job_title": record.get("job_title", ""),
-        "job_url": str(record.get("job_url") or record.get("apply_url") or "").strip(),
-        "status": "active",
-        "link_status": "working",
-        "availability_status": "active",
-        "posting_date": record.get("posting_date", ""),
-        "last_verified_date": run_date.isoformat(),
-        "notes": [note],
-    }
-
-
 def validate_record(record: dict, path: Path, run_date: date) -> dict:
     url = str(record.get("job_url") or record.get("apply_url") or "").strip()
     result = {
@@ -201,27 +190,21 @@ def validate_record(record: dict, path: Path, run_date: date) -> dict:
     text = strip_html(html).lower()
 
     if status_code is None:
-        if has_current_manual_validation(record, run_date):
-            return active_result_from_manual_validation(
-                record,
-                path,
-                run_date,
-                f"scripted request failed ({final_url}); retained current manual/browser-visible validation",
-            )
         result["notes"].append(f"request failed: {final_url}")
         return result
     if status_code >= 400:
-        if has_current_manual_validation(record, run_date):
-            return active_result_from_manual_validation(
-                record,
-                path,
-                run_date,
-                f"scripted request returned HTTP {status_code}; retained current manual/browser-visible validation",
-            )
         result["notes"].append(f"http status {status_code}")
         return result
-    if any(pattern in text for pattern in EXPIRED_PATTERNS):
-        result["notes"].append("page contains expired/closed-job text")
+    expired_matches = [pattern for pattern in EXPIRED_PATTERNS if pattern in text]
+    title_present = str(record.get("job_title", "")).strip().lower() in text
+    company_present = str(record.get("company", "")).strip().lower() in text
+    open_signal_present = any(pattern in text for pattern in OPEN_JOB_SIGNALS)
+    hard_expired_match = any(pattern in text for pattern in HARD_EXPIRED_PATTERNS)
+    if "error=true" in final_url.lower() and not title_present:
+        result["notes"].append("redirected to generic error/search page")
+        return result
+    if expired_matches and (hard_expired_match or not (title_present and company_present and open_signal_present)):
+        result["notes"].append(f"page contains expired/closed-job text: {', '.join(expired_matches[:3])}")
         return result
 
     deadline = parse_deadline(text)

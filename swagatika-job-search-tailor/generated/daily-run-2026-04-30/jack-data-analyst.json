@@ -1,0 +1,37 @@
+{
+  "company": "Jack",
+  "job_title": "Data Analyst",
+  "job_url": "https://www.linkedin.com/jobs/view/4407023543",
+  "apply_url": "https://www.linkedin.com/jobs/view/4407023543",
+  "source": "LinkedIn",
+  "employment_type": "Full-time",
+  "work_mode": "Unknown",
+  "location": "United States",
+  "fit_score": 72,
+  "posting_date": "2026-04-30",
+  "last_verified_date": "2026-04-30",
+  "availability_status": "active",
+  "link_status": "working",
+  "run_started_at": "2026-04-30T19:18:01-05:00",
+  "official_site_checked": true,
+  "official_site_url": "",
+  "official_site_search_notes": "Searched for an official Jack careers posting for the exact Data Analyst role; no stable official company apply URL was found. LinkedIn page was checked directly because user reported this missed job ID.",
+  "validation_notes": "detail page loaded and posting date is within 60 days",
+  "job_description": "# Data Analyst\nCompany: Jack\nSource: LinkedIn\nEmployment type: Full-time\nChecked: April 30, 2026\nPosted: April 30, 2026, shown as 9 hours ago during direct page check\nURL: https://www.linkedin.com/jobs/view/4407023543\n\n## Highlights\n- Broad Data Analyst role focused on turning data into decision-ready insights.\n- Responsibilities include collecting, analyzing, and interpreting data, building dashboards and reports, tracking KPIs, identifying trends, and working cross-functionally.\n- Requires SQL and Excel, with BI tools such as Tableau, Looker, or Power BI; Python or R is a plus.\n- Strong fit for reporting, stakeholder analytics, data integrity, and dashboarding, but no healthcare/claims domain signal was visible.",
+  "strengths": [
+    "Strong match for SQL, Excel, dashboards, reporting, KPI tracking, stakeholder analytics, and data integrity.",
+    "Fresh LinkedIn posting and not previously present in seen_job_urls.json.",
+    "Broad analyst role added because the updated skill now requires generic Data Analyst coverage."
+  ],
+  "gaps": [
+    "No healthcare, payer, claims, ETL validation, or RCM domain signal was visible.",
+    "Work mode is not clearly visible from the public LinkedIn page; treat as Unknown until confirmed."
+  ],
+  "notes": "Apply if time after healthcare/payer roles. Tailor toward SQL, Excel, Power BI/reporting, KPI dashboards, stakeholder insights, and data accuracy. Do not imply healthcare domain for this role.",
+  "replacements": [
+    {
+      "find": "ETL Analyst | Healthcare Data Analyst | Data Quality & Warehouse Analyst",
+      "replace": "Data Analyst | SQL Reporting | Dashboard & Data Quality"
+    }
+  ]
+}

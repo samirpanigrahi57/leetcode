@@ -1,0 +1,36 @@
+{
+  "company": "Interra Health",
+  "job_title": "Senior Data Analyst",
+  "job_url": "https://jobs.ashbyhq.com/Interrahealth/b88cf818-bd5a-428b-98b5-49ecddf9fd46",
+  "apply_url": "https://jobs.ashbyhq.com/Interrahealth/b88cf818-bd5a-428b-98b5-49ecddf9fd46",
+  "source": "Official company posting via Ashby",
+  "employment_type": "Full-time",
+  "work_mode": "Remote",
+  "location": "USA - Remote",
+  "fit_score": 83,
+  "posting_date": "2026-04-29",
+  "last_verified_date": "2026-04-30",
+  "availability_status": "unavailable",
+  "link_status": "broken",
+  "official_site_checked": true,
+  "official_site_url": "https://jobs.ashbyhq.com/Interrahealth/b88cf818-bd5a-428b-98b5-49ecddf9fd46",
+  "official_site_search_notes": "Official Ashby posting found directly for Interra Health Senior Data Analyst; search result crawled yesterday and page is live.",
+  "validation_notes": "Rejected 2026-04-30: official Ashby page appears live, but no true posting date was exposed; search-result crawl freshness is not accepted as proof that the job was posted within 60 days.",
+  "job_description": "# Senior Data Analyst\nCompany: Interra Health\nSource: Official company posting via Ashby\nEmployment type: Full-time\nChecked: April 30, 2026\nURL: https://jobs.ashbyhq.com/Interrahealth/b88cf818-bd5a-428b-98b5-49ecddf9fd46\n\n## Highlights\n- Remote US senior data analyst role at a healthcare technology company formed from DoseSpot, Arrive Health, and pVerify.\n- Healthcare domain includes eligibility, real-time coverage and pricing insights, prescribing tools, pharmacy transparency, and connected care.\n- Focused on data and analytics within software and healthcare operations.",
+  "strengths": [
+    "Strong healthcare technology fit with eligibility, coverage, pricing, and connected-care data.",
+    "Remote full-time role aligned with SQL analytics, reporting, and data quality positioning.",
+    "Eligibility and coverage themes map well to payer/member/provider data experience."
+  ],
+  "gaps": [
+    "Posting details available in search extract are limited; confirm exact SQL/BI/tool requirements before applying.",
+    "Senior title may ask for broader analytics ownership than base resume emphasizes."
+  ],
+  "notes": "Apply first/if time. Tailor toward eligibility, payer data, SQL reporting, data quality, coverage/pricing analytics, and cross-functional healthcare insights.",
+  "replacements": [
+    {
+      "find": "ETL Analyst | Healthcare Data Analyst | Data Quality & Warehouse Analyst",
+      "replace": "Senior Healthcare Data Analyst | Eligibility & Coverage Analytics | SQL Data Quality"
+    }
+  ]
+}

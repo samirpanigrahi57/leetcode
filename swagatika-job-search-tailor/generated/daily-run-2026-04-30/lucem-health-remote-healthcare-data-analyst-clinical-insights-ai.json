@@ -1,0 +1,33 @@
+{
+  "company": "Lucem Health Inc.",
+  "job_title": "Remote Healthcare Data Analyst: Clinical Insights & AI",
+  "job_url": "https://www.ziprecruiter.com/c/Lucem-Health-Inc./Job/Remote-Healthcare-Data-Analyst%3A-Clinical-Insights-%26-AI/-in-Charlotte%2CNC?jid=8cbf48fa5b00173e",
+  "apply_url": "https://www.ziprecruiter.com/c/Lucem-Health-Inc./Job/Remote-Healthcare-Data-Analyst%3A-Clinical-Insights-%26-AI/-in-Charlotte%2CNC?jid=8cbf48fa5b00173e",
+  "source": "ZipRecruiter",
+  "employment_type": "Contract",
+  "work_mode": "Remote",
+  "location": "Charlotte, NC / Remote",
+  "fit_score": 82,
+  "posting_date": "2026-04-19",
+  "last_verified_date": "2026-04-30",
+  "availability_status": "unavailable",
+  "link_status": "broken",
+  "validation_notes": "Rejected after direct page check: ZipRecruiter says this job posting has expired and is no longer accepting applications.",
+  "job_description": "# Remote Healthcare Data Analyst: Clinical Insights & AI\nCompany: Lucem Health Inc.\nSource: ZipRecruiter\nEmployment type: Contract\nChecked: April 30, 2026\nPosted: April 19, 2026\nURL: https://www.ziprecruiter.com/c/Lucem-Health-Inc./Job/Remote-Healthcare-Data-Analyst%3A-Clinical-Insights-%26-AI/-in-Charlotte%2CNC?jid=8cbf48fa5b00173e\n\n## Highlights\n- Remote healthcare technology contract role focused on clinical insights and AI-enabled health data workflows.\n- Responsibilities include analyzing clinical workflows, synthesizing health data, and ensuring the accuracy of reporting tools.\n- Requires SQL, analytical skills, communication, and collaboration with clinicians and product teams.",
+  "strengths": [
+    "Strong healthcare data analysis, SQL, reporting accuracy, and cross-functional collaboration alignment.",
+    "AI/clinical insights theme fits the requested AI-assisted analytics direction without demanding prompt engineering as the core job.",
+    "Remote contract role with potential permanent placement."
+  ],
+  "gaps": [
+    "Clinical workflow/product-team context is stronger than the base payer/ETL focus.",
+    "AI responsibilities are not deeply specified; keep resume language grounded in data quality and reporting validation."
+  ],
+  "notes": "Apply if contract work is acceptable. Tailor toward healthcare data analysis, SQL, reporting accuracy, clinical/product stakeholder support, and AI-assisted insight workflows.",
+  "replacements": [
+    {
+      "find": "ETL Analyst | Healthcare Data Analyst | Data Quality & Warehouse Analyst",
+      "replace": "Healthcare Data Analyst | Clinical Insights | SQL Reporting Quality"
+    }
+  ]
+}
