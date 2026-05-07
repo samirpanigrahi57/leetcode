@@ -25,5 +25,8 @@ bin/
 ### VS Code ###
 .vscode/
 
+### Generated resume artifacts ###
+swagatika-job-search-tailor/generated/
+
 ### Mac OS ###
 .DS_Store

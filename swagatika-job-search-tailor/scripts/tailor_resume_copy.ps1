@@ -4,12 +4,17 @@ param(
     [Parameter(Mandatory = $true)]
     [string]$OutputResumePath,
     [Parameter(Mandatory = $true)]
-    [string]$PlanJsonPath
+    [string]$PlanJsonPath,
+    [Parameter(Mandatory = $false)]
+    [string]$PdfOutputPath
 )
 
 $plan = Get-Content -LiteralPath $PlanJsonPath -Raw | ConvertFrom-Json
 New-Item -ItemType Directory -Force -Path (Split-Path -Parent $OutputResumePath) | Out-Null
 Copy-Item -LiteralPath $BaseResumePath -Destination $OutputResumePath -Force
+if ($PdfOutputPath) {
+    New-Item -ItemType Directory -Force -Path (Split-Path -Parent $PdfOutputPath) | Out-Null
+}
 
 $word = $null
 $doc = $null
@@ -39,6 +44,11 @@ try {
     }
 
     $doc.Save()
+
+    if ($PdfOutputPath) {
+        $wdExportFormatPDF = 17
+        $doc.ExportAsFixedFormat($PdfOutputPath, $wdExportFormatPDF)
+    }
 }
 finally {
     if ($doc -ne $null) {

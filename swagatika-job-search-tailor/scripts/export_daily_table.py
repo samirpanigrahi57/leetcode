@@ -141,7 +141,7 @@ def merge_rows(existing_rows: list[dict], new_rows: list[dict], export_date: dat
             continue
         normalized = dict(row)
         normalized["resume_folder"] = row.get("resume_folder") or (
-            f"jobs_application/{row.get('company', '')}/{slugify(row.get('job_title', ''))}"
+            f"generated/{row.get('company', '')}/{slugify(row.get('job_title', ''))}"
         )
         merged[job_url] = normalized
     return list(merged.values())
@@ -153,7 +153,7 @@ def render_table(rows: list[dict], applications_root: Path | None = None) -> str
 
     def folder_cell(row: dict) -> str:
         folder = row.get("resume_folder") or (
-            f"jobs_application/{row.get('company', '')}/{slugify(row.get('job_title', ''))}"
+            f"generated/{row.get('company', '')}/{slugify(row.get('job_title', ''))}"
         )
         if applications_root is None:
             return f"`{escape_cell(folder)}`"
