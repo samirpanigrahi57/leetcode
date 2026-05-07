@@ -6,5 +6,9 @@
   "employment_type": "Unknown",
   "work_mode": "Remote",
   "location": "US Remote",
-  "fit_score": 74
+  "fit_score": 74,
+  "last_verified_date": "2026-05-01",
+  "availability_status": "unavailable",
+  "link_status": "broken",
+  "validation_notes": "posting date could not be verified"
 }

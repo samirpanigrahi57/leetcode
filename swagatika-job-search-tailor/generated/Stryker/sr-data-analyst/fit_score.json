@@ -1,0 +1,24 @@
+{
+  "job_title": "Sr Data Analyst",
+  "score": 65,
+  "source": "Stryker Official Careers (Workday)",
+  "employment_type": "Full-time",
+  "work_mode": "Remote",
+  "location": "Remote-US (Mahwah NJ; available in CA, FL, MI, NY, TX)",
+  "posting_date": "2026-04-27",
+  "last_verified_date": "2026-04-30",
+  "availability_status": "active",
+  "link_status": "working",
+  "strengths": [
+    "Power BI primary tool — explicit resume skill",
+    "Remote with TX eligibility — Swagatika in Austin TX qualifies",
+    "Azure data systems — ADF/Azure experience in resume",
+    "Data accuracy and audit focus — aligns to data quality background"
+  ],
+  "gaps": [
+    "Sales analytics domain — not healthcare payer; weak domain match for Swagatika's target",
+    "Sales operations experience preferred — not in resume",
+    "Medical device industry (Stryker) — no direct experience; minimal domain overlap",
+    "Power BI as primary tool only — role is more dashboard/reporting than SQL-heavy ETL"
+  ]
+}

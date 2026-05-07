@@ -9,10 +9,10 @@
   "location": "Morristown, NJ / Remote; EST or CST candidates",
   "fit_score": 84,
   "posting_date": "2026-04-30",
-  "last_verified_date": "2026-04-30",
+  "last_verified_date": "2026-05-01",
   "availability_status": "unavailable",
   "link_status": "broken",
-  "validation_notes": "Rejected after user/browser check on 2026-04-30: Dice says job is no longer available.",
+  "validation_notes": "http status 410",
   "job_description": "# EDI Data Analyst\nCompany: Computer Enterprises, Inc. (CEI), client Zelis Healthcare\nSource: Dice and ZipRecruiter\nEmployment type: Contract W2\nChecked: April 30, 2026\nPosted: April 30, 2026 on Dice; ZipRecruiter corroborates current posting\nURL: https://www.dice.com/job-detail/3119fa73-aeda-43c9-a5b9-a377402eaa24\n\n## Highlights\n- Remote EDI Data Analyst role with rare travel to Atlanta or New Jersey; EST/CST candidates considered.\n- Healthcare data exchange role supporting Zelis Healthcare EDI systems.\n- Requires EDI, SQL, ETL/data transformation support, validation/reconciliation, HIPAA, transaction sets such as 837/834/999/277, and AI-assisted monitoring or intelligent automation.",
   "strengths": [
     "Strong match for healthcare EDI, SQL, validation, reconciliation, ETL support, HIPAA, and data quality.",

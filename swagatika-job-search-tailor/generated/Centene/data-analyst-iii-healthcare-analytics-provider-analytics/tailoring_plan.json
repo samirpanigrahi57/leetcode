@@ -1,0 +1,12 @@
+{
+  "replacements": [
+    {
+      "find": "banking, retail, and e-commerce domains",
+      "replace": "healthcare (payer) and provider analytics domains"
+    },
+    {
+      "find": "covering claims, member eligibility, provider, and payer-operations data",
+      "replace": "covering claims, member eligibility, provider network data, and payer-operations analytics"
+    }
+  ]
+}

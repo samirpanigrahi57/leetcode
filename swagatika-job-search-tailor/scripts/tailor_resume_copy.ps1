@@ -20,13 +20,22 @@ try {
     $doc = $word.Documents.Open($OutputResumePath)
 
     foreach ($replacement in $plan.replacements) {
-        foreach ($paragraph in $doc.Paragraphs) {
-            $text = $paragraph.Range.Text.Trim("`r", "`n", [char]7)
-            if ($text -eq $replacement.find) {
-                $paragraph.Range.Text = $replacement.replace + "`r"
-                break
-            }
-        }
+        $find = $doc.Content.Find
+        $find.ClearFormatting()
+        $find.Replacement.ClearFormatting()
+        [void]$find.Execute(
+            $replacement.find,     # FindText
+            $false,                # MatchCase
+            $false,                # MatchWholeWord
+            $false,                # MatchWildcards
+            $false,                # MatchSoundsLike
+            $false,                # MatchAllWordForms
+            $true,                 # Forward
+            1,                     # Wrap (wdFindContinue)
+            $false,                # Format
+            $replacement.replace,  # ReplaceWith
+            2                      # Replace (wdReplaceAll)
+        )
     }
 
     $doc.Save()

@@ -6,7 +6,7 @@ import sys
 from datetime import date, datetime
 from pathlib import Path
 
-MAX_POSTING_AGE_DAYS = 60
+MAX_POSTING_AGE_DAYS = 30
 REQUIRED_VALIDATION_FIELDS = (
     "availability_status",
     "link_status",
@@ -110,6 +110,9 @@ def main() -> int:
         "link_status": data["link_status"],
         "apply_url": data.get("apply_url", data["job_url"]),
         "validation_notes": data.get("validation_notes", ""),
+        "official_site_checked": data.get("official_site_checked", False),
+        "official_site_url": data.get("official_site_url", ""),
+        "official_site_search_notes": data.get("official_site_search_notes", ""),
     }
     (job_dir / "role_metadata.json").write_text(
         json.dumps(role_metadata, indent=2),

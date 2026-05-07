@@ -9,10 +9,10 @@
   "location": "Remote",
   "fit_score": 86,
   "posting_date": "2026-04-29",
-  "last_verified_date": "2026-04-30",
+  "last_verified_date": "2026-05-01",
   "availability_status": "unavailable",
   "link_status": "broken",
-  "validation_notes": "Rejected after user/browser check on 2026-04-30: Dice says job is no longer available.",
+  "validation_notes": "http status 410",
   "job_description": "# Healthcare Data Analyst with Population Health\nCompany: People Force Consulting Inc\nSource: Dice\nEmployment type: Contract W2 / Contract Corp To Corp\nChecked: April 30, 2026\nPosted: April 29, 2026\nURL: https://www.dice.com/job-detail/eeda7e98-531e-4e24-bec2-915f1b1b9025\n\n## Highlights\n- Remote healthcare/population health analytics role posted 21 hours ago on Dice.\n- Focuses on advanced SQL, large-scale data analysis, dashboards, BI reporting, data validation, and healthcare/population health insights.\n- Requires BI/dashboarding tools such as AWS QuickSight, Tableau, or Power BI and customer-facing analytics communication.\n- Good-to-have areas include payer analytics, value-based care, utilization, cost of care, quality, and risk use cases.",
   "strengths": [
     "Strong fit for healthcare SQL analysis, data validation, BI dashboards, and stakeholder-ready insights.",

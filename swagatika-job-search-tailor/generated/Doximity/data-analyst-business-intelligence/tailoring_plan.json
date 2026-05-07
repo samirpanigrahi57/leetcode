@@ -1,0 +1,12 @@
+{
+  "replacements": [
+    {
+      "find": "banking, retail, and e-commerce domains",
+      "replace": "healthcare (payer) and health technology domains"
+    },
+    {
+      "find": "Python (Pandas, PySpark – upskilling)",
+      "replace": "Python (Pandas, numpy, data analysis – upskilling)"
+    }
+  ]
+}

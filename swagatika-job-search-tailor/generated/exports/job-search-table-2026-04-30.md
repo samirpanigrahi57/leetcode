@@ -1,29 +1,52 @@
+# Job Search Results — 2026-04-30
+
+**Run started:** 2026-04-30  
+**New postings found this run:** 9  
+**Sources searched:** LinkedIn, Indeed, Glassdoor, ZipRecruiter, Built In, USAJOBS, Molina Healthcare Careers, Centene Careers (Workday), Stryker Careers (Workday), Elevance Health Careers, Humana Careers, UHG/Optum Careers, Doximity (Greenhouse), OpenLoop (LinkedIn)
+
+---
+
 **Apply First**
 
 | Company | Role | Source | Type | Work Mode | Location | Score | Apply Link | Resume Folder |
 |---|---|---|---|---|---|---:|---|---|
-| Geisinger | Healthcare Data Analyst III (Remote Capable) | Official company careers | Full-time | Remote capable | Work from Home / Danville, PA | 86 | [Apply](https://jobs.geisinger.org/job/danville/healthcare-data-analyst-iii-remote-capable/12064/93499785760) | [jobs_application/Geisinger/healthcare-data-analyst-iii-remote-capable](<C:/Users/samir/Documents/swagatika/jobs_application/Geisinger/healthcare-data-analyst-iii-remote-capable>) |
-| Centene Corporation | Data Analyst II SQL, Excel, SFTP | Official company careers | Full-time | Remote Available / location-listed | Woodland Hills, CA | 84 | [Apply](https://jobs.centene.com/us/en/jobs/1634956/data-analyst-ii-sql-excel-sftp/) | [jobs_application/Centene Corporation/data-analyst-ii-sql-excel-sftp](<C:/Users/samir/Documents/swagatika/jobs_application/Centene Corporation/data-analyst-ii-sql-excel-sftp>) |
-| mPulse Mobile | Sr Data Analyst | Indeed | Full-time | Remote | Remote, USA | 84 | [Apply](https://www.indeed.com/viewjob?jk=127ec4f2c3b2c16c) | [jobs_application/mPulse Mobile/sr-data-analyst](<C:/Users/samir/Documents/swagatika/jobs_application/mPulse Mobile/sr-data-analyst>) |
-| Arcadia | Senior Data Analyst | Official Lever posting | Full-time | Remote | Remote (USA) / Boston, MA / Washington DC | 82 | [Apply](https://jobs.lever.co/arcadia/0b2c9908-a2f6-46a0-82ef-8c8275a08b3b) | [jobs_application/Arcadia/senior-data-analyst](<C:/Users/samir/Documents/swagatika/jobs_application/Arcadia/senior-data-analyst>) |
+| Molina Healthcare | Senior Data Analyst, Healthcare Analytics | Molina Healthcare Official Careers | Full-time | Remote | United States (Remote) | 87 | [Apply](https://apply.molinahealthcare.com/hcmUI/CandidateExperience/en/sites/CX_1/job/2037084/apply/email) | `generated/Molina Healthcare/senior-data-analyst-healthcare-analytics` |
+| Molina Healthcare | Lead Analyst, Healthcare Analytics | Molina Healthcare Official Careers | Full-time | Remote | United States (Remote) | 85 | [Apply](https://apply.molinahealthcare.com/hcmUI/CandidateExperience/en/sites/CX_1/job/2037027/apply/email) | `generated/Molina Healthcare/lead-analyst-healthcare-analytics` |
+| Centene | Data Analyst III Healthcare Analytics, Provider Analytics | Centene Official Careers | Full-time | Remote | Remote-MO | 85 | [Apply](https://centene.wd5.myworkdayjobs.com/en-US/Centene_External/job/Data-Analyst-III-Healthcare-Analytics--Provider-Analytics_1637001) | `generated/Centene/data-analyst-iii-healthcare-analytics-provider-analytics` |
+| Centene | Data Analyst III Healthcare Analytics, Medical Economics | Centene Official Careers | Full-time | Remote | Remote-MO | 83 | [Apply](https://centene.wd5.myworkdayjobs.com/en-US/Centene_External/job/Data-Analyst-III-Healthcare-Analytics--Medical-Economics_1637112) | `generated/Centene/data-analyst-iii-healthcare-analytics-medical-economics` |
 
 **Apply If Time**
 
 | Company | Role | Source | Type | Work Mode | Location | Score | Apply Link | Resume Folder |
 |---|---|---|---|---|---|---:|---|---|
-| General Dynamics | Sr. Healthcare Data Analyst (Medicaid) | Dice | Full-time | Remote | Any Location / Remote | 80 | [Apply](https://www.dice.com/job-detail/0829c8cb-ebfe-43e1-ab65-ecc8df659c31) | [jobs_application/General Dynamics/sr-healthcare-data-analyst-medicaid](<C:/Users/samir/Documents/swagatika/jobs_application/General Dynamics/sr-healthcare-data-analyst-medicaid>) |
-| Alignment Health | Remote - Sr. Data Analyst - Clinical | Built In | Full-time | Remote / In-office | The Center, IN, USA | 79 | [Apply](https://builtin.com/job/remote-sr-data-analyst-clinical/8766559) | [jobs_application/Alignment Health/remote-sr-data-analyst-clinical](<C:/Users/samir/Documents/swagatika/jobs_application/Alignment Health/remote-sr-data-analyst-clinical>) |
-| Infomatics Corp | RCM Data Analyst (SQL & Prompt Engineering) | LinkedIn; matching Dice listing found | Contract | Remote | United States | 78 | [Apply](https://www.linkedin.com/jobs/view/rcm-data-analyst-sql-prompt-engineering-at-infomatics-corp-4393838810) | [jobs_application/Infomatics Corp/rcm-data-analyst-sql-prompt-engineering](<C:/Users/samir/Documents/swagatika/jobs_application/Infomatics Corp/rcm-data-analyst-sql-prompt-engineering>) |
-| Pager Health | Clinical Data Analyst | Built In | Full-time | Remote | United States | 76 | [Apply](https://builtin.com/job/clinical-data-analyst/8829683) | [jobs_application/Pager Health/clinical-data-analyst](<C:/Users/samir/Documents/swagatika/jobs_application/Pager Health/clinical-data-analyst>) |
+| Molina Healthcare | Senior Analyst, Healthcare Analytics (Remote, EST Hours) | Molina Healthcare Official Careers | Full-time | Remote | United States (Remote, EST) | 80 | [Apply](https://apply.molinahealthcare.com/hcmUI/CandidateExperience/en/sites/CX_1/job/2036647/apply/email) | `generated/Molina Healthcare/senior-analyst-healthcare-analytics-est-hours` |
+| Centene | Data Analyst IV Advanced SQL | Centene Official Careers | Full-time | Remote | Remote-NC | 76 | [Apply](https://jobs.centene.com/us/en/jobs/1638324/data-analyst-iv-advanced-sql/) | `generated/Centene/data-analyst-iv-advanced-sql` |
+| OpenLoop | Staff SQL Developer / Data Analyst | LinkedIn | Full-time | Hybrid / Unknown | Georgetown, TX (~30 mi from Austin) | 75 | [Apply](https://www.linkedin.com/jobs/view/staff-sql-developer-data-analyst-at-openloop-4374306622) | `generated/OpenLoop/staff-sql-developer-data-analyst` |
 
 **Skip / Stretch**
 
 | Company | Role | Source | Type | Work Mode | Location | Score | Apply Link | Resume Folder |
 |---|---|---|---|---|---|---:|---|---|
-| Jack | Data Analyst | LinkedIn | Full-time | Unknown | United States | 72 | [Apply](https://www.linkedin.com/jobs/view/4407023543) | [jobs_application/Jack/data-analyst](<C:/Users/samir/Documents/swagatika/jobs_application/Jack/data-analyst>) |
+| Doximity | Data Analyst, Business Intelligence | Greenhouse / LinkedIn | Full-time | Remote | Remote (U.S.) | 70 | [Apply](https://job-boards.greenhouse.io/doximity/jobs/7787454) | `generated/Doximity/data-analyst-business-intelligence` |
+| Stryker | Sr Data Analyst | Stryker Official Careers (Workday) | Full-time | Remote | Remote-US (TX eligible) | 65 | [Apply](https://stryker.wd1.myworkdayjobs.com/StrykerCareers/job/Mahwah-New-Jersey/Sr-Data-Analyst--Remote_R562759) | `generated/Stryker/sr-data-analyst` |
 
-**Below 65**
+---
 
-| Company | Role | Source | Type | Work Mode | Location | Score | Apply Link | Resume Folder |
-|---|---|---|---|---|---|---:|---|---|
-| None | None | None | None | None | None | N/A | None | None |
+## Rejected — Relevant Postings Audit Trail
+
+| Company | Role | URL | Reason |
+|---|---|---|---|
+| Qualified Health | Data Analyst - Healthcare Analytics | https://job-boards.greenhouse.io/qualifiedhealth/jobs/5108066008 | Posted 2026-02-04 — 85 days old, exceeds 60-day limit |
+| UHG / Optum | Sr. Data Analyst - Remote (Little Rock) | https://careers.unitedhealthgroup.com/job/little-rock/sr-data-analyst-remote/34088/93429216592 | 404 — page not found; closed |
+| UHG / Optum | Reporting and Data Analyst - Remote | https://careers.unitedhealthgroup.com/job/eden-prairie/reporting-and-data-analyst-remote/34088/86860616144 | 404 — page not found; closed |
+| UHG / Optum | Data Analyst 2 - Remote (Brentwood) | https://careers.unitedhealthgroup.com/job/brentwood/data-analyst-2-remote/34088/93662900944 | 404 — page not found; closed |
+| UHG / Optum | Senior Data Analyst - Remote | https://careers.unitedhealthgroup.com/job/eden-prairie/senior-data-analyst-remote/34088/94259827424 | Known closed Taleo requisition |
+| UHG / Optum | Data Analyst - Remote | https://careers.unitedhealthgroup.com/job/eden-prairie/data-analyst-remote/34088/94259827232 | Known closed Taleo requisition |
+| Optum (Built In) | Data Analyst 2 - Remote | https://builtin.com/job/data-analyst-2-remote/8979600 | Removed 2026-04-25 per Built In page |
+| Centene (Built In) | Data Analyst II | https://builtin.com/job/data-analyst-ii/8082267 | Removed 2026-01-02 — stale |
+| Johns Hopkins Health Plans | Sr. Business Analyst | https://jobs.hopkinsmedicine.org/job/94484/... | 410 — position closed |
+| Stryker | Data Analyst, Analytics & Insights (separate role) | https://careers.stryker.com/data-analyst-analytics-insights-remote/job/531FEF92CBC8D673EB92743505E784E6 | 404 — different Stryker role (Sr DA) accepted instead |
+| Centene | SQL Data Analyst II Automation Analytics, Remote-FL | https://jobs.centene.com/us/en/jobs/1625496/... | Posted 2026-02-27 — 62 days old, just over 60-day limit |
+| Zeektek | Data Analyst 3 - SQL/ETL/Python | https://www.theladders.com/job/...zeektek-california-city-ca_81542534 | On-site California City CA — geographic mismatch |
+| Glassdoor / ZipRecruiter | Multiple listings | Various | Boards returned 403; individual job URLs not accessible for validation |
+| USAJOBS Data Quality Lead | Data Quality Lead (HHS/CMS) | https://www.usajobs.gov/job/864048300 | Application deadline was 2026-04-13 — already closed |

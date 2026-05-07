@@ -6,5 +6,10 @@
   "employment_type": "Full-time",
   "work_mode": "Remote-capable",
   "location": "Pennsylvania or Remote-capable",
-  "fit_score": 72
+  "fit_score": 72,
+  "posting_date": "2026-04-03",
+  "last_verified_date": "2026-05-01",
+  "availability_status": "active",
+  "link_status": "working",
+  "validation_notes": "official_site_checked is missing or false; official career site was not verified; detail page loaded and posting date is within 60 days"
 }

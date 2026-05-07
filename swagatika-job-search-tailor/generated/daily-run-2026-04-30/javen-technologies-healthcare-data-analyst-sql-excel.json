@@ -9,10 +9,10 @@
   "location": "Remote",
   "fit_score": 84,
   "posting_date": "2026-04-29",
-  "last_verified_date": "2026-04-30",
+  "last_verified_date": "2026-05-01",
   "availability_status": "unavailable",
   "link_status": "broken",
-  "validation_notes": "Rejected after user/browser check on 2026-04-30: Dice says job is no longer available.",
+  "validation_notes": "http status 410",
   "job_description": "# Healthcare Data Analyst - SQL Excel\nCompany: Javen Technologies, Inc\nSource: Dice\nEmployment type: Contract W2 / Contract Independent\nChecked: April 30, 2026\nPosted: April 29, 2026\nURL: https://www.dice.com/job-detail/e130c5c4-186c-47f7-a24e-2f7ebb8b620a\n\n## Highlights\n- Remote healthcare data analyst role posted 1 day ago and updated 13 hours ago on Dice.\n- Focuses on collecting, analyzing, and interpreting healthcare data for clinical, operational, and business decisions.\n- Requires SQL, Excel, pivot tables, VLOOKUP, data accuracy/integrity, HIPAA, reporting, and healthcare workflow understanding.\n- Healthcare data examples include patient records, claims, billing, and operational metrics.",
   "strengths": [
     "Strong SQL, Excel, healthcare data, reporting, data accuracy, and HIPAA alignment.",

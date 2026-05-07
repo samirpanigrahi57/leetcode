@@ -1,0 +1,12 @@
+{
+  "replacements": [
+    {
+      "find": "banking, retail, and e-commerce domains",
+      "replace": "healthcare (payer) and pharmacy analytics domains"
+    },
+    {
+      "find": "Snowflake, Databricks, Azure Data Factory, and Python to support cloud modernization and AI-ready data pipelines",
+      "replace": "Databricks, Snowflake, Azure Data Factory, and Python to support cloud analytics, cost-containment reporting, and AI-ready data pipelines"
+    }
+  ]
+}

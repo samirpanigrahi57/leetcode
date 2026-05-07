@@ -32,5 +32,10 @@
   "employment_type": "Full-time",
   "file": "general-dynamics.json",
   "work_mode": "Remote",
-  "location": "US Remote"
+  "location": "US Remote",
+  "posting_date": "2026-04-03",
+  "last_verified_date": "2026-05-01",
+  "availability_status": "active",
+  "link_status": "working",
+  "validation_notes": "official_site_checked is missing or false; official career site was not verified; detail page loaded and posting date is within 60 days"
 }

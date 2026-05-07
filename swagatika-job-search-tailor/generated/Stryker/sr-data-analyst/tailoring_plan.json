@@ -1,0 +1,8 @@
+{
+  "replacements": [
+    {
+      "find": "banking, retail, and e-commerce domains",
+      "replace": "regulated data environments including healthcare (payer) and enterprise analytics domains"
+    }
+  ]
+}

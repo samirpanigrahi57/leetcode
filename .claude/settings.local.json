@@ -1,0 +1,13 @@
+{
+  "permissions": {
+    "allow": [
+      "Skill(update-config)",
+      "WebSearch",
+      "Bash(dir \"C:\\\\Users\\\\samir\\\\Documents\\\\swagatika\" /s /b)",
+      "Bash(findstr /i \".docx\")",
+      "Bash(dir \"C:\\\\Users\\\\samir\\\\Documents\" /b)",
+      "Bash(findstr /i \"swagatika nayak resume\")",
+      "Bash(dir C:\\\\Users\\\\samir\\\\Documents\\\\swagatika *)"
+    ]
+  }
+}

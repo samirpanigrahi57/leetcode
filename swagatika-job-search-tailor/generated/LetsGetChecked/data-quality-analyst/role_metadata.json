@@ -6,5 +6,9 @@
   "employment_type": "Full-time",
   "work_mode": "Remote",
   "location": "US Remote",
-  "fit_score": 81
+  "fit_score": 81,
+  "last_verified_date": "2026-05-01",
+  "availability_status": "unavailable",
+  "link_status": "broken",
+  "validation_notes": "http status 403"
 }

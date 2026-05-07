@@ -1,0 +1,25 @@
+{
+  "job_title": "Data Analyst, Business Intelligence",
+  "score": 70,
+  "source": "Greenhouse / LinkedIn",
+  "employment_type": "Full-time",
+  "work_mode": "Remote",
+  "location": "Remote (U.S.) or San Francisco, CA",
+  "posting_date": "2026-04-09",
+  "last_verified_date": "2026-04-30",
+  "availability_status": "active",
+  "link_status": "working",
+  "strengths": [
+    "SQL required — core strength",
+    "Healthcare industry background preferred — Doximity is a physician platform (healthtech)",
+    "Cross-functional stakeholder collaboration — documented across Agile teams",
+    "Data product development and automation — aligns to reusable test case library experience",
+    "Remote (U.S.) — matches preference"
+  ],
+  "gaps": [
+    "Python fluency required (numpy, pandas, statsmodels) — resume shows upskilling, not fluent",
+    "Looker required — not in resume; map to Power BI/Tableau experience",
+    "Client-facing analytics focus — resume is more internally focused (QA, validation)",
+    "Not traditional healthcare payer — Doximity is a physician network/SaaS platform"
+  ]
+}

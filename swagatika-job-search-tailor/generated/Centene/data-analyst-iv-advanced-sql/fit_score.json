@@ -1,0 +1,24 @@
+{
+  "job_title": "Data Analyst IV Advanced SQL",
+  "score": 76,
+  "source": "Centene Official Careers",
+  "employment_type": "Full-time",
+  "work_mode": "Remote",
+  "location": "Remote-NC (multiple locations)",
+  "posting_date": "2026-04-27",
+  "last_verified_date": "2026-04-30",
+  "availability_status": "active",
+  "link_status": "working",
+  "strengths": [
+    "Advanced SQL — strongest resume skill, well-documented at enterprise scale",
+    "Healthcare claims, member, provider data — direct payer experience",
+    "Data quality audits — 300+ test cases, 70+ production incidents",
+    "6+ years experience threshold — 7+ years total satisfies this",
+    "No sponsorship required"
+  ],
+  "gaps": [
+    "Senior/lead role with mentorship expectations — resume is more IC-focused; adjust framing",
+    "ETL development (not just validation) — resume is validation-focused; clarify scope carefully",
+    "Snowflake/DBT preferred — Snowflake upskilling in resume; DBT only basic familiarity"
+  ]
+}

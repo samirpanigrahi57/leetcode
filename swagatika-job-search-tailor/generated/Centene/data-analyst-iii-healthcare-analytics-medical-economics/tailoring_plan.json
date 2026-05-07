@@ -1,0 +1,8 @@
+{
+  "replacements": [
+    {
+      "find": "banking, retail, and e-commerce domains",
+      "replace": "healthcare (payer) and medical economics domains"
+    }
+  ]
+}

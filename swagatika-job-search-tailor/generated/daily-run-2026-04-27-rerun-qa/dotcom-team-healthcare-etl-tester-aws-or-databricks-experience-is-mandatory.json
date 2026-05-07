@@ -24,8 +24,12 @@
       "replace": "Healthcare ETL Tester | SQL QA Analyst | Data Validation"
     },
     {
-      "find": "Self-directed learning in Snowflake, Databricks, Python-based validation, and Azure Data Factory—building cloud and AI-ready data pipeline competencies to extend enterprise ETL expertise into modern data stacks.",
-      "replace": "Self-directed learning in Snowflake, Databricks, Python-based validation, and Azure Data Factory—building practical cloud data validation skills to extend enterprise ETL expertise into modern data platforms."
+      "find": "Self-directed learning in Snowflake, Databricks, Python-based validation, and Azure Data Factory\u2014building cloud and AI-ready data pipeline competencies to extend enterprise ETL expertise into modern data stacks.",
+      "replace": "Self-directed learning in Snowflake, Databricks, Python-based validation, and Azure Data Factory\u2014building practical cloud data validation skills to extend enterprise ETL expertise into modern data platforms."
     }
-  ]
+  ],
+  "last_verified_date": "2026-05-01",
+  "availability_status": "unavailable",
+  "link_status": "broken",
+  "validation_notes": "http status 410"
 }

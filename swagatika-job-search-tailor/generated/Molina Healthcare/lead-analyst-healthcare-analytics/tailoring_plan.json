@@ -1,0 +1,12 @@
+{
+  "replacements": [
+    {
+      "find": "banking, retail, and e-commerce domains",
+      "replace": "healthcare (payer) and Medical Economics domains"
+    },
+    {
+      "find": "Proven partner to engineering, QA, and business stakeholders",
+      "replace": "Proven data steward and cross-functional partner to engineering, QA, and business stakeholders"
+    }
+  ]
+}

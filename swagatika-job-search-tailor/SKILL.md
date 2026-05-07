@@ -1,6 +1,6 @@
 ---
 name: swagatika-job-search-tailor
-description: Use when searching current jobs for Swagatika Nayak across LinkedIn, Dice, Indeed, company career pages, and structured boards, deduplicating by URL, and generating company-specific application folders with truthful tailored resumes and notes.
+description: Use when searching current jobs for Swagatika Nayak across LinkedIn, Dice, Indeed, company career pages, and structured boards, deduplicating by URL, validating live apply links, creating one tailored resume per accepted role, and exporting one daily table. Do not create redundant generated/jobs_application job records.
 ---
 
 # Swagatika Job Search Tailor
@@ -13,244 +13,218 @@ Start from:
 C:\Users\samir\Documents\Learning\Java\Projects\leetcode
 ```
 
-Then start Codex in that folder and run:
-
-Use this prompt when you want to run the skill:
+Use this prompt for a search run:
 
 ```text
-Use the swagatika-job-search-tailor skill. Set a run_started_at timestamp, then search LinkedIn, Dice, Indeed, ZipRecruiter, Built In, Glassdoor, Monster, CareerBuilder, FlexJobs, Wellfound, USAJOBS, Ladders, official company career pages, and common ATS boards for Swagatika's target roles. Build a broad discovery inventory before shortlisting: include healthcare, payer, claims, ETL, data quality, validation, RCM, prompt/AI-adjacent analyst roles, plus general Data Analyst, Business Data Analyst, Reporting Analyst, BI Analyst, and SQL Analyst roles that mention SQL, Excel, Tableau, Power BI, Looker, dashboards, reporting, stakeholder analytics, or data integrity. Skip anything already present in jobs_application/seen_job_urls.json unless checking whether an existing saved job is still active. Only accept jobs posted within the last 60 days with a user-visible working apply/detail page; reject anything expired, closed, unavailable, broken, redirected to generic search, or saying "job no longer available." For every promising board result, check the employer's official careers site and prefer the official company apply URL when found; record official_site_checked, official_site_url, and official_site_search_notes. Treat Dice links as fragile: use a Dice URL only if a fresh same-run direct page check confirms the user-visible page is available, otherwise reject it. Keep an audit trail for relevant rejected postings and why they were rejected. Before finalizing, do a miss-check with broad LinkedIn and non-LinkedIn searches such as Data Analyst SQL, Data Analyst Excel BI, Business Data Analyst SQL, Reporting Analyst Power BI, and BI Analyst SQL. For each accepted role, create or update the company folder under jobs_application, keep separate subfolders for multiple positions, copy and tailor the base resume truthfully, record validation evidence and unsupported gaps, show me a ranked table with score, work mode, location, apply link, and resume folder, and export the table to a daily file ending with today's date.
+Use the swagatika-job-search-tailor skill. Set a run_started_at timestamp, then search LinkedIn, Dice, Indeed, ZipRecruiter, Built In, Glassdoor, Monster, CareerBuilder, FlexJobs, Wellfound, USAJOBS, Ladders, official company career pages, and common ATS boards for Swagatika's target roles. Build a broad discovery inventory before shortlisting: include healthcare, payer, claims, ETL, data quality, validation, RCM, prompt/AI-adjacent analyst roles, plus general Data Analyst, Business Data Analyst, Reporting Analyst, BI Analyst, and SQL Analyst roles that mention SQL, Excel, Tableau, Power BI, Looker, dashboards, reporting, stakeholder analytics, or data integrity. Skip anything already present in generated/seen_job_urls.json. Only accept jobs posted within the last 30 days whose exact final apply/detail URL is live in the current run; reject anything expired, closed, unavailable, older, redirected to generic search, removed, or whose apply link is broken. Search snippets may prove posting date for lower tiers, but never link availability. Prefer official company ATS URLs over aggregator URLs when found. Treat Dice, UHG/Optum/UnitedHealthcare, Monster, CareerBuilder, and Indeed links as fragile: reject any final URL you cannot confirm live in the same run. Keep an audit trail for relevant rejected postings. Before finalizing, run a brief miss-check with two broad searches. Show me a ranked table grouped by Apply First / Apply If Time / Skip Stretch. For each accepted job, create exactly one resume file under C:\Users\samir\Documents\swagatika\jobs_application\<Company>\<job-slug>\Swagatika_Nayak_Resume.docx; that role folder must contain only the resume. Export only this run's accepted jobs to C:\Users\samir\Documents\swagatika\jobs_application\daily-exports\job-search-table-YYYY-MM-DD.md. Update generated/seen_job_urls.json for dedupe only. Do not write role_metadata.json, job_url.txt, job_description.md, fit_score.json, tailoring_plan.json, notes.md, open_positions.json, or duplicate folders during the search run.
 ```
 
-Use this skill when the task is to find current jobs for Swagatika Nayak and prepare manual-application packages.
+Use this skill when the task is to find current jobs for Swagatika Nayak, validate links, create ready-to-use resumes, and export a daily job table without redundant per-job records.
+
+## Output Model
+
+The search run has one user-facing output root:
+
+```text
+C:\Users\samir\Documents\swagatika\jobs_application
+```
+
+For each accepted job, create exactly:
+
+```text
+C:\Users\samir\Documents\swagatika\jobs_application\<Company>\<job-slug>\Swagatika_Nayak_Resume.docx
+```
+
+The role folder must contain only `Swagatika_Nayak_Resume.docx`.
+
+Also write exactly one daily table:
+
+```text
+C:\Users\samir\Documents\swagatika\jobs_application\daily-exports\job-search-table-YYYY-MM-DD.md
+```
+
+Use `generated/seen_job_urls.json` only as the dedupe registry. Do not create duplicate job folders under `generated/`. Do not mirror the same job into both `generated/` and `jobs_application/`.
+
+Do not write during a search run:
+
+- `role_metadata.json`
+- `job_url.txt`
+- `job_description.md`
+- `fit_score.json`
+- `tailoring_plan.json`
+- `notes.md`
+- `open_positions.json`
+- any second resume copy
+- any duplicate per-job folder under `generated/`
+
+## Resume Creation
+
+- Base resume: `C:\Users\samir\Documents\swagatika\Swagatika_Nayak_Resume.docx`
+- Resume script: `scripts\tailor_resume_copy.ps1`
+- Preserve the base resume formatting by copying the `.docx` and applying truthful, minimal Word Find/Replace changes.
+- Do not invent skills, tools, responsibilities, dates, employers, metrics, domains, or certifications.
+- If a replacement plan is needed, keep it temporary outside the role folder and delete it after the resume is created. The final role folder must still contain only the resume.
+- If Word COM or resume generation fails for a role, do not create placeholder files. Report the failure and keep the job in the table only if the link validation was otherwise valid.
 
 ## Guardrails
 
-- Keep all tailoring truthful.
 - Never change employer names or employment dates.
-- Do not invent responsibilities, tools, metrics, or domains.
-- Do not present, export, or create application folders for jobs that are expired, closed, unavailable, older than 60 days, or whose apply/details link is broken.
-- Treat search-result visibility, cached pages, and indexed snippets as insufficient proof that a job is open.
-- You may reorder, rephrase, or foreground existing experience to better match a job description.
-- Prefer summary, headline, skills ordering, and bullet emphasis over title rewriting.
-- If a posting asks for a neighboring technology, map it truthfully to adjacent experience instead of claiming unsupported direct usage.
-- Record unsupported technologies as gaps in `notes.md` or `fit_score.json`; do not insert them as factual resume experience.
+- Do not present, export, or create folders for jobs that are expired, closed, unavailable, older than 30 days, redirected to generic search, removed, or whose apply/details link is broken.
+- Every accepted job must have its exact final URL checked during the current run. Search snippets can support posting date for lower tiers, but cannot prove that the link is live.
+- Treat search-result visibility, cached pages, and indexed snippets as insufficient proof that a posting is open.
+- If the exact final URL cannot be confirmed as live, reject the posting and record why.
 
 ## Candidate Focus
 
-Read [references/target-roles.md](references/target-roles.md) for the role families and search domains.
+Read [references/target-roles.md](references/target-roles.md) for role families and search domains.
 
 Swagatika's strongest fit is:
+
 - Healthcare Data Analyst
 - ETL Analyst
 - Data Quality Analyst
 - Payer / Claims Data Analyst
 - Data Warehouse QA / Validation Analyst
 
+Also include lower-scored but relevant Data Analyst, Business Data Analyst, Reporting Analyst, BI Analyst, SQL Analyst, and prompt/AI-adjacent analyst roles when they match SQL, Excel, Tableau, Power BI, Looker, dashboards, reporting, stakeholder analytics, data integrity, validation, claims, RCM, payer data, or ETL/data quality work.
+
 ## Work Mode Policy
 
 - The skill is not remote-only.
 - Prefer remote roles when fit is comparable.
 - Include hybrid or on-site roles when the functional match is strong, the location is reasonable or explicitly requested, and the work mode is clearly shown in the table.
-- Do not label a mixed or unclear posting as remote-only; use `Remote / On-site`, `Hybrid`, or `Unknown` and call out uncertainty in `notes.md`.
+- Do not label a mixed or unclear posting as remote-only; use `Remote / On-site`, `Hybrid`, `On-site`, or `Unknown`.
 
-## Workflow
+## Search Workflow
 
-1. Extract the latest source profile from the resume and LinkedIn export.
-2. Set the run boundary before searching:
+1. Set the run boundary:
    - Record `run_started_at` using the current local date/time.
-   - Include postings that were visible before or at `run_started_at`.
-   - Do not exclude a posting just because it appears after a search index crawl time if the visible job page shows it was posted before or during the run.
-   - If a posting appears during the run and is otherwise valid, include it, but mark it as discovered during the run in notes.
-3. Build a discovery inventory before shortlisting. Search current jobs using the web tool across LinkedIn, Dice, Indeed, ZipRecruiter, Built In, Glassdoor, Monster, CareerBuilder, FlexJobs, Wellfound, USAJOBS, Ladders, official company career pages, and structured boards.
-   - Restrict discovery to postings from the last 60 days whenever the source exposes posting age/date.
-   - Run both targeted and broad discovery passes:
-     - targeted searches for healthcare, payer, claims, ETL, data quality, validation, RCM, and prompt/AI-adjacent analyst roles
-     - broad searches for recent `Data Analyst`, `Business Data Analyst`, `Reporting Analyst`, `BI Analyst`, and `SQL Analyst` roles that mention SQL, Excel, Tableau, Power BI, Looker, dashboards, reporting, stakeholder analytics, or data integrity, even when the industry is not healthcare
-   - For LinkedIn specifically, include a recent-post sweep for plain `Data Analyst` and `SQL Data Analyst` results before ending the run, because LinkedIn can surface fresh generic analyst postings that do not appear in healthcare-focused queries.
-   - For each source, run at least these query families when source search supports them:
-     - `Data Analyst SQL`
-     - `Data Analyst Excel`
-     - `Business Data Analyst SQL`
-     - `Reporting Analyst Power BI`
-     - `BI Analyst SQL`
-     - `Healthcare Data Analyst`
-     - `Claims Data Analyst`
-     - `ETL Data Analyst`
-     - `Data Quality Analyst`
-     - `SQL Data Validation Analyst`
-     - `RCM Data Analyst`
-     - `Prompt Engineering Data Analyst`
-   - Save or note rejected but relevant-looking results with a reason, so misses can be audited later.
-   - Verify each candidate before accepting it:
-     - detail page returns a real posting, not a 404, expired page, redirect to generic search, or "job no longer available" page
-     - apply link or platform job detail exists and is not closed/unavailable
-     - posting date is present and no more than 60 days old
-     - for company sites with stale marketing pages (for example UHG/Radancy plus Taleo), check the official careers search result and the apply requisition; do not rely on an old detail URL alone
-   - For every promising board result, extract the employer name and search that employer's official careers site for the same or similar role title before accepting the board URL.
-   - Prefer the official company apply URL over the board URL whenever an official posting is found.
-4. Check `generated/seen_job_urls.json` and `jobs_application/seen_job_urls.json` before presenting or regenerating an already tracked posting.
-5. Shortlist roles across all domains that match SQL, ETL validation, data quality, reporting, and cross-functional analytics work.
-   - Do not restrict discovery to healthcare-only roles or remote-only roles unless the user explicitly asks for that filter.
-   - Healthcare, payer, and claims roles remain higher-fit priorities for scoring, but roles from any industry may be included if the functional match is strong.
-   - Do not drop a current generic `Data Analyst` posting solely because it lacks healthcare language when it has SQL, dashboards/reporting, Excel/BI tooling, stakeholder analysis, data accuracy, or cross-functional analytics responsibilities. Score it lower than healthcare/payer roles if the domain match is weaker.
-   - If the result count is high, keep a wider shortlist first and let fit score/order decide; do not silently discard valid postings because there are already enough high-fit rows.
-   - Penalize unclear or inconvenient work modes in fit scoring instead of hiding them silently.
-6. Save each selected posting under a company folder and position subfolder:
-   - `<Company>/open_positions.json`
-   - `<Company>/<JobSlug>/job_description.md`
-   - `<Company>/<JobSlug>/job_url.txt`
-   - `<Company>/<JobSlug>/fit_score.json`
-   - `<Company>/<JobSlug>/role_metadata.json`
-   - `<Company>/<JobSlug>/Swagatika_Nayak_Resume.docx`
-   - `<Company>/<JobSlug>/tailoring_plan.json`
-   - `<Company>/<JobSlug>/notes.md`
-   - Required JSON validation fields for each accepted posting:
-     - `posting_date`: ISO date (`YYYY-MM-DD`) from the posting or board
-     - `last_verified_date`: today's ISO date (`YYYY-MM-DD`)
-     - `availability_status`: `active`
-     - `link_status`: `working`
-     - `apply_url`: direct apply URL when distinct from `job_url`
-     - `validation_notes`: short evidence, for example "official detail page loaded; apply requisition 2354640 opens Taleo privacy gate, not closed-job page"
-     - `official_site_checked`: `true` or `false`
-     - `official_site_url`: official company posting URL when found
-     - `official_site_search_notes`: where/how the company site was checked, or why it could not be checked
-   - If any required validation field is missing, stale, or not active/working, do not create the application folder and do not include the job in the table.
-7. Update `generated/seen_job_urls.json` and `jobs_application/seen_job_urls.json` after each accepted posting so daily runs can suppress duplicates.
-8. Export the ranked table to a daily file under `jobs_application/daily-exports/` using a filename that ends with the current date in `YYYY-MM-DD` format.
-   - Keep one file per day.
-   - On same-day reruns, append only newly discovered rows to that day's file and deduplicate by job URL.
-   - On a new date, create a new dated file and do not delete or replace older daily export files.
-   - Mirror the same dated export into `generated/exports/` so the repo-local copy stays in sync with the external `jobs_application` export.
-   - The export script filters out records that are missing active/working validation, have no valid posting date, or are older than 60 days.
-9. For resume tailoring, copy the base resume and apply targeted replacements with `scripts/tailor_resume_copy.ps1`.
-10. Before finalizing a run, perform a miss-check:
-   - Search LinkedIn by broad recent terms such as `Data Analyst SQL United States`, `Data Analyst Excel BI United States`, and `Business Data Analyst SQL`.
-   - Search at least one broad non-LinkedIn source such as Indeed or Built In with the same generic terms.
-   - Compare the top current results against `seen_job_urls.json` and the generated daily table.
-   - If a broad result is current and functionally relevant but not included, either add it or explicitly record why it was rejected.
-   - Spot-check at least one source-specific URL pattern or known job ID if the user provides one, and use the miss to update the query matrix.
+   - Include only postings visible before or during the run.
+   - Use the current date to calculate the 30-day posting window.
 
-## Discovery Completeness Standard
+2. Build a broad discovery inventory before shortlisting. Run discovery across:
+   - LinkedIn
+   - Dice
+   - Indeed
+   - ZipRecruiter
+   - Built In
+   - Glassdoor
+   - Monster
+   - CareerBuilder
+   - FlexJobs
+   - Wellfound
+   - USAJOBS
+   - Ladders
+   - official company career pages
+   - common ATS boards such as Workday, Lever, Greenhouse, Ashby, Workable, iCIMS, SmartRecruiters, and company `/careers` pages
 
-No job-search run can guarantee every posting on the internet, but the skill should avoid avoidable misses from narrow queries or premature filtering.
+3. Use broad and targeted search families:
+   - `Healthcare Data Analyst remote SQL`
+   - `ETL Data Analyst SQL remote`
+   - `Data Quality Analyst healthcare SQL`
+   - `Claims Data Analyst SQL Power BI remote`
+   - `Business Data Analyst SQL Excel remote`
+   - `Reporting Analyst Power BI Tableau remote`
+   - `BI Analyst SQL dashboards remote`
+   - `SQL Analyst data integrity reporting remote`
+   - `RCM Data Analyst SQL`
+   - `prompt AI data analyst SQL healthcare`
 
-For each run:
+4. Search explicit target companies from [references/company-targets.md](references/company-targets.md), especially:
+   - UnitedHealth Group / Optum / UnitedHealthcare
+   - Elevance Health
+   - CVS Health / Aetna
+   - Cigna / Evernorth
+   - Humana
+   - Blue Cross / payer organizations
+   - healthcare technology and RCM companies
 
-- Use a two-stage process: discovery inventory first, fit scoring second.
-- Capture broad analyst postings before deciding they are lower fit.
-- Treat the table as the accepted list, not the only list inspected.
-- Keep an audit trail for relevant rejected postings with a reason such as duplicate, stale, unavailable, broken link, weak fit, work mode mismatch, no visible posting date, or official apply not found.
-- If the user reports a missed valid posting, add the missed pattern to the query matrix immediately.
-- Prefer recall over precision during discovery; precision is handled by scoring and final validation.
+5. Deduplicate before writing:
+   - Skip exact URLs already in `generated/seen_job_urls.json`.
+   - Prefer the official company/ATS URL over aggregator URLs when both point to the same role.
 
-## Availability Validation Standard
+## Validation Standard
 
 Before a job reaches the ranked table, confirm all of the following:
 
-- The posting date is within 60 days of the run date.
-- The official job detail page loads the same role, company, and location.
-- The page is not a stale/cached result, 404, generic search redirect, or closed-job message.
-- The apply link is present and points to a real requisition or application flow.
-- If a backend blocks scripts with cookie/privacy text, distinguish that from a closed job by checking whether the message is only a cookie/privacy gate and the official search page still lists the same requisition.
-- If a job board blocks scripted validation or returns a misleading HTTP status, verify in the browser-visible web result before accepting it. Record that manual/browser-visible evidence in `validation_notes`.
-- If the posting exposes a past application deadline, reject it even when the board says it was recently updated.
-- If the apply system says "job no longer available" or equivalent, reject the role even when the careers page still renders.
-- For Dice postings, do not use the Dice URL as the final apply link unless a fresh direct page check in the same run confirms the page is available to the user and does not show "Sorry this job is no longer available" or equivalent.
-- Prefer an official company, LinkedIn, Indeed, ZipRecruiter, Workday, Lever, Greenhouse, Ashby, or other stable apply URL over a Dice URL whenever one exists.
-- If Dice is the only source and user-visible availability is uncertain, reject the posting instead of adding it to the table.
+- The posting date is within 30 days of the run date.
+- The exact final `job_url` or `apply_url` has been checked in the current run.
+- The page is not broken, removed, closed, expired, unavailable, a stale cached page, or a generic search redirect.
+- The page or current ATS response shows the same role title and employer.
+- The posting has an apply button, open requisition, `directApply`, external apply path, or equivalent active apply state.
 
-For UnitedHealth Group specifically, prefer the current official search URL result and verify the requisition in the detail page. UHG detail pages can remain visible after Taleo closes the requisition, so any closed Taleo requisition must be rejected.
+Validation tiers:
 
-## Company-Site Coverage Checklist
+- **Apply First**: Fetch the exact final URL and confirm title, employer, current posting date, and active apply state from page content or ATS JSON.
+- **Apply If Time**: Exact final URL still must be live. A search snippet may provide posting-date evidence when the fetched page is JavaScript-rendered or omits date metadata.
+- **Skip / Stretch**: Exact final URL still must be live. Use this tier for weaker fit, seniority stretch, uncertain work mode, weaker domain match, or location friction.
 
-Use [references/company-targets.md](references/company-targets.md) as the seed list for direct company career searches. Expand it whenever a strong board result reveals a new relevant employer.
+Fragile-source rules:
 
-For each shortlisted board result:
+- **Dice**: Always fetch the exact Dice URL in the same run. Reject if fetch fails, the connection aborts, the page says unavailable, or availability is uncertain. Prefer an official company URL whenever found.
+- **UHG / Optum / UnitedHealthcare**: Always verify the exact requisition in the current official search/detail flow. Reject old Taleo/Radancy URLs, pages with `postingAvailable: false`, generic redirects, stale snippets, or any requisition that is not confirmed open in the same run.
+- **Indeed, Monster, CareerBuilder, Glassdoor, ZipRecruiter**: Use for discovery, but prefer official company URLs. Keep an aggregator URL only when the exact URL is confirmed live in the same run.
+- **Workday**: When possible, check the Workday CXS JSON endpoint or page content for title/date/apply state. If the shell page exposes only a JavaScript shell and `postingAvailable: false`, do not use it for Apply First.
+- **Blocked pages**: If a source blocks scripted fetch with 403/cookie gating, accept only when another current live-check path confirms the exact final URL. Otherwise reject.
 
-- Identify the employer and normalized role title.
-- Search the employer's official career site for the same title and related keywords.
-- Search common ATS URLs for that employer when applicable: Workday, Lever, Greenhouse, Ashby, Workable, iCIMS, SmartRecruiters, and company `/careers` pages.
-- Record `official_site_checked`, `official_site_url`, and `official_site_search_notes` in the generated job JSON.
-- If the official posting is found, use the official URL as `job_url` and keep the board URL only in notes.
-- If no official posting is found, keep the board URL only when it passes the current user-visible availability checks.
-- If a board URL is fragile or reports "no longer available," reject it even if an indexed snippet still appears current.
-- Add new strong-fit employers to `references/company-targets.md` with the company name, career site if known, and domain/category notes.
+## Shortlisting
 
-When validating existing application folders, run:
+- Score healthcare, payer, claims, ETL, data quality, validation, RCM, and reporting roles highest.
+- Do not drop a current generic analyst role solely because it lacks healthcare language when it has strong SQL, dashboarding, reporting, stakeholder analytics, Excel/BI, or data integrity responsibilities.
+- Penalize unclear work mode, non-remote requirements, over-seniority, heavy engineering requirements, and unsupported tools rather than hiding those roles silently.
+- Keep an audit trail for rejected but relevant postings with the company, title or URL when available, and reason.
 
-```text
-python scripts\validate_job_links.py C:\Users\samir\Documents\swagatika\jobs_application --report generated\validation-report-YYYY-MM-DD-existing.json --write
-```
+## Daily Export Table
 
-Use `--date YYYY-MM-DD` for repeatable runs:
+- Show a ranked table grouped by Apply First / Apply If Time / Skip Stretch.
+- Include company, role, source, type, work mode, location, score, apply link, and resume folder.
+- Export only this run's accepted jobs unless the user explicitly asks for the full active backlog.
+- Use `C:\Users\samir\Documents\swagatika\jobs_application\daily-exports\job-search-table-YYYY-MM-DD.md`.
+- On same-day reruns, append only newly accepted rows and deduplicate by URL.
+- Do not carry stale same-day rows forward after validation marks a posting unavailable.
 
-```text
-python scripts\validate_job_links.py C:\Users\samir\Documents\swagatika\jobs_application --report generated\validation-report-YYYY-MM-DD-existing.json --date YYYY-MM-DD --write
-```
+## Dedupe Registry
 
-Review false negatives from boards that block scripts before accepting or rejecting a posting, but do not rely on stale manual evidence. If a board blocks scripted validation, perform a fresh browser/page check and only keep the posting if the current page does not say expired, unavailable, filled, or no longer accepting applications. Dice links are especially fragile; when in doubt, exclude them.
+Use `generated/seen_job_urls.json` as the only persistent dedupe registry unless the user asks otherwise.
+
+Each accepted job should add enough data to suppress duplicates later:
+
+- `company`
+- `job_title`
+- `job_url`
+- `source`
+- `employment_type`
+- `work_mode`
+- `location`
+- `posting_date`
+- `last_verified_date`
+- `availability_status`
+- `link_status`
+
+Do not write per-job `role_metadata.json` just to rebuild the seen registry. Update the registry directly from the accepted jobs in the current run.
+
+## Miss-Check
+
+Before finalizing, run exactly two broad miss-check searches:
+
+- one LinkedIn-style broad search such as `LinkedIn Data Analyst SQL remote posted past month`
+- one non-LinkedIn broad search such as `Healthcare Data Analyst SQL remote posted past month`
+
+Add any new valid result, or record why it was rejected.
 
 ## Local Scripts
 
-- `scripts/extract_profile.py`
-  - Extracts plain text from the base `.docx` resume.
-- `scripts/make_application.py`
-  - Creates company and role folders, writes job metadata, updates the company position index, and updates the seen-URL registry.
-- `scripts/tailor_resume_copy.ps1`
-  - Copies the base `.docx` resume into a company folder and applies exact-text replacements using Word COM.
-- `scripts/rebuild_seen_urls.py`
-  - Rebuilds `generated/seen_job_urls.json` from the current job JSON records.
-- `scripts/export_daily_table.py`
-  - Builds the ranked markdown table, appends new same-day rows into the existing dated file, creates a new file for later dates without deleting older exports, and can render clickable resume-folder links when given the applications root path.
-- `scripts/validate_job_links.py`
-   - Checks existing generated records or application folders for broken/expired links, stale posting dates, known closed UHG links, and past application deadlines.
-   - Writes `availability_status`, `link_status`, `posting_date`, `last_verified_date`, and `validation_notes` when run with `--write`.
-   - Accepts `--date YYYY-MM-DD` so validation is reproducible for a specific daily run.
-
-## Output Standard
-
-Each application set should contain:
-
-- a company-level position index when multiple openings exist
-- the original job title and URL for each role
-- the source, employment type, work mode, and location for each role
-- a concise fit score with reasons
-- a tailored copy of the original resume that preserves factual history
-- notes that call out any gaps, unsupported tools, or risky stretches
-- validation evidence showing the posting is active, working, and less than 60 days old
-- company-site check evidence showing whether an official company posting was found
-- when presenting local file locations to the user, use relative paths rooted at `jobs_application/` rather than full absolute filesystem paths
-- export a daily markdown summary file with the date suffix
-- same-day reruns should append only new rows into that day's file instead of replacing prior rows
-- later dates should create a new daily file and leave older export files intact
-
-## Search Preference
-
-Prioritize:
-- `linkedin.com/jobs`
-- `dice.com`
-- `indeed.com`
-- `glassdoor.com`
-- `builtin.com`
-- `monster.com`
-- `careerbuilder.com`
-- `flexjobs.com`
-- `wellfound.com`
-- `usajobs.gov`
-- `theladders.com`
-- direct company careers pages
-- `jobs.lever.co`
-- `boards.greenhouse.io`
-- `api.ashbyhq.com`
-- `apply.workable.com`
-- `myworkdayjobs.com`
-
-Use LinkedIn, Dice, Indeed, ZipRecruiter, Built In, Glassdoor, Monster, CareerBuilder, FlexJobs, Wellfound, USAJOBS, and Ladders for discovery coverage when relevant results are available. When a matching official company posting exists, prefer that page for extraction and final tracking.
-Limit discovery to the last 60 days when posting dates or age filters are available.
+- `scripts/extract_profile.py`: extracts plain text from the base `.docx` resume.
+- `scripts\tailor_resume_copy.ps1`: creates the final resume copy. Use this during search runs.
+- `scripts\make_application.py`: old full-package writer. Do not use during search runs because it creates `job_description.md`, `job_url.txt`, `role_metadata.json`, `fit_score.json`, `notes.md`, `tailoring_plan.json`, and `open_positions.json`.
+- `scripts\rebuild_seen_urls.py`: scans generated metadata. Do not use for search runs that write no per-job generated metadata.
+- `scripts\export_daily_table.py`: exports from generated metadata. Do not use for search runs that write only resumes and a manual daily table.
+- `scripts\validate_job_links.py`: checks existing generated records or application folders for broken/expired links, stale posting dates, known closed UHG links, and past application deadlines.
 
 ## Named Sources To Cover
 
 Mandatory boards:
+
 - `linkedin.com/jobs`
 - `dice.com`
 - `indeed.com`
@@ -265,8 +239,9 @@ Mandatory boards:
 - `theladders.com`
 
 Named company career targets:
+
 - Elevance Health
-- UnitedHealth / Optum
+- UnitedHealth Group / Optum / UnitedHealthcare
 - CVS Health / Aetna
 - Cigna / Evernorth
 - Humana

@@ -28,8 +28,8 @@
       "replace": "Informatica PowerCenter, Azure Data Factory, SSIS, source-to-target mapping, ETL validation, data reconciliation, data lifecycle validation"
     }
   ],
-  "last_verified_date": "2026-04-30",
+  "last_verified_date": "2026-05-01",
   "availability_status": "unavailable",
   "link_status": "broken",
-  "validation_notes": "application deadline passed: 2026-04-28"
+  "validation_notes": "http status 410"
 }

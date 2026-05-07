@@ -9,10 +9,10 @@
   "location": "United States",
   "fit_score": 78,
   "posting_date": "2026-04-09",
-  "last_verified_date": "2026-04-30",
+  "last_verified_date": "2026-05-01",
   "availability_status": "active",
   "link_status": "working",
-  "validation_notes": "LinkedIn detail page loaded with Apply button, posted 3 weeks ago; matching Dice result showed same role posted today/4 hours ago; no expired/closed text.",
+  "validation_notes": "official_site_checked is missing or false; official career site was not verified; detail page loaded and posting date is within 60 days",
   "job_description": "# RCM Data Analyst (SQL & Prompt Engineering)\nCompany: Infomatics Corp\nSource: LinkedIn; matching Dice listing found\nEmployment type: Contract\nChecked: April 30, 2026\nPosted: April 9, 2026 on LinkedIn; matching Dice result refreshed April 30, 2026\nURL: https://www.linkedin.com/jobs/view/rcm-data-analyst-sql-prompt-engineering-at-infomatics-corp-4393838810\n\n## Highlights\n- Remote RCM analytics contract role focused on SQL, prompt development, and operational/audit use cases.\n- Responsibilities include extracting and interpreting SQL data, structuring complex datasets, developing/refining prompts, and supporting data-driven business decisions.\n- Requires SQL, data analysis, prompt engineering, and deep Revenue Cycle Management analytics.",
   "strengths": [
     "Strong SQL, data analysis, healthcare revenue-cycle adjacency, audit/operational analytics, and remote-work alignment.",

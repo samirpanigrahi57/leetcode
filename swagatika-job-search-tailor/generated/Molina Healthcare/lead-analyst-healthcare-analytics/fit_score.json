@@ -1,0 +1,25 @@
+{
+  "job_title": "Lead Analyst, Healthcare Analytics",
+  "score": 85,
+  "source": "Molina Healthcare Official Careers",
+  "employment_type": "Full-time",
+  "work_mode": "Remote",
+  "location": "United States (Remote)",
+  "posting_date": "2026-04-22",
+  "last_verified_date": "2026-04-30",
+  "availability_status": "active",
+  "link_status": "working",
+  "strengths": [
+    "Expert SQL — core strength, 7+ years",
+    "Data steward / data quality ownership — direct match to validation framework experience",
+    "Business definitions and data logic — aligns to mapping documents and business rules work",
+    "Cross-functional stakeholder collaboration — 12+ team partners across Agile sprints",
+    "Healthcare data assets — payer operations, claims, eligibility, provider data",
+    "Validation checks across systems — source-to-target testing is primary skill"
+  ],
+  "gaps": [
+    "Medical Economics focus: resume is QA/validation-oriented; medical economics modeling is a stretch",
+    "6+ years required — 7+ years total experience satisfies this",
+    "Python/R preferred — resume shows Python upskilling; mark as in-progress"
+  ]
+}

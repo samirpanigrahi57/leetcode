@@ -1,0 +1,20 @@
+{
+  "company": "CitiusTech",
+  "job_title": "Lead Healthcare Data Analyst",
+  "job_url": "https://www.dice.com/job-detail/85833b9f-e59d-4b26-9e69-fb4ee6cb72ba",
+  "source": "Dice posting, exact URL verified live",
+  "employment_type": "Full-time",
+  "work_mode": "Remote",
+  "location": "United States",
+  "fit_score": 76,
+  "posting_date": "2026-04-15",
+  "last_verified_date": "2026-05-02",
+  "availability_status": "active",
+  "link_status": "working",
+  "apply_url": "https://www.dice.com/job-detail/85833b9f-e59d-4b26-9e69-fb4ee6cb72ba",
+  "validation_notes": "Apply If Time - Dice URL fetched with HTTP 200; title, Apply Now marker, datePosted 2026-04-15, and validThrough 2026-05-16 confirmed.",
+  "official_site_checked": true,
+  "official_site_url": "",
+  "official_site_search_notes": "Targeted CitiusTech official-careers search did not surface a matching official ATS posting; Dice exact URL was verified because Dice links are fragile.",
+  "run_started_at": "2026-05-02T13:26:05.7731439-05:00"
+}

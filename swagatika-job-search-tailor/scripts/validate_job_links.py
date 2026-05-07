@@ -11,7 +11,7 @@ from urllib.error import HTTPError, URLError
 from urllib.request import Request, urlopen
 
 
-MAX_POSTING_AGE_DAYS = 60
+MAX_POSTING_AGE_DAYS = 30
 
 EXPIRED_PATTERNS = [
     "this job has expired",
@@ -39,7 +39,6 @@ HARD_EXPIRED_PATTERNS = [
 
 OPEN_JOB_SIGNALS = [
     "apply now",
-    "apply save",
     "apply instructions",
     "apply for this job",
     "submit your application",
@@ -51,6 +50,14 @@ KNOWN_CLOSED_URL_PARTS = [
     "careers.unitedhealthgroup.com/job/eden-prairie/data-analyst-remote/34088/94259827232",
     "careers.unitedhealthgroup.com/job/minnetonka/data-analyst-remote/34088/94451213408",
     "careers.unitedhealthgroup.com/job/minnetonka/senior-data-analyst-remote/34088/94451213360",
+]
+
+# jobs.centene.com is a frontend search UI — its individual job URLs (e.g.
+# /us/en/jobs/<reqId>/<slug>/) do not work as direct deep links and return 404.
+# The real apply URLs live on centene.wd5.myworkdayjobs.com.
+# Any record still using jobs.centene.com needs its URL updated to Workday.
+FRAGILE_URL_PREFIXES = [
+    "jobs.centene.com/us/en/jobs/",
 ]
 
 MONTHS = {
@@ -184,6 +191,14 @@ def validate_record(record: dict, path: Path, run_date: date) -> dict:
         result["notes"].append("known closed UnitedHealth Group/Taleo requisition")
         return result
 
+    if any(prefix in lowered_url for prefix in FRAGILE_URL_PREFIXES):
+        result["notes"].append(
+            "jobs.centene.com URL is a frontend wrapper and does not support direct linking; "
+            "update job_url and apply_url to the Workday URL: "
+            "https://centene.wd5.myworkdayjobs.com/en-US/Centene_External/job/<slug>_<reqId>"
+        )
+        return result
+
     status_code, html, final_url = fetch(url)
     result["http_status"] = status_code
     result["final_url"] = final_url
@@ -228,6 +243,9 @@ def validate_record(record: dict, path: Path, run_date: date) -> dict:
     if age_days > MAX_POSTING_AGE_DAYS:
         result["notes"].append(f"posting is older than {MAX_POSTING_AGE_DAYS} days: {posting_date.isoformat()}")
         return result
+
+    if not record.get("official_site_checked"):
+        result["notes"].append("official_site_checked is missing or false; official career site was not verified")
 
     result["status"] = "active"
     result["link_status"] = "working"

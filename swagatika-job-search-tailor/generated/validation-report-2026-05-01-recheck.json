@@ -1,0 +1,1767 @@
+{
+  "run_date": "2026-05-01",
+  "checked": 103,
+  "active": 34,
+  "unavailable": 69,
+  "changed_files": [
+    "generated\\Arcadia\\data-analyst\\role_metadata.json",
+    "generated\\arcadia.json",
+    "generated\\Arine\\data-analyst\\role_metadata.json",
+    "generated\\ATC\\healthcare-data-quality-analyst\\role_metadata.json",
+    "generated\\atc.json",
+    "generated\\bcbst.json",
+    "generated\\BlueCross BlueShield of Tennessee\\healthcare-data-analyst\\role_metadata.json",
+    "generated\\CAI\\data-analyst-remote\\role_metadata.json",
+    "generated\\CareMessage\\data-analyst-remote-us-based\\role_metadata.json",
+    "generated\\caremessage.json",
+    "generated\\Centene\\data-analyst-iii-healthcare-analytics-medical-economics\\role_metadata.json",
+    "generated\\Centene\\data-analyst-iii-healthcare-analytics-provider-analytics\\role_metadata.json",
+    "generated\\Centene\\data-analyst-iv-advanced-sql\\role_metadata.json",
+    "generated\\daily-run-2026-04-27\\arcadia-data-quality-integration-analyst.json",
+    "generated\\daily-run-2026-04-27\\med-metrix-senior-data-analyst-remote-healthcare.json",
+    "generated\\daily-run-2026-04-27\\r-systems-healthcare-data-analyst-linkedin.json",
+    "generated\\daily-run-2026-04-27\\sunray-informatics-sr-data-analyst-healthcare.json",
+    "generated\\daily-run-2026-04-27-rerun\\alignment-health-sr-data-analyst-clinical.json",
+    "generated\\daily-run-2026-04-27-rerun\\growth-ortho-data-analyst-remote.json",
+    "generated\\daily-run-2026-04-27-rerun\\kani-solutions-senior-data-quality-analyst.json",
+    "generated\\daily-run-2026-04-27-rerun\\servicetitan-data-quality-analyst.json",
+    "generated\\daily-run-2026-04-27-rerun\\sharecare-sr-data-analyst-remote.json",
+    "generated\\daily-run-2026-04-27-rerun-qa\\dotcom-team-data-warehouse-etl-tester-healthcare-or-health-payer-experience-is-mandatory.json",
+    "generated\\daily-run-2026-04-27-rerun-qa\\dotcom-team-healthcare-etl-tester-aws-or-databricks-experience-is-mandatory.json",
+    "generated\\daily-run-2026-04-27-rerun-qa\\dotcom-team-healthcare-etl-tester.json",
+    "generated\\daily-run-2026-04-27-rerun-qa\\keypixel-etl-tester-healthcare-domain-remote.json",
+    "generated\\daily-run-2026-04-30\\alignment-health-remote-sr-data-analyst-clinical.json",
+    "generated\\daily-run-2026-04-30\\arcadia-senior-data-analyst.json",
+    "generated\\daily-run-2026-04-30\\cei-edi-data-analyst.json",
+    "generated\\daily-run-2026-04-30\\centene-data-analyst-ii-sql-excel-sftp.json",
+    "generated\\daily-run-2026-04-30\\cvs-health-sr-data-engineer.json",
+    "generated\\daily-run-2026-04-30\\diverge-health-healthcare-data-associate.json",
+    "generated\\daily-run-2026-04-30\\geisinger-healthcare-data-analyst-iii-remote-capable.json",
+    "generated\\daily-run-2026-04-30\\general-dynamics-sr-healthcare-data-analyst-medicaid.json",
+    "generated\\daily-run-2026-04-30\\gitlab-data-analyst-product.json",
+    "generated\\daily-run-2026-04-30\\hr-pundits-healthcare-data-analyst.json",
+    "generated\\daily-run-2026-04-30\\humana-senior-data-manager.json",
+    "generated\\daily-run-2026-04-30\\infomatics-rcm-data-analyst-sql-prompt-engineering.json",
+    "generated\\daily-run-2026-04-30\\interra-health-senior-data-analyst.json",
+    "generated\\daily-run-2026-04-30\\jack-data-analyst.json",
+    "generated\\daily-run-2026-04-30\\javen-technologies-healthcare-data-analyst-sql-excel.json",
+    "generated\\daily-run-2026-04-30\\jpc-partners-healthcare-data-analyst.json",
+    "generated\\daily-run-2026-04-30\\lucem-health-remote-healthcare-data-analyst-clinical-insights-ai.json",
+    "generated\\daily-run-2026-04-30\\marathon-health-lead-healthcare-analyst.json",
+    "generated\\daily-run-2026-04-30\\mpulse-mobile-sr-data-analyst.json",
+    "generated\\daily-run-2026-04-30\\pager-health-clinical-data-analyst.json",
+    "generated\\daily-run-2026-04-30\\pearl-health-senior-data-analyst-analytics-engineering.json",
+    "generated\\daily-run-2026-04-30\\people-force-healthcare-data-analyst-population-health.json",
+    "generated\\daily-run-2026-04-30\\solace-data-analyst.json",
+    "generated\\daily-run-2026-04-30\\unitedhealth-group-data-analyst-remote-eden-prairie.json",
+    "generated\\daily-run-2026-04-30\\unitedhealth-group-data-analyst-remote-minnetonka.json",
+    "generated\\daily-run-2026-04-30\\unitedhealth-group-senior-data-analyst-remote.json",
+    "generated\\daily-run-2026-04-30\\wellth-senior-health-informatics-data-analyst.json",
+    "generated\\Doximity\\data-analyst-business-intelligence\\role_metadata.json",
+    "generated\\Doximity\\data-analyst-reporting-partnerships\\role_metadata.json",
+    "generated\\Estenda Solutions\\data-quality-analyst-real-world-evidence-remote\\role_metadata.json",
+    "generated\\Galileo\\data-analyst\\role_metadata.json",
+    "generated\\Geisinger\\healthcare-data-analyst-iii-remote-capable\\role_metadata.json",
+    "generated\\geisinger.json",
+    "generated\\General Dynamics\\sr-healthcare-data-analyst\\role_metadata.json",
+    "generated\\general-dynamics.json",
+    "generated\\IMO Health\\sr-healthcare-data-quality-analyst\\role_metadata.json",
+    "generated\\imo-health.json",
+    "generated\\Infinite Computer Solutions (ICS)\\clinical-data-analyst-remote-position\\role_metadata.json",
+    "generated\\infinite-computer-solutions.json",
+    "generated\\Insight Global\\healthcare-data-analyst\\role_metadata.json",
+    "generated\\insight-global.json",
+    "generated\\Joint Commission\\healthcare-data-analyst\\role_metadata.json",
+    "generated\\joint-commission.json",
+    "generated\\JPC Partners\\healthcare-data-analyst\\role_metadata.json",
+    "generated\\jpc-partners.json",
+    "generated\\Kootenai Health\\healthcare-data-analyst\\role_metadata.json",
+    "generated\\kootenai-health.json",
+    "generated\\LetsGetChecked\\data-quality-analyst\\role_metadata.json",
+    "generated\\letsgetchecked.json",
+    "generated\\Molina Healthcare\\lead-analyst-healthcare-analytics\\role_metadata.json",
+    "generated\\Molina Healthcare\\lead-analyst-quality-analytics-performance-improvement-remote\\role_metadata.json",
+    "generated\\Molina Healthcare\\senior-analyst-healthcare-analytics-est-hours\\role_metadata.json",
+    "generated\\Molina Healthcare\\senior-data-analyst-healthcare-analytics\\role_metadata.json",
+    "generated\\OpenLoop\\staff-sql-developer-data-analyst\\role_metadata.json",
+    "generated\\People Force Consulting Inc\\healthcare-data-analyst-with-population-health\\role_metadata.json",
+    "generated\\people-force.json",
+    "generated\\Pinnacle Method Consulting\\data-quality-analyst-for-real-world-evidence-remote\\role_metadata.json",
+    "generated\\pinnacle-method.json",
+    "generated\\Prodware Solutions\\100-remote-healthcare-data-analyst\\role_metadata.json",
+    "generated\\prodware-solutions.json",
+    "generated\\Randstad Digital\\data-analyst-iii\\role_metadata.json",
+    "generated\\randstad-digital.json",
+    "generated\\Scan.com\\data-analyst\\role_metadata.json",
+    "generated\\Sentara Health\\senior-healthcare-data-analyst-remote\\role_metadata.json",
+    "generated\\sentara-health.json",
+    "generated\\SGS Consulting\\healthcare-data-analyst\\role_metadata.json",
+    "generated\\sgs-consulting.json",
+    "generated\\Solace\\data-analyst-customer-experience\\role_metadata.json",
+    "generated\\SSTech LLC\\data-analyst-healthcare-domain-8-years\\role_metadata.json",
+    "generated\\Stryker\\data-analyst-analytics-insights-remote\\role_metadata.json",
+    "generated\\Stryker\\sr-data-analyst\\role_metadata.json",
+    "generated\\Symetra\\healthcare-data-analyst-remote\\role_metadata.json",
+    "generated\\symetra.json",
+    "generated\\UnitedHealth Group\\reporting-and-data-analyst-remote\\role_metadata.json",
+    "generated\\UnitedHealth Group\\senior-data-analyst-remote-minnetonka\\role_metadata.json",
+    "generated\\Veeva Systems\\senior-health-data-analyst-payer\\role_metadata.json",
+    "generated\\veeva.json"
+  ],
+  "results": [
+    {
+      "path": "generated\\Arcadia\\data-analyst\\role_metadata.json",
+      "company": "Arcadia",
+      "job_title": "Data Analyst",
+      "job_url": "https://jobs.lever.co/arcadia/cced8545-bd78-4ab6-82e8-28fae21b155e",
+      "status": "unavailable",
+      "link_status": "broken",
+      "availability_status": "unavailable",
+      "posting_date": "",
+      "last_verified_date": "2026-05-01",
+      "notes": [
+        "posting date could not be verified"
+      ],
+      "http_status": 200,
+      "final_url": "https://jobs.lever.co/arcadia/cced8545-bd78-4ab6-82e8-28fae21b155e"
+    },
+    {
+      "path": "generated\\arcadia.json",
+      "company": "Arcadia",
+      "job_title": "Data Analyst",
+      "job_url": "https://jobs.lever.co/arcadia/cced8545-bd78-4ab6-82e8-28fae21b155e",
+      "status": "unavailable",
+      "link_status": "broken",
+      "availability_status": "unavailable",
+      "posting_date": "",
+      "last_verified_date": "2026-05-01",
+      "notes": [
+        "posting date could not be verified"
+      ],
+      "http_status": 200,
+      "final_url": "https://jobs.lever.co/arcadia/cced8545-bd78-4ab6-82e8-28fae21b155e"
+    },
+    {
+      "path": "generated\\Arine\\data-analyst\\role_metadata.json",
+      "company": "Arine",
+      "job_title": "Data Analyst",
+      "job_url": "https://builtin.com/job/data-analyst/7078620",
+      "status": "active",
+      "link_status": "working",
+      "availability_status": "active",
+      "posting_date": "2026-05-01",
+      "last_verified_date": "2026-05-01",
+      "notes": [
+        "official_site_checked is missing or false; official career site was not verified",
+        "detail page loaded and posting date is within 60 days"
+      ],
+      "http_status": 200,
+      "final_url": "https://builtin.com/job/data-analyst/7078620"
+    },
+    {
+      "path": "generated\\ATC\\healthcare-data-quality-analyst\\role_metadata.json",
+      "company": "ATC",
+      "job_title": "Healthcare Data Quality Analyst",
+      "job_url": "https://www.indeed.com/viewjob?jk=29523d1fbbec5678",
+      "status": "unavailable",
+      "link_status": "broken",
+      "availability_status": "unavailable",
+      "posting_date": "",
+      "last_verified_date": "2026-05-01",
+      "notes": [
+        "http status 403"
+      ],
+      "http_status": 403,
+      "final_url": "https://www.indeed.com/viewjob?jk=29523d1fbbec5678"
+    },
+    {
+      "path": "generated\\atc.json",
+      "company": "ATC",
+      "job_title": "Healthcare Data Quality Analyst",
+      "job_url": "https://www.indeed.com/viewjob?jk=29523d1fbbec5678",
+      "status": "unavailable",
+      "link_status": "broken",
+      "availability_status": "unavailable",
+      "posting_date": "",
+      "last_verified_date": "2026-05-01",
+      "notes": [
+        "http status 403"
+      ],
+      "http_status": 403,
+      "final_url": "https://www.indeed.com/viewjob?jk=29523d1fbbec5678"
+    },
+    {
+      "path": "generated\\bcbst.json",
+      "company": "BlueCross BlueShield of Tennessee",
+      "job_title": "Healthcare Data Analyst",
+      "job_url": "https://www.indeed.com/viewjob?jk=2e9338e41901621a",
+      "status": "unavailable",
+      "link_status": "broken",
+      "availability_status": "unavailable",
+      "posting_date": "",
+      "last_verified_date": "2026-05-01",
+      "notes": [
+        "http status 403"
+      ],
+      "http_status": 403,
+      "final_url": "https://www.indeed.com/viewjob?jk=2e9338e41901621a"
+    },
+    {
+      "path": "generated\\BlueCross BlueShield of Tennessee\\healthcare-data-analyst\\role_metadata.json",
+      "company": "BlueCross BlueShield of Tennessee",
+      "job_title": "Healthcare Data Analyst",
+      "job_url": "https://www.indeed.com/viewjob?jk=2e9338e41901621a",
+      "status": "unavailable",
+      "link_status": "broken",
+      "availability_status": "unavailable",
+      "posting_date": "",
+      "last_verified_date": "2026-05-01",
+      "notes": [
+        "http status 403"
+      ],
+      "http_status": 403,
+      "final_url": "https://www.indeed.com/viewjob?jk=2e9338e41901621a"
+    },
+    {
+      "path": "generated\\CAI\\data-analyst-remote\\role_metadata.json",
+      "company": "CAI",
+      "job_title": "Data Analyst",
+      "job_url": "https://www.theladders.com/job/data-analyst-cai-virtual-travel_85703349",
+      "status": "unavailable",
+      "link_status": "broken",
+      "availability_status": "unavailable",
+      "posting_date": "2026-04-29",
+      "last_verified_date": "2026-05-01",
+      "notes": [
+        "http status 403"
+      ],
+      "http_status": 403,
+      "final_url": "https://www.theladders.com/job/data-analyst-cai-virtual-travel_85703349"
+    },
+    {
+      "path": "generated\\CareMessage\\data-analyst-remote-us-based\\role_metadata.json",
+      "company": "CareMessage",
+      "job_title": "Data Analyst (Remote, US-based)",
+      "job_url": "https://jobs.lever.co/caremessage/be941927-106a-4d8b-8230-2ba4b9c05711",
+      "status": "unavailable",
+      "link_status": "broken",
+      "availability_status": "unavailable",
+      "posting_date": "",
+      "last_verified_date": "2026-05-01",
+      "notes": [
+        "http status 404"
+      ],
+      "http_status": 404,
+      "final_url": "https://jobs.lever.co/caremessage/be941927-106a-4d8b-8230-2ba4b9c05711"
+    },
+    {
+      "path": "generated\\caremessage.json",
+      "company": "CareMessage",
+      "job_title": "Data Analyst (Remote, US-based)",
+      "job_url": "https://jobs.lever.co/caremessage/be941927-106a-4d8b-8230-2ba4b9c05711",
+      "status": "unavailable",
+      "link_status": "broken",
+      "availability_status": "unavailable",
+      "posting_date": "",
+      "last_verified_date": "2026-05-01",
+      "notes": [
+        "http status 404"
+      ],
+      "http_status": 404,
+      "final_url": "https://jobs.lever.co/caremessage/be941927-106a-4d8b-8230-2ba4b9c05711"
+    },
+    {
+      "path": "generated\\Centene\\data-analyst-iii-healthcare-analytics-medical-economics\\role_metadata.json",
+      "company": "Centene",
+      "job_title": "Data Analyst III Healthcare Analytics, Medical Economics",
+      "job_url": "https://centene.wd5.myworkdayjobs.com/en-US/Centene_External/job/Data-Analyst-III-Healthcare-Analytics--Medical-Economics_1637112",
+      "status": "active",
+      "link_status": "working",
+      "availability_status": "active",
+      "posting_date": "2026-04-16",
+      "last_verified_date": "2026-05-01",
+      "notes": [
+        "detail page loaded and posting date is within 60 days"
+      ],
+      "http_status": 200,
+      "final_url": "https://centene.wd5.myworkdayjobs.com/en-US/Centene_External/job/Data-Analyst-III-Healthcare-Analytics--Medical-Economics_1637112"
+    },
+    {
+      "path": "generated\\Centene\\data-analyst-iii-healthcare-analytics-provider-analytics\\role_metadata.json",
+      "company": "Centene",
+      "job_title": "Data Analyst III Healthcare Analytics, Provider Analytics",
+      "job_url": "https://centene.wd5.myworkdayjobs.com/en-US/Centene_External/job/Data-Analyst-III-Healthcare-Analytics--Provider-Analytics_1637001",
+      "status": "active",
+      "link_status": "working",
+      "availability_status": "active",
+      "posting_date": "2026-04-09",
+      "last_verified_date": "2026-05-01",
+      "notes": [
+        "detail page loaded and posting date is within 60 days"
+      ],
+      "http_status": 200,
+      "final_url": "https://centene.wd5.myworkdayjobs.com/en-US/Centene_External/job/Data-Analyst-III-Healthcare-Analytics--Provider-Analytics_1637001"
+    },
+    {
+      "path": "generated\\Centene\\data-analyst-iv-advanced-sql\\role_metadata.json",
+      "company": "Centene",
+      "job_title": "Data Analyst IV Advanced SQL",
+      "job_url": "https://centene.wd5.myworkdayjobs.com/en-US/Centene_External/job/Data-Analyst-IV-Advanced-SQL_1638324",
+      "status": "active",
+      "link_status": "working",
+      "availability_status": "active",
+      "posting_date": "2026-04-27",
+      "last_verified_date": "2026-05-01",
+      "notes": [
+        "detail page loaded and posting date is within 60 days"
+      ],
+      "http_status": 200,
+      "final_url": "https://centene.wd5.myworkdayjobs.com/en-US/Centene_External/job/Data-Analyst-IV-Advanced-SQL_1638324"
+    },
+    {
+      "path": "generated\\daily-run-2026-04-27\\arcadia-data-quality-integration-analyst.json",
+      "company": "Arcadia",
+      "job_title": "Data Quality & Integration Analyst",
+      "job_url": "https://jobs.lever.co/arcadia/52f2bb51-16a2-4f30-87a5-a88e3460a758",
+      "status": "unavailable",
+      "link_status": "broken",
+      "availability_status": "unavailable",
+      "posting_date": "",
+      "last_verified_date": "2026-05-01",
+      "notes": [
+        "http status 404"
+      ],
+      "http_status": 404,
+      "final_url": "https://jobs.lever.co/arcadia/52f2bb51-16a2-4f30-87a5-a88e3460a758"
+    },
+    {
+      "path": "generated\\daily-run-2026-04-27\\med-metrix-senior-data-analyst-remote-healthcare.json",
+      "company": "Med-Metrix",
+      "job_title": "Senior Data Analyst- Remote (Healthcare exp Req)",
+      "job_url": "https://www.indeed.com/viewjob?jk=40263efb74b1bffd",
+      "status": "unavailable",
+      "link_status": "broken",
+      "availability_status": "unavailable",
+      "posting_date": "",
+      "last_verified_date": "2026-05-01",
+      "notes": [
+        "http status 403"
+      ],
+      "http_status": 403,
+      "final_url": "https://www.indeed.com/viewjob?jk=40263efb74b1bffd"
+    },
+    {
+      "path": "generated\\daily-run-2026-04-27\\r-systems-healthcare-data-analyst-linkedin.json",
+      "company": "R Systems",
+      "job_title": "Healthcare Data Analyst",
+      "job_url": "https://www.linkedin.com/jobs/view/healthcare-data-analyst-at-jobs-via-dice-4368267868",
+      "status": "unavailable",
+      "link_status": "broken",
+      "availability_status": "unavailable",
+      "posting_date": "",
+      "last_verified_date": "2026-05-01",
+      "notes": [
+        "posting date could not be verified"
+      ],
+      "http_status": 200,
+      "final_url": "https://www.linkedin.com/jobs/clinical-data-coordinator-jobs?trk=expired_jd_redirect"
+    },
+    {
+      "path": "generated\\daily-run-2026-04-27\\sunray-informatics-sr-data-analyst-healthcare.json",
+      "company": "SUNRAY INFORMATICS",
+      "job_title": "Sr Data Analyst - Remote - Healthcare Exp - Advance SQL Mandatory - 9+ years",
+      "job_url": "https://www.dice.com/job-detail/d7300e20-6eaf-45ea-9a4d-f902224ec3b2",
+      "status": "unavailable",
+      "link_status": "broken",
+      "availability_status": "unavailable",
+      "posting_date": "",
+      "last_verified_date": "2026-05-01",
+      "notes": [
+        "http status 410"
+      ],
+      "http_status": 410,
+      "final_url": "https://www.dice.com/job-detail/d7300e20-6eaf-45ea-9a4d-f902224ec3b2"
+    },
+    {
+      "path": "generated\\daily-run-2026-04-27-rerun\\alignment-health-sr-data-analyst-clinical.json",
+      "company": "Alignment Health",
+      "job_title": "Remote - Sr. Data Analyst - Clinical",
+      "job_url": "https://alignmenthealthcare.wd12.myworkdayjobs.com/en-US/ahc_external/job/Sr-Data-Analyst---Clinical_R1653",
+      "status": "active",
+      "link_status": "working",
+      "availability_status": "active",
+      "posting_date": "2026-04-19",
+      "last_verified_date": "2026-05-01",
+      "notes": [
+        "official_site_checked is missing or false; official career site was not verified",
+        "detail page loaded and posting date is within 60 days"
+      ],
+      "http_status": 200,
+      "final_url": "https://alignmenthealthcare.wd12.myworkdayjobs.com/en-US/ahc_external/job/Sr-Data-Analyst---Clinical_R1653"
+    },
+    {
+      "path": "generated\\daily-run-2026-04-27-rerun\\growth-ortho-data-analyst-remote.json",
+      "company": "Growth Ortho",
+      "job_title": "Data Analyst",
+      "job_url": "https://www.indeed.com/viewjob?jk=2b0a4679bdd250ba",
+      "status": "unavailable",
+      "link_status": "broken",
+      "availability_status": "unavailable",
+      "posting_date": "",
+      "last_verified_date": "2026-05-01",
+      "notes": [
+        "http status 403"
+      ],
+      "http_status": 403,
+      "final_url": "https://www.indeed.com/viewjob?jk=2b0a4679bdd250ba"
+    },
+    {
+      "path": "generated\\daily-run-2026-04-27-rerun\\kani-solutions-senior-data-quality-analyst.json",
+      "company": "Kani Solutions",
+      "job_title": "Senior Data Quality Analyst",
+      "job_url": "https://www.dice.com/job-detail/3c81be77-9ff8-4b6f-95d6-6f543652ed7e",
+      "status": "unavailable",
+      "link_status": "broken",
+      "availability_status": "unavailable",
+      "posting_date": "",
+      "last_verified_date": "2026-05-01",
+      "notes": [
+        "http status 410"
+      ],
+      "http_status": 410,
+      "final_url": "https://www.dice.com/job-detail/3c81be77-9ff8-4b6f-95d6-6f543652ed7e"
+    },
+    {
+      "path": "generated\\daily-run-2026-04-27-rerun\\servicetitan-data-quality-analyst.json",
+      "company": "ServiceTitan",
+      "job_title": "Data Quality Analyst",
+      "job_url": "https://www.linkedin.com/jobs/view/data-quality-analyst-at-servicetitan-4387434200",
+      "status": "active",
+      "link_status": "working",
+      "availability_status": "active",
+      "posting_date": "2026-04-17",
+      "last_verified_date": "2026-05-01",
+      "notes": [
+        "official_site_checked is missing or false; official career site was not verified",
+        "detail page loaded and posting date is within 60 days"
+      ],
+      "http_status": 200,
+      "final_url": "https://www.linkedin.com/jobs/view/data-quality-analyst-at-servicetitan-4387434200"
+    },
+    {
+      "path": "generated\\daily-run-2026-04-27-rerun\\sharecare-sr-data-analyst-remote.json",
+      "company": "Sharecare",
+      "job_title": "Sr. Data Analyst- Remote",
+      "job_url": "https://sharecare.wd1.myworkdayjobs.com/en-US/Sharecare_Careers/job/Sr-Data-Analyst--Remote_R-101790",
+      "status": "unavailable",
+      "link_status": "broken",
+      "availability_status": "unavailable",
+      "posting_date": "",
+      "last_verified_date": "2026-05-01",
+      "notes": [
+        "posting is older than 30 days: 2026-03-27"
+      ],
+      "http_status": 200,
+      "final_url": "https://sharecare.wd1.myworkdayjobs.com/en-US/Sharecare_Careers/job/Sr-Data-Analyst--Remote_R-101790"
+    },
+    {
+      "path": "generated\\daily-run-2026-04-27-rerun-qa\\dotcom-team-data-warehouse-etl-tester-healthcare-or-health-payer-experience-is-mandatory.json",
+      "company": "Dotcom Team, LLC",
+      "job_title": "Data Warehouse/ ETL Tester- Healthcare OR \"Health Payer\" Experience is Mandatory",
+      "job_url": "https://www.dice.com/job-detail/e0faa112-4195-4b4c-b42b-5b2414b1bf54",
+      "status": "unavailable",
+      "link_status": "broken",
+      "availability_status": "unavailable",
+      "posting_date": "",
+      "last_verified_date": "2026-05-01",
+      "notes": [
+        "http status 410"
+      ],
+      "http_status": 410,
+      "final_url": "https://www.dice.com/job-detail/e0faa112-4195-4b4c-b42b-5b2414b1bf54"
+    },
+    {
+      "path": "generated\\daily-run-2026-04-27-rerun-qa\\dotcom-team-healthcare-etl-tester-aws-or-databricks-experience-is-mandatory.json",
+      "company": "Dotcom Team, LLC",
+      "job_title": "Healthcare ETL Tester- \"AWS OR Databricks experience is mandatory\"",
+      "job_url": "https://www.dice.com/job-detail/ba30753e-7aa4-47b0-80d9-af5b12c37b9f",
+      "status": "unavailable",
+      "link_status": "broken",
+      "availability_status": "unavailable",
+      "posting_date": "",
+      "last_verified_date": "2026-05-01",
+      "notes": [
+        "http status 410"
+      ],
+      "http_status": 410,
+      "final_url": "https://www.dice.com/job-detail/ba30753e-7aa4-47b0-80d9-af5b12c37b9f"
+    },
+    {
+      "path": "generated\\daily-run-2026-04-27-rerun-qa\\dotcom-team-healthcare-etl-tester.json",
+      "company": "Dotcom Team, LLC",
+      "job_title": "Healthcare ETL Tester",
+      "job_url": "https://www.dice.com/job-detail/dc028ea1-9db7-4945-961d-ba6a477815d0",
+      "status": "unavailable",
+      "link_status": "broken",
+      "availability_status": "unavailable",
+      "posting_date": "",
+      "last_verified_date": "2026-05-01",
+      "notes": [
+        "http status 410"
+      ],
+      "http_status": 410,
+      "final_url": "https://www.dice.com/job-detail/dc028ea1-9db7-4945-961d-ba6a477815d0"
+    },
+    {
+      "path": "generated\\daily-run-2026-04-27-rerun-qa\\keypixel-etl-tester-healthcare-domain-remote.json",
+      "company": "Keypixel Software Solutions",
+      "job_title": "ETL Tester Healthcare Domain | Remote",
+      "job_url": "https://www.dice.com/job-detail/f52fd7ea-b1ce-471e-aa30-f4da31fcd184",
+      "status": "active",
+      "link_status": "working",
+      "availability_status": "active",
+      "posting_date": "2026-04-27",
+      "last_verified_date": "2026-05-01",
+      "notes": [
+        "official_site_checked is missing or false; official career site was not verified",
+        "detail page loaded and posting date is within 60 days"
+      ],
+      "http_status": 200,
+      "final_url": "https://www.dice.com/job-detail/f52fd7ea-b1ce-471e-aa30-f4da31fcd184"
+    },
+    {
+      "path": "generated\\daily-run-2026-04-30\\alignment-health-remote-sr-data-analyst-clinical.json",
+      "company": "Alignment Health",
+      "job_title": "Remote - Sr. Data Analyst - Clinical",
+      "job_url": "https://builtin.com/job/remote-sr-data-analyst-clinical/8766559",
+      "status": "active",
+      "link_status": "working",
+      "availability_status": "active",
+      "posting_date": "2026-04-24",
+      "last_verified_date": "2026-05-01",
+      "notes": [
+        "detail page loaded and posting date is within 60 days"
+      ],
+      "http_status": 200,
+      "final_url": "https://builtin.com/job/remote-sr-data-analyst-clinical/8766559"
+    },
+    {
+      "path": "generated\\daily-run-2026-04-30\\arcadia-senior-data-analyst.json",
+      "company": "Arcadia",
+      "job_title": "Senior Data Analyst",
+      "job_url": "https://jobs.lever.co/arcadia/0b2c9908-a2f6-46a0-82ef-8c8275a08b3b",
+      "status": "unavailable",
+      "link_status": "broken",
+      "availability_status": "unavailable",
+      "posting_date": "2026-04-29",
+      "last_verified_date": "2026-05-01",
+      "notes": [
+        "http status 404"
+      ],
+      "http_status": 404,
+      "final_url": "https://jobs.lever.co/arcadia/0b2c9908-a2f6-46a0-82ef-8c8275a08b3b"
+    },
+    {
+      "path": "generated\\daily-run-2026-04-30\\cei-edi-data-analyst.json",
+      "company": "Computer Enterprises, Inc. (CEI)",
+      "job_title": "EDI Data Analyst",
+      "job_url": "https://www.dice.com/job-detail/3119fa73-aeda-43c9-a5b9-a377402eaa24",
+      "status": "unavailable",
+      "link_status": "broken",
+      "availability_status": "unavailable",
+      "posting_date": "2026-04-30",
+      "last_verified_date": "2026-05-01",
+      "notes": [
+        "http status 410"
+      ],
+      "http_status": 410,
+      "final_url": "https://www.dice.com/job-detail/3119fa73-aeda-43c9-a5b9-a377402eaa24"
+    },
+    {
+      "path": "generated\\daily-run-2026-04-30\\centene-data-analyst-ii-sql-excel-sftp.json",
+      "company": "Centene Corporation",
+      "job_title": "Data Analyst II SQL, Excel, SFTP",
+      "job_url": "https://jobs.centene.com/us/en/jobs/1634956/data-analyst-ii-sql-excel-sftp/",
+      "status": "unavailable",
+      "link_status": "broken",
+      "availability_status": "unavailable",
+      "posting_date": "2026-04-24",
+      "last_verified_date": "2026-05-01",
+      "notes": [
+        "jobs.centene.com URL is a frontend wrapper and does not support direct linking; update job_url and apply_url to the Workday URL: https://centene.wd5.myworkdayjobs.com/en-US/Centene_External/job/<slug>_<reqId>"
+      ]
+    },
+    {
+      "path": "generated\\daily-run-2026-04-30\\cvs-health-sr-data-engineer.json",
+      "company": "CVS Health",
+      "job_title": "Sr. Data Engineer (Requiring Python, SQL, SSIS, SSRS, Power BI)",
+      "job_url": "https://www.dice.com/job-detail/3dd12e0e-97aa-48cf-bd71-509d2315278a",
+      "status": "unavailable",
+      "link_status": "broken",
+      "availability_status": "unavailable",
+      "posting_date": "",
+      "last_verified_date": "2026-05-01",
+      "notes": [
+        "http status 410"
+      ],
+      "http_status": 410,
+      "final_url": "https://www.dice.com/job-detail/3dd12e0e-97aa-48cf-bd71-509d2315278a"
+    },
+    {
+      "path": "generated\\daily-run-2026-04-30\\diverge-health-healthcare-data-associate.json",
+      "company": "Diverge Health",
+      "job_title": "Healthcare Data Associate",
+      "job_url": "https://divergehealth.org/careers/",
+      "status": "unavailable",
+      "link_status": "broken",
+      "availability_status": "unavailable",
+      "posting_date": "",
+      "last_verified_date": "2026-05-01",
+      "notes": [
+        "posting date could not be verified"
+      ],
+      "http_status": 200,
+      "final_url": "https://divergehealth.org/careers/"
+    },
+    {
+      "path": "generated\\daily-run-2026-04-30\\geisinger-healthcare-data-analyst-iii-remote-capable.json",
+      "company": "Geisinger",
+      "job_title": "Healthcare Data Analyst III (Remote Capable)",
+      "job_url": "https://jobs.geisinger.org/job/danville/healthcare-data-analyst-iii-remote-capable/12064/93499785760",
+      "status": "active",
+      "link_status": "working",
+      "availability_status": "active",
+      "posting_date": "2026-04-02",
+      "last_verified_date": "2026-05-01",
+      "notes": [
+        "detail page loaded and posting date is within 60 days"
+      ],
+      "http_status": 200,
+      "final_url": "https://jobs.geisinger.org/job/danville/healthcare-data-analyst-iii-remote-capable/12064/93499785760"
+    },
+    {
+      "path": "generated\\daily-run-2026-04-30\\general-dynamics-sr-healthcare-data-analyst-medicaid.json",
+      "company": "General Dynamics",
+      "job_title": "Sr. Healthcare Data Analyst (Medicaid)",
+      "job_url": "https://www.dice.com/job-detail/0829c8cb-ebfe-43e1-ab65-ecc8df659c31",
+      "status": "active",
+      "link_status": "working",
+      "availability_status": "active",
+      "posting_date": "2026-04-29",
+      "last_verified_date": "2026-05-01",
+      "notes": [
+        "official_site_checked is missing or false; official career site was not verified",
+        "detail page loaded and posting date is within 60 days"
+      ],
+      "http_status": 200,
+      "final_url": "https://www.dice.com/job-detail/0829c8cb-ebfe-43e1-ab65-ecc8df659c31"
+    },
+    {
+      "path": "generated\\daily-run-2026-04-30\\gitlab-data-analyst-product.json",
+      "company": "GitLab",
+      "job_title": "Data Analyst, Product",
+      "job_url": "https://job-boards.greenhouse.io/gitlab/jobs/8455464002",
+      "status": "unavailable",
+      "link_status": "broken",
+      "availability_status": "unavailable",
+      "posting_date": "2026-04-23",
+      "last_verified_date": "2026-05-01",
+      "notes": [
+        "redirected to generic error/search page"
+      ],
+      "http_status": 200,
+      "final_url": "https://job-boards.greenhouse.io/gitlab?error=true"
+    },
+    {
+      "path": "generated\\daily-run-2026-04-30\\hr-pundits-healthcare-data-analyst.json",
+      "company": "HR Pundits",
+      "job_title": "Healthcare Data Analyst",
+      "job_url": "https://www.dice.com/job-detail/6bc93c69-d25a-4350-bf8c-f7794297eca9",
+      "status": "unavailable",
+      "link_status": "broken",
+      "availability_status": "unavailable",
+      "posting_date": "2026-04-29",
+      "last_verified_date": "2026-05-01",
+      "notes": [
+        "http status 410"
+      ],
+      "http_status": 410,
+      "final_url": "https://www.dice.com/job-detail/6bc93c69-d25a-4350-bf8c-f7794297eca9"
+    },
+    {
+      "path": "generated\\daily-run-2026-04-30\\humana-senior-data-manager.json",
+      "company": "Humana",
+      "job_title": "Senior Data Manager",
+      "job_url": "https://www.dice.com/job-detail/f1d4c7fe-1d78-44cd-8eea-ae09194ce945",
+      "status": "unavailable",
+      "link_status": "broken",
+      "availability_status": "unavailable",
+      "posting_date": "",
+      "last_verified_date": "2026-05-01",
+      "notes": [
+        "http status 410"
+      ],
+      "http_status": 410,
+      "final_url": "https://www.dice.com/job-detail/f1d4c7fe-1d78-44cd-8eea-ae09194ce945"
+    },
+    {
+      "path": "generated\\daily-run-2026-04-30\\infomatics-rcm-data-analyst-sql-prompt-engineering.json",
+      "company": "Infomatics Corp",
+      "job_title": "RCM Data Analyst (SQL & Prompt Engineering)",
+      "job_url": "https://www.linkedin.com/jobs/view/rcm-data-analyst-sql-prompt-engineering-at-infomatics-corp-4393838810",
+      "status": "active",
+      "link_status": "working",
+      "availability_status": "active",
+      "posting_date": "2026-04-09",
+      "last_verified_date": "2026-05-01",
+      "notes": [
+        "official_site_checked is missing or false; official career site was not verified",
+        "detail page loaded and posting date is within 60 days"
+      ],
+      "http_status": 200,
+      "final_url": "https://www.linkedin.com/jobs/view/rcm-data-analyst-sql-prompt-engineering-at-infomatics-corp-4393838810"
+    },
+    {
+      "path": "generated\\daily-run-2026-04-30\\interra-health-senior-data-analyst.json",
+      "company": "Interra Health",
+      "job_title": "Senior Data Analyst",
+      "job_url": "https://jobs.ashbyhq.com/Interrahealth/b88cf818-bd5a-428b-98b5-49ecddf9fd46",
+      "status": "active",
+      "link_status": "working",
+      "availability_status": "active",
+      "posting_date": "2026-04-29",
+      "last_verified_date": "2026-05-01",
+      "notes": [
+        "detail page loaded and posting date is within 60 days"
+      ],
+      "http_status": 200,
+      "final_url": "https://jobs.ashbyhq.com/Interrahealth/b88cf818-bd5a-428b-98b5-49ecddf9fd46"
+    },
+    {
+      "path": "generated\\daily-run-2026-04-30\\jack-data-analyst.json",
+      "company": "Jack",
+      "job_title": "Data Analyst",
+      "job_url": "https://www.linkedin.com/jobs/view/4407023543",
+      "status": "active",
+      "link_status": "working",
+      "availability_status": "active",
+      "posting_date": "2026-04-30",
+      "last_verified_date": "2026-05-01",
+      "notes": [
+        "detail page loaded and posting date is within 60 days"
+      ],
+      "http_status": 200,
+      "final_url": "https://www.linkedin.com/jobs/view/4407023543"
+    },
+    {
+      "path": "generated\\daily-run-2026-04-30\\javen-technologies-healthcare-data-analyst-sql-excel.json",
+      "company": "Javen Technologies, Inc",
+      "job_title": "Healthcare Data Analyst - SQL Excel",
+      "job_url": "https://www.dice.com/job-detail/e130c5c4-186c-47f7-a24e-2f7ebb8b620a",
+      "status": "unavailable",
+      "link_status": "broken",
+      "availability_status": "unavailable",
+      "posting_date": "2026-04-29",
+      "last_verified_date": "2026-05-01",
+      "notes": [
+        "http status 410"
+      ],
+      "http_status": 410,
+      "final_url": "https://www.dice.com/job-detail/e130c5c4-186c-47f7-a24e-2f7ebb8b620a"
+    },
+    {
+      "path": "generated\\daily-run-2026-04-30\\jpc-partners-healthcare-data-analyst.json",
+      "company": "JPC Partners",
+      "job_title": "Healthcare Data Analyst",
+      "job_url": "https://www.dice.com/job-detail/d9a3b3eb-51b8-4459-a559-e7c6230a5486",
+      "status": "unavailable",
+      "link_status": "broken",
+      "availability_status": "unavailable",
+      "posting_date": "2026-04-24",
+      "last_verified_date": "2026-05-01",
+      "notes": [
+        "page contains expired/closed-job text: job is no longer available"
+      ],
+      "http_status": 200,
+      "final_url": "https://www.dice.com/job-detail/d9a3b3eb-51b8-4459-a559-e7c6230a5486"
+    },
+    {
+      "path": "generated\\daily-run-2026-04-30\\lucem-health-remote-healthcare-data-analyst-clinical-insights-ai.json",
+      "company": "Lucem Health Inc.",
+      "job_title": "Remote Healthcare Data Analyst: Clinical Insights & AI",
+      "job_url": "https://www.ziprecruiter.com/c/Lucem-Health-Inc./Job/Remote-Healthcare-Data-Analyst%3A-Clinical-Insights-%26-AI/-in-Charlotte%2CNC?jid=8cbf48fa5b00173e",
+      "status": "unavailable",
+      "link_status": "broken",
+      "availability_status": "unavailable",
+      "posting_date": "2026-04-19",
+      "last_verified_date": "2026-05-01",
+      "notes": [
+        "http status 403"
+      ],
+      "http_status": 403,
+      "final_url": "https://www.ziprecruiter.com/c/Lucem-Health-Inc./Job/Remote-Healthcare-Data-Analyst%3A-Clinical-Insights-%26-AI/-in-Charlotte%2CNC?jid=8cbf48fa5b00173e"
+    },
+    {
+      "path": "generated\\daily-run-2026-04-30\\marathon-health-lead-healthcare-analyst.json",
+      "company": "Marathon Health",
+      "job_title": "Lead Healthcare Analyst",
+      "job_url": "https://www.indeed.com/viewjob?jk=f98d9989e3830d79",
+      "status": "unavailable",
+      "link_status": "broken",
+      "availability_status": "unavailable",
+      "posting_date": "",
+      "last_verified_date": "2026-05-01",
+      "notes": [
+        "http status 403"
+      ],
+      "http_status": 403,
+      "final_url": "https://www.indeed.com/viewjob?jk=f98d9989e3830d79"
+    },
+    {
+      "path": "generated\\daily-run-2026-04-30\\mpulse-mobile-sr-data-analyst.json",
+      "company": "mPulse Mobile",
+      "job_title": "Sr Data Analyst",
+      "job_url": "https://www.indeed.com/viewjob?jk=127ec4f2c3b2c16c",
+      "status": "unavailable",
+      "link_status": "broken",
+      "availability_status": "unavailable",
+      "posting_date": "2026-03-30",
+      "last_verified_date": "2026-05-01",
+      "notes": [
+        "http status 403"
+      ],
+      "http_status": 403,
+      "final_url": "https://www.indeed.com/viewjob?jk=127ec4f2c3b2c16c"
+    },
+    {
+      "path": "generated\\daily-run-2026-04-30\\pager-health-clinical-data-analyst.json",
+      "company": "Pager Health",
+      "job_title": "Clinical Data Analyst",
+      "job_url": "https://builtin.com/job/clinical-data-analyst/8829683",
+      "status": "active",
+      "link_status": "working",
+      "availability_status": "active",
+      "posting_date": "2026-04-18",
+      "last_verified_date": "2026-05-01",
+      "notes": [
+        "detail page loaded and posting date is within 60 days"
+      ],
+      "http_status": 200,
+      "final_url": "https://builtin.com/job/clinical-data-analyst/8829683"
+    },
+    {
+      "path": "generated\\daily-run-2026-04-30\\pearl-health-senior-data-analyst-analytics-engineering.json",
+      "company": "Pearl Health",
+      "job_title": "Senior Data Analyst, Analytics Engineering",
+      "job_url": "https://jobs.ashbyhq.com/pearlhealth/4832509b-c607-4801-af71-5d361ed365fd/",
+      "status": "active",
+      "link_status": "working",
+      "availability_status": "active",
+      "posting_date": "2026-04-16",
+      "last_verified_date": "2026-05-01",
+      "notes": [
+        "detail page loaded and posting date is within 60 days"
+      ],
+      "http_status": 200,
+      "final_url": "https://jobs.ashbyhq.com/pearlhealth/4832509b-c607-4801-af71-5d361ed365fd/"
+    },
+    {
+      "path": "generated\\daily-run-2026-04-30\\people-force-healthcare-data-analyst-population-health.json",
+      "company": "People Force Consulting Inc",
+      "job_title": "Healthcare Data Analyst with Population Health",
+      "job_url": "https://www.dice.com/job-detail/eeda7e98-531e-4e24-bec2-915f1b1b9025",
+      "status": "unavailable",
+      "link_status": "broken",
+      "availability_status": "unavailable",
+      "posting_date": "2026-04-29",
+      "last_verified_date": "2026-05-01",
+      "notes": [
+        "http status 410"
+      ],
+      "http_status": 410,
+      "final_url": "https://www.dice.com/job-detail/eeda7e98-531e-4e24-bec2-915f1b1b9025"
+    },
+    {
+      "path": "generated\\daily-run-2026-04-30\\solace-data-analyst.json",
+      "company": "Solace",
+      "job_title": "Data Analyst",
+      "job_url": "https://jobs.ashbyhq.com/solace/d33b9659-7c3d-48a9-9a24-dd0f903e3a03/",
+      "status": "active",
+      "link_status": "working",
+      "availability_status": "active",
+      "posting_date": "2026-04-16",
+      "last_verified_date": "2026-05-01",
+      "notes": [
+        "detail page loaded and posting date is within 60 days"
+      ],
+      "http_status": 200,
+      "final_url": "https://jobs.ashbyhq.com/solace/d33b9659-7c3d-48a9-9a24-dd0f903e3a03/"
+    },
+    {
+      "path": "generated\\daily-run-2026-04-30\\unitedhealth-group-data-analyst-remote-eden-prairie.json",
+      "company": "UnitedHealth Group",
+      "job_title": "Data Analyst - Remote (Eden Prairie, MN)",
+      "job_url": "https://careers.unitedhealthgroup.com/job/eden-prairie/data-analyst-remote/34088/94259827232",
+      "status": "unavailable",
+      "link_status": "broken",
+      "availability_status": "unavailable",
+      "posting_date": "",
+      "last_verified_date": "2026-05-01",
+      "notes": [
+        "known closed UnitedHealth Group/Taleo requisition"
+      ]
+    },
+    {
+      "path": "generated\\daily-run-2026-04-30\\unitedhealth-group-data-analyst-remote-minnetonka.json",
+      "company": "UnitedHealth Group",
+      "job_title": "Data Analyst - Remote (Minnetonka, MN)",
+      "job_url": "https://careers.unitedhealthgroup.com/job/minnetonka/data-analyst-remote/34088/94451213408",
+      "status": "unavailable",
+      "link_status": "broken",
+      "availability_status": "unavailable",
+      "posting_date": "",
+      "last_verified_date": "2026-05-01",
+      "notes": [
+        "known closed UnitedHealth Group/Taleo requisition"
+      ]
+    },
+    {
+      "path": "generated\\daily-run-2026-04-30\\unitedhealth-group-senior-data-analyst-remote.json",
+      "company": "UnitedHealth Group",
+      "job_title": "Senior Data Analyst - Remote",
+      "job_url": "https://careers.unitedhealthgroup.com/job/eden-prairie/senior-data-analyst-remote/34088/94259827424",
+      "status": "unavailable",
+      "link_status": "broken",
+      "availability_status": "unavailable",
+      "posting_date": "",
+      "last_verified_date": "2026-05-01",
+      "notes": [
+        "known closed UnitedHealth Group/Taleo requisition"
+      ]
+    },
+    {
+      "path": "generated\\daily-run-2026-04-30\\wellth-senior-health-informatics-data-analyst.json",
+      "company": "Wellth",
+      "job_title": "Senior Health Informatics Data Analyst",
+      "job_url": "https://jobs.ashbyhq.com/wellth/bbd75ba0-95e7-4831-acea-0ad2b409fbf7?locationId=8cde2473-456b-459f-9300-67e15f8d9959",
+      "status": "active",
+      "link_status": "working",
+      "availability_status": "active",
+      "posting_date": "2026-04-16",
+      "last_verified_date": "2026-05-01",
+      "notes": [
+        "detail page loaded and posting date is within 60 days"
+      ],
+      "http_status": 200,
+      "final_url": "https://jobs.ashbyhq.com/wellth/bbd75ba0-95e7-4831-acea-0ad2b409fbf7?locationId=8cde2473-456b-459f-9300-67e15f8d9959"
+    },
+    {
+      "path": "generated\\Doximity\\data-analyst-business-intelligence\\role_metadata.json",
+      "company": "Doximity",
+      "job_title": "Data Analyst, Business Intelligence",
+      "job_url": "https://job-boards.greenhouse.io/doximity/jobs/7787454",
+      "status": "active",
+      "link_status": "working",
+      "availability_status": "active",
+      "posting_date": "2026-04-09",
+      "last_verified_date": "2026-05-01",
+      "notes": [
+        "detail page loaded and posting date is within 60 days"
+      ],
+      "http_status": 200,
+      "final_url": "https://job-boards.greenhouse.io/doximity/jobs/7787454"
+    },
+    {
+      "path": "generated\\Doximity\\data-analyst-reporting-partnerships\\role_metadata.json",
+      "company": "Doximity",
+      "job_title": "Data Analyst, Reporting Partnerships",
+      "job_url": "https://job-boards.greenhouse.io/doximity/jobs/7787892",
+      "status": "active",
+      "link_status": "working",
+      "availability_status": "active",
+      "posting_date": "2026-04-29",
+      "last_verified_date": "2026-05-01",
+      "notes": [
+        "detail page loaded and posting date is within 60 days"
+      ],
+      "http_status": 200,
+      "final_url": "https://job-boards.greenhouse.io/doximity/jobs/7787892"
+    },
+    {
+      "path": "generated\\Estenda Solutions\\data-quality-analyst-real-world-evidence-remote\\role_metadata.json",
+      "company": "Estenda Solutions",
+      "job_title": "Data Quality Analyst for Real World Evidence (Remote)",
+      "job_url": "https://jobs.lever.co/estenda/abfa46ce-9cad-41c0-89f6-6fe329f9b51b/apply",
+      "status": "unavailable",
+      "link_status": "broken",
+      "availability_status": "unavailable",
+      "posting_date": "2026-05-01",
+      "last_verified_date": "2026-05-01",
+      "notes": [
+        "http status 404"
+      ],
+      "http_status": 404,
+      "final_url": "https://jobs.lever.co/estenda/abfa46ce-9cad-41c0-89f6-6fe329f9b51b/apply"
+    },
+    {
+      "path": "generated\\Galileo\\data-analyst\\role_metadata.json",
+      "company": "Galileo",
+      "job_title": "Data Analyst",
+      "job_url": "https://wellfound.com/jobs/3347495-data-analyst",
+      "status": "unavailable",
+      "link_status": "broken",
+      "availability_status": "unavailable",
+      "posting_date": "2026-04-30",
+      "last_verified_date": "2026-05-01",
+      "notes": [
+        "http status 403"
+      ],
+      "http_status": 403,
+      "final_url": "https://wellfound.com/jobs/3347495-data-analyst"
+    },
+    {
+      "path": "generated\\Geisinger\\healthcare-data-analyst-iii-remote-capable\\role_metadata.json",
+      "company": "Geisinger",
+      "job_title": "Healthcare Data Analyst III (Remote Capable)",
+      "job_url": "https://www.linkedin.com/jobs/view/healthcare-data-analyst-iii-remote-capable-at-geisinger-4397577349",
+      "status": "active",
+      "link_status": "working",
+      "availability_status": "active",
+      "posting_date": "2026-04-03",
+      "last_verified_date": "2026-05-01",
+      "notes": [
+        "official_site_checked is missing or false; official career site was not verified",
+        "detail page loaded and posting date is within 60 days"
+      ],
+      "http_status": 200,
+      "final_url": "https://www.linkedin.com/jobs/view/healthcare-data-analyst-iii-remote-capable-at-geisinger-4397577349"
+    },
+    {
+      "path": "generated\\geisinger.json",
+      "company": "Geisinger",
+      "job_title": "Healthcare Data Analyst III (Remote Capable)",
+      "job_url": "https://www.linkedin.com/jobs/view/healthcare-data-analyst-iii-remote-capable-at-geisinger-4397577349",
+      "status": "active",
+      "link_status": "working",
+      "availability_status": "active",
+      "posting_date": "2026-04-03",
+      "last_verified_date": "2026-05-01",
+      "notes": [
+        "official_site_checked is missing or false; official career site was not verified",
+        "detail page loaded and posting date is within 60 days"
+      ],
+      "http_status": 200,
+      "final_url": "https://www.linkedin.com/jobs/view/healthcare-data-analyst-iii-remote-capable-at-geisinger-4397577349"
+    },
+    {
+      "path": "generated\\General Dynamics\\sr-healthcare-data-analyst\\role_metadata.json",
+      "company": "General Dynamics",
+      "job_title": "Sr. Healthcare Data Analyst",
+      "job_url": "https://www.dice.com/job-detail/65425287-8026-4c9e-a5d5-5d2c4fb538ed",
+      "status": "active",
+      "link_status": "working",
+      "availability_status": "active",
+      "posting_date": "2026-04-03",
+      "last_verified_date": "2026-05-01",
+      "notes": [
+        "official_site_checked is missing or false; official career site was not verified",
+        "detail page loaded and posting date is within 60 days"
+      ],
+      "http_status": 200,
+      "final_url": "https://www.dice.com/job-detail/65425287-8026-4c9e-a5d5-5d2c4fb538ed"
+    },
+    {
+      "path": "generated\\general-dynamics.json",
+      "company": "General Dynamics",
+      "job_title": "Sr. Healthcare Data Analyst",
+      "job_url": "https://www.dice.com/job-detail/65425287-8026-4c9e-a5d5-5d2c4fb538ed",
+      "status": "active",
+      "link_status": "working",
+      "availability_status": "active",
+      "posting_date": "2026-04-03",
+      "last_verified_date": "2026-05-01",
+      "notes": [
+        "official_site_checked is missing or false; official career site was not verified",
+        "detail page loaded and posting date is within 60 days"
+      ],
+      "http_status": 200,
+      "final_url": "https://www.dice.com/job-detail/65425287-8026-4c9e-a5d5-5d2c4fb538ed"
+    },
+    {
+      "path": "generated\\IMO Health\\sr-healthcare-data-quality-analyst\\role_metadata.json",
+      "company": "IMO Health",
+      "job_title": "Sr. Healthcare Data Quality Analyst",
+      "job_url": "https://jobs.lever.co/imo-online/6c199cf6-c667-49b8-8535-ae87fb25534d",
+      "status": "unavailable",
+      "link_status": "broken",
+      "availability_status": "unavailable",
+      "posting_date": "",
+      "last_verified_date": "2026-05-01",
+      "notes": [
+        "posting date could not be verified"
+      ],
+      "http_status": 200,
+      "final_url": "https://jobs.lever.co/imo-online/6c199cf6-c667-49b8-8535-ae87fb25534d"
+    },
+    {
+      "path": "generated\\imo-health.json",
+      "company": "IMO Health",
+      "job_title": "Sr. Healthcare Data Quality Analyst",
+      "job_url": "https://jobs.lever.co/imo-online/6c199cf6-c667-49b8-8535-ae87fb25534d",
+      "status": "unavailable",
+      "link_status": "broken",
+      "availability_status": "unavailable",
+      "posting_date": "",
+      "last_verified_date": "2026-05-01",
+      "notes": [
+        "posting date could not be verified"
+      ],
+      "http_status": 200,
+      "final_url": "https://jobs.lever.co/imo-online/6c199cf6-c667-49b8-8535-ae87fb25534d"
+    },
+    {
+      "path": "generated\\Infinite Computer Solutions (ICS)\\clinical-data-analyst-remote-position\\role_metadata.json",
+      "company": "Infinite Computer Solutions (ICS)",
+      "job_title": "Clinical Data Analyst - Remote position",
+      "job_url": "https://www.dice.com/job-detail/069bc8fa-4fc4-4f20-9667-b81ba4093c7c",
+      "status": "active",
+      "link_status": "working",
+      "availability_status": "active",
+      "posting_date": "2026-04-21",
+      "last_verified_date": "2026-05-01",
+      "notes": [
+        "official_site_checked is missing or false; official career site was not verified",
+        "detail page loaded and posting date is within 60 days"
+      ],
+      "http_status": 200,
+      "final_url": "https://www.dice.com/job-detail/069bc8fa-4fc4-4f20-9667-b81ba4093c7c"
+    },
+    {
+      "path": "generated\\infinite-computer-solutions.json",
+      "company": "Infinite Computer Solutions (ICS)",
+      "job_title": "Clinical Data Analyst - Remote position",
+      "job_url": "https://www.dice.com/job-detail/069bc8fa-4fc4-4f20-9667-b81ba4093c7c",
+      "status": "active",
+      "link_status": "working",
+      "availability_status": "active",
+      "posting_date": "2026-04-21",
+      "last_verified_date": "2026-05-01",
+      "notes": [
+        "official_site_checked is missing or false; official career site was not verified",
+        "detail page loaded and posting date is within 60 days"
+      ],
+      "http_status": 200,
+      "final_url": "https://www.dice.com/job-detail/069bc8fa-4fc4-4f20-9667-b81ba4093c7c"
+    },
+    {
+      "path": "generated\\Insight Global\\healthcare-data-analyst\\role_metadata.json",
+      "company": "Insight Global",
+      "job_title": "Healthcare Data Analyst",
+      "job_url": "https://www.linkedin.com/jobs/view/healthcare-data-analyst-at-insight-global-4371514183",
+      "status": "unavailable",
+      "link_status": "broken",
+      "availability_status": "unavailable",
+      "posting_date": "",
+      "last_verified_date": "2026-05-01",
+      "notes": [
+        "posting date could not be verified"
+      ],
+      "http_status": 200,
+      "final_url": "https://www.linkedin.com/jobs/clinical-data-coordinator-jobs?trk=expired_jd_redirect"
+    },
+    {
+      "path": "generated\\insight-global.json",
+      "company": "Insight Global",
+      "job_title": "Healthcare Data Analyst",
+      "job_url": "https://www.linkedin.com/jobs/view/healthcare-data-analyst-at-insight-global-4371514183",
+      "status": "unavailable",
+      "link_status": "broken",
+      "availability_status": "unavailable",
+      "posting_date": "",
+      "last_verified_date": "2026-05-01",
+      "notes": [
+        "posting date could not be verified"
+      ],
+      "http_status": 200,
+      "final_url": "https://www.linkedin.com/jobs/clinical-data-coordinator-jobs?trk=expired_jd_redirect"
+    },
+    {
+      "path": "generated\\Joint Commission\\healthcare-data-analyst\\role_metadata.json",
+      "company": "Joint Commission",
+      "job_title": "Healthcare Data Analyst",
+      "job_url": "https://www.indeed.com/viewjob?jk=e161bb2ffd99e766",
+      "status": "unavailable",
+      "link_status": "broken",
+      "availability_status": "unavailable",
+      "posting_date": "",
+      "last_verified_date": "2026-05-01",
+      "notes": [
+        "http status 403"
+      ],
+      "http_status": 403,
+      "final_url": "https://www.indeed.com/viewjob?jk=e161bb2ffd99e766"
+    },
+    {
+      "path": "generated\\joint-commission.json",
+      "company": "Joint Commission",
+      "job_title": "Healthcare Data Analyst",
+      "job_url": "https://www.indeed.com/viewjob?jk=e161bb2ffd99e766",
+      "status": "unavailable",
+      "link_status": "broken",
+      "availability_status": "unavailable",
+      "posting_date": "",
+      "last_verified_date": "2026-05-01",
+      "notes": [
+        "http status 403"
+      ],
+      "http_status": 403,
+      "final_url": "https://www.indeed.com/viewjob?jk=e161bb2ffd99e766"
+    },
+    {
+      "path": "generated\\JPC Partners\\healthcare-data-analyst\\role_metadata.json",
+      "company": "JPC Partners",
+      "job_title": "Healthcare Data Analyst",
+      "job_url": "https://www.dice.com/job-detail/d9a3b3eb-51b8-4459-a559-e7c6230a5486/",
+      "status": "unavailable",
+      "link_status": "broken",
+      "availability_status": "unavailable",
+      "posting_date": "",
+      "last_verified_date": "2026-05-01",
+      "notes": [
+        "page contains expired/closed-job text: job is no longer available"
+      ],
+      "http_status": 200,
+      "final_url": "https://www.dice.com/job-detail/d9a3b3eb-51b8-4459-a559-e7c6230a5486"
+    },
+    {
+      "path": "generated\\jpc-partners.json",
+      "company": "JPC Partners",
+      "job_title": "Healthcare Data Analyst",
+      "job_url": "https://www.dice.com/job-detail/d9a3b3eb-51b8-4459-a559-e7c6230a5486/",
+      "status": "unavailable",
+      "link_status": "broken",
+      "availability_status": "unavailable",
+      "posting_date": "",
+      "last_verified_date": "2026-05-01",
+      "notes": [
+        "page contains expired/closed-job text: job is no longer available"
+      ],
+      "http_status": 200,
+      "final_url": "https://www.dice.com/job-detail/d9a3b3eb-51b8-4459-a559-e7c6230a5486"
+    },
+    {
+      "path": "generated\\Kootenai Health\\healthcare-data-analyst\\role_metadata.json",
+      "company": "Kootenai Health",
+      "job_title": "Healthcare Data Analyst",
+      "job_url": "https://www.indeed.com/viewjob?jk=301617d4d726e2e5",
+      "status": "unavailable",
+      "link_status": "broken",
+      "availability_status": "unavailable",
+      "posting_date": "",
+      "last_verified_date": "2026-05-01",
+      "notes": [
+        "http status 403"
+      ],
+      "http_status": 403,
+      "final_url": "https://www.indeed.com/viewjob?jk=301617d4d726e2e5"
+    },
+    {
+      "path": "generated\\kootenai-health.json",
+      "company": "Kootenai Health",
+      "job_title": "Healthcare Data Analyst",
+      "job_url": "https://www.indeed.com/viewjob?jk=301617d4d726e2e5",
+      "status": "unavailable",
+      "link_status": "broken",
+      "availability_status": "unavailable",
+      "posting_date": "",
+      "last_verified_date": "2026-05-01",
+      "notes": [
+        "http status 403"
+      ],
+      "http_status": 403,
+      "final_url": "https://www.indeed.com/viewjob?jk=301617d4d726e2e5"
+    },
+    {
+      "path": "generated\\LetsGetChecked\\data-quality-analyst\\role_metadata.json",
+      "company": "LetsGetChecked",
+      "job_title": "Data Quality Analyst",
+      "job_url": "https://www.indeed.com/viewjob?jk=39d5814cb51c99de",
+      "status": "unavailable",
+      "link_status": "broken",
+      "availability_status": "unavailable",
+      "posting_date": "",
+      "last_verified_date": "2026-05-01",
+      "notes": [
+        "http status 403"
+      ],
+      "http_status": 403,
+      "final_url": "https://www.indeed.com/viewjob?jk=39d5814cb51c99de"
+    },
+    {
+      "path": "generated\\letsgetchecked.json",
+      "company": "LetsGetChecked",
+      "job_title": "Data Quality Analyst",
+      "job_url": "https://www.indeed.com/viewjob?jk=39d5814cb51c99de",
+      "status": "unavailable",
+      "link_status": "broken",
+      "availability_status": "unavailable",
+      "posting_date": "",
+      "last_verified_date": "2026-05-01",
+      "notes": [
+        "http status 403"
+      ],
+      "http_status": 403,
+      "final_url": "https://www.indeed.com/viewjob?jk=39d5814cb51c99de"
+    },
+    {
+      "path": "generated\\Molina Healthcare\\lead-analyst-healthcare-analytics\\role_metadata.json",
+      "company": "Molina Healthcare",
+      "job_title": "Lead Analyst, Healthcare Analytics",
+      "job_url": "https://careers.molinahealthcare.com/job/united-states/lead-analyst-healthcare-analytics-remote/21726/94274245344",
+      "status": "active",
+      "link_status": "working",
+      "availability_status": "active",
+      "posting_date": "2026-04-22",
+      "last_verified_date": "2026-05-01",
+      "notes": [
+        "detail page loaded and posting date is within 60 days"
+      ],
+      "http_status": 200,
+      "final_url": "https://careers.molinahealthcare.com/job/united-states/lead-analyst-healthcare-analytics-remote/21726/94274245344"
+    },
+    {
+      "path": "generated\\Molina Healthcare\\lead-analyst-quality-analytics-performance-improvement-remote\\role_metadata.json",
+      "company": "Molina Healthcare",
+      "job_title": "Lead Analyst, Quality Analytics & Performance Improvement (Remote)",
+      "job_url": "https://careers.molinahealthcare.com/job/united-states/lead-analyst-quality-analytics-and-performance-improvement-remote/21726/94183066896",
+      "status": "active",
+      "link_status": "working",
+      "availability_status": "active",
+      "posting_date": "2026-04-20",
+      "last_verified_date": "2026-05-01",
+      "notes": [
+        "detail page loaded and posting date is within 60 days"
+      ],
+      "http_status": 200,
+      "final_url": "https://careers.molinahealthcare.com/job/united-states/lead-analyst-quality-analytics-and-performance-improvement-remote/21726/94183066896"
+    },
+    {
+      "path": "generated\\Molina Healthcare\\senior-analyst-healthcare-analytics-est-hours\\role_metadata.json",
+      "company": "Molina Healthcare",
+      "job_title": "Senior Analyst, Healthcare Analytics (Remote, EST Hours)",
+      "job_url": "https://careers.molinahealthcare.com/job/united-states/senior-analyst-healthcare-analytics-remote-est-hours/21726/93284213104",
+      "status": "unavailable",
+      "link_status": "broken",
+      "availability_status": "unavailable",
+      "posting_date": "2026-03-27",
+      "last_verified_date": "2026-05-01",
+      "notes": [
+        "posting is older than 30 days: 2026-03-27"
+      ],
+      "http_status": 200,
+      "final_url": "https://careers.molinahealthcare.com/job/united-states/senior-analyst-healthcare-analytics-remote-est-hours/21726/93284213104"
+    },
+    {
+      "path": "generated\\Molina Healthcare\\senior-data-analyst-healthcare-analytics\\role_metadata.json",
+      "company": "Molina Healthcare",
+      "job_title": "Senior Data Analyst, Healthcare Analytics",
+      "job_url": "https://careers.molinahealthcare.com/job/united-states/senior-data-analyst-healthcare-analytics/21726/94486422352",
+      "status": "active",
+      "link_status": "working",
+      "availability_status": "active",
+      "posting_date": "2026-04-28",
+      "last_verified_date": "2026-05-01",
+      "notes": [
+        "detail page loaded and posting date is within 60 days"
+      ],
+      "http_status": 200,
+      "final_url": "https://careers.molinahealthcare.com/job/united-states/senior-data-analyst-healthcare-analytics/21726/94486422352"
+    },
+    {
+      "path": "generated\\OpenLoop\\staff-sql-developer-data-analyst\\role_metadata.json",
+      "company": "OpenLoop",
+      "job_title": "Staff SQL Developer / Data Analyst",
+      "job_url": "https://www.linkedin.com/jobs/view/staff-sql-developer-data-analyst-at-openloop-4374306622",
+      "status": "active",
+      "link_status": "working",
+      "availability_status": "active",
+      "posting_date": "2026-04-25",
+      "last_verified_date": "2026-05-01",
+      "notes": [
+        "official_site_checked is missing or false; official career site was not verified",
+        "detail page loaded and posting date is within 60 days"
+      ],
+      "http_status": 200,
+      "final_url": "https://www.linkedin.com/jobs/view/staff-sql-developer-data-analyst-at-openloop-4374306622"
+    },
+    {
+      "path": "generated\\People Force Consulting Inc\\healthcare-data-analyst-with-population-health\\role_metadata.json",
+      "company": "People Force Consulting Inc",
+      "job_title": "Healthcare Data Analyst with Population Health",
+      "job_url": "https://www.dice.com/job-detail/eeda7e98-531e-4e24-bec2-915f1b1b9025",
+      "status": "unavailable",
+      "link_status": "broken",
+      "availability_status": "unavailable",
+      "posting_date": "",
+      "last_verified_date": "2026-05-01",
+      "notes": [
+        "http status 410"
+      ],
+      "http_status": 410,
+      "final_url": "https://www.dice.com/job-detail/eeda7e98-531e-4e24-bec2-915f1b1b9025"
+    },
+    {
+      "path": "generated\\people-force.json",
+      "company": "People Force Consulting Inc",
+      "job_title": "Healthcare Data Analyst with Population Health",
+      "job_url": "https://www.dice.com/job-detail/eeda7e98-531e-4e24-bec2-915f1b1b9025",
+      "status": "unavailable",
+      "link_status": "broken",
+      "availability_status": "unavailable",
+      "posting_date": "",
+      "last_verified_date": "2026-05-01",
+      "notes": [
+        "http status 410"
+      ],
+      "http_status": 410,
+      "final_url": "https://www.dice.com/job-detail/eeda7e98-531e-4e24-bec2-915f1b1b9025"
+    },
+    {
+      "path": "generated\\Pinnacle Method Consulting\\data-quality-analyst-for-real-world-evidence-remote\\role_metadata.json",
+      "company": "Pinnacle Method Consulting",
+      "job_title": "Data Quality Analyst for Real World Evidence (Remote)",
+      "job_url": "https://www.linkedin.com/jobs/view/data-quality-analyst-for-real-world-evidence-remote-at-pinnacle-method-consulting-4360105256",
+      "status": "unavailable",
+      "link_status": "broken",
+      "availability_status": "unavailable",
+      "posting_date": "",
+      "last_verified_date": "2026-05-01",
+      "notes": [
+        "posting date could not be verified"
+      ],
+      "http_status": 200,
+      "final_url": "https://www.linkedin.com/jobs/infor-jobs?trk=expired_jd_redirect"
+    },
+    {
+      "path": "generated\\pinnacle-method.json",
+      "company": "Pinnacle Method Consulting",
+      "job_title": "Data Quality Analyst for Real World Evidence (Remote)",
+      "job_url": "https://www.linkedin.com/jobs/view/data-quality-analyst-for-real-world-evidence-remote-at-pinnacle-method-consulting-4360105256",
+      "status": "unavailable",
+      "link_status": "broken",
+      "availability_status": "unavailable",
+      "posting_date": "",
+      "last_verified_date": "2026-05-01",
+      "notes": [
+        "posting date could not be verified"
+      ],
+      "http_status": 200,
+      "final_url": "https://www.linkedin.com/jobs/infor-jobs?trk=expired_jd_redirect"
+    },
+    {
+      "path": "generated\\Prodware Solutions\\100-remote-healthcare-data-analyst\\role_metadata.json",
+      "company": "Prodware Solutions",
+      "job_title": "100% Remote - Healthcare Data Analyst",
+      "job_url": "https://www.linkedin.com/jobs/view/100%25-remote-healthcare-data-analyst-at-jobs-via-dice-4372553583",
+      "status": "unavailable",
+      "link_status": "broken",
+      "availability_status": "unavailable",
+      "posting_date": "",
+      "last_verified_date": "2026-05-01",
+      "notes": [
+        "posting date could not be verified"
+      ],
+      "http_status": 200,
+      "final_url": "https://www.linkedin.com/jobs/clinical-data-coordinator-jobs?trk=expired_jd_redirect"
+    },
+    {
+      "path": "generated\\prodware-solutions.json",
+      "company": "Prodware Solutions",
+      "job_title": "100% Remote - Healthcare Data Analyst",
+      "job_url": "https://www.linkedin.com/jobs/view/100%25-remote-healthcare-data-analyst-at-jobs-via-dice-4372553583",
+      "status": "unavailable",
+      "link_status": "broken",
+      "availability_status": "unavailable",
+      "posting_date": "",
+      "last_verified_date": "2026-05-01",
+      "notes": [
+        "posting date could not be verified"
+      ],
+      "http_status": 200,
+      "final_url": "https://www.linkedin.com/jobs/clinical-data-coordinator-jobs?trk=expired_jd_redirect"
+    },
+    {
+      "path": "generated\\Randstad Digital\\data-analyst-iii\\role_metadata.json",
+      "company": "Randstad Digital",
+      "job_title": "Data Analyst III",
+      "job_url": "https://www.dice.com/job-detail/6e54cdcc-60b2-4967-8a00-31c6234311d6/",
+      "status": "unavailable",
+      "link_status": "broken",
+      "availability_status": "unavailable",
+      "posting_date": "",
+      "last_verified_date": "2026-05-01",
+      "notes": [
+        "http status 410"
+      ],
+      "http_status": 410,
+      "final_url": "https://www.dice.com/job-detail/6e54cdcc-60b2-4967-8a00-31c6234311d6"
+    },
+    {
+      "path": "generated\\randstad-digital.json",
+      "company": "Randstad Digital",
+      "job_title": "Data Analyst III",
+      "job_url": "https://www.dice.com/job-detail/6e54cdcc-60b2-4967-8a00-31c6234311d6/",
+      "status": "unavailable",
+      "link_status": "broken",
+      "availability_status": "unavailable",
+      "posting_date": "",
+      "last_verified_date": "2026-05-01",
+      "notes": [
+        "http status 410"
+      ],
+      "http_status": 410,
+      "final_url": "https://www.dice.com/job-detail/6e54cdcc-60b2-4967-8a00-31c6234311d6"
+    },
+    {
+      "path": "generated\\Scan.com\\data-analyst\\role_metadata.json",
+      "company": "Scan.com",
+      "job_title": "Data Analyst",
+      "job_url": "https://builtin.com/job/data-analyst/9146519",
+      "status": "active",
+      "link_status": "working",
+      "availability_status": "active",
+      "posting_date": "2026-05-01",
+      "last_verified_date": "2026-05-01",
+      "notes": [
+        "official_site_checked is missing or false; official career site was not verified",
+        "detail page loaded and posting date is within 60 days"
+      ],
+      "http_status": 200,
+      "final_url": "https://builtin.com/job/data-analyst/9146519"
+    },
+    {
+      "path": "generated\\Sentara Health\\senior-healthcare-data-analyst-remote\\role_metadata.json",
+      "company": "Sentara Health",
+      "job_title": "Senior Healthcare Data Analyst - Remote",
+      "job_url": "https://www.indeed.com/viewjob?jk=9582f4a2151e38f8",
+      "status": "unavailable",
+      "link_status": "broken",
+      "availability_status": "unavailable",
+      "posting_date": "",
+      "last_verified_date": "2026-05-01",
+      "notes": [
+        "http status 403"
+      ],
+      "http_status": 403,
+      "final_url": "https://www.indeed.com/viewjob?jk=9582f4a2151e38f8"
+    },
+    {
+      "path": "generated\\sentara-health.json",
+      "company": "Sentara Health",
+      "job_title": "Senior Healthcare Data Analyst - Remote",
+      "job_url": "https://www.indeed.com/viewjob?jk=9582f4a2151e38f8",
+      "status": "unavailable",
+      "link_status": "broken",
+      "availability_status": "unavailable",
+      "posting_date": "",
+      "last_verified_date": "2026-05-01",
+      "notes": [
+        "http status 403"
+      ],
+      "http_status": 403,
+      "final_url": "https://www.indeed.com/viewjob?jk=9582f4a2151e38f8"
+    },
+    {
+      "path": "generated\\SGS Consulting\\healthcare-data-analyst\\role_metadata.json",
+      "company": "SGS Consulting",
+      "job_title": "Healthcare Data Analyst",
+      "job_url": "https://www.linkedin.com/jobs/view/healthcare-data-analyst-at-jobs-via-dice-4368266863",
+      "status": "unavailable",
+      "link_status": "broken",
+      "availability_status": "unavailable",
+      "posting_date": "",
+      "last_verified_date": "2026-05-01",
+      "notes": [
+        "posting date could not be verified"
+      ],
+      "http_status": 200,
+      "final_url": "https://www.linkedin.com/jobs/clinical-data-coordinator-jobs?trk=expired_jd_redirect"
+    },
+    {
+      "path": "generated\\sgs-consulting.json",
+      "company": "SGS Consulting",
+      "job_title": "Healthcare Data Analyst",
+      "job_url": "https://www.linkedin.com/jobs/view/healthcare-data-analyst-at-jobs-via-dice-4368266863",
+      "status": "unavailable",
+      "link_status": "broken",
+      "availability_status": "unavailable",
+      "posting_date": "",
+      "last_verified_date": "2026-05-01",
+      "notes": [
+        "posting date could not be verified"
+      ],
+      "http_status": 200,
+      "final_url": "https://www.linkedin.com/jobs/clinical-data-coordinator-jobs?trk=expired_jd_redirect"
+    },
+    {
+      "path": "generated\\Solace\\data-analyst-customer-experience\\role_metadata.json",
+      "company": "Solace",
+      "job_title": "Data Analyst - Customer Experience",
+      "job_url": "https://jobs.ashbyhq.com/solace/0d10836e-2faf-4dd4-b187-9cc830e17613",
+      "status": "active",
+      "link_status": "working",
+      "availability_status": "active",
+      "posting_date": "2026-04-27",
+      "last_verified_date": "2026-05-01",
+      "notes": [
+        "detail page loaded and posting date is within 60 days"
+      ],
+      "http_status": 200,
+      "final_url": "https://jobs.ashbyhq.com/solace/0d10836e-2faf-4dd4-b187-9cc830e17613"
+    },
+    {
+      "path": "generated\\SSTech LLC\\data-analyst-healthcare-domain-8-years\\role_metadata.json",
+      "company": "SSTech LLC",
+      "job_title": "Data Analyst - Healthcare Domain - 8 Years",
+      "job_url": "https://www.dice.com/job-detail/ff9bf866-cbe9-4d0a-bb53-658b8c4f1a15",
+      "status": "active",
+      "link_status": "working",
+      "availability_status": "active",
+      "posting_date": "2026-05-01",
+      "last_verified_date": "2026-05-01",
+      "notes": [
+        "official_site_checked is missing or false; official career site was not verified",
+        "detail page loaded and posting date is within 60 days"
+      ],
+      "http_status": 200,
+      "final_url": "https://www.dice.com/job-detail/ff9bf866-cbe9-4d0a-bb53-658b8c4f1a15"
+    },
+    {
+      "path": "generated\\Stryker\\data-analyst-analytics-insights-remote\\role_metadata.json",
+      "company": "Stryker",
+      "job_title": "Data Analyst, Analytics & Insights (Remote)",
+      "job_url": "https://builtin.com/job/data-analyst-analytics-insights-remote/9100086",
+      "status": "active",
+      "link_status": "working",
+      "availability_status": "active",
+      "posting_date": "2026-04-30",
+      "last_verified_date": "2026-05-01",
+      "notes": [
+        "official_site_checked is missing or false; official career site was not verified",
+        "detail page loaded and posting date is within 60 days"
+      ],
+      "http_status": 200,
+      "final_url": "https://builtin.com/job/data-analyst-analytics-insights-remote/9100086"
+    },
+    {
+      "path": "generated\\Stryker\\sr-data-analyst\\role_metadata.json",
+      "company": "Stryker",
+      "job_title": "Sr Data Analyst",
+      "job_url": "https://stryker.wd1.myworkdayjobs.com/StrykerCareers/job/Mahwah-New-Jersey/Sr-Data-Analyst--Remote_R562759",
+      "status": "active",
+      "link_status": "working",
+      "availability_status": "active",
+      "posting_date": "2026-04-27",
+      "last_verified_date": "2026-05-01",
+      "notes": [
+        "detail page loaded and posting date is within 60 days"
+      ],
+      "http_status": 200,
+      "final_url": "https://stryker.wd1.myworkdayjobs.com/StrykerCareers/job/Mahwah-New-Jersey/Sr-Data-Analyst--Remote_R562759"
+    },
+    {
+      "path": "generated\\Symetra\\healthcare-data-analyst-remote\\role_metadata.json",
+      "company": "Symetra",
+      "job_title": "Healthcare Data Analyst - Remote",
+      "job_url": "https://www.linkedin.com/jobs/view/healthcare-data-analyst-remote-at-symetra-4380025305",
+      "status": "unavailable",
+      "link_status": "broken",
+      "availability_status": "unavailable",
+      "posting_date": "",
+      "last_verified_date": "2026-05-01",
+      "notes": [
+        "posting date could not be verified"
+      ],
+      "http_status": 200,
+      "final_url": "https://www.linkedin.com/jobs/clinical-data-coordinator-jobs?trk=expired_jd_redirect"
+    },
+    {
+      "path": "generated\\symetra.json",
+      "company": "Symetra",
+      "job_title": "Healthcare Data Analyst - Remote",
+      "job_url": "https://www.linkedin.com/jobs/view/healthcare-data-analyst-remote-at-symetra-4380025305",
+      "status": "unavailable",
+      "link_status": "broken",
+      "availability_status": "unavailable",
+      "posting_date": "",
+      "last_verified_date": "2026-05-01",
+      "notes": [
+        "posting date could not be verified"
+      ],
+      "http_status": 200,
+      "final_url": "https://www.linkedin.com/jobs/clinical-data-coordinator-jobs?trk=expired_jd_redirect"
+    },
+    {
+      "path": "generated\\UnitedHealth Group\\reporting-and-data-analyst-remote\\role_metadata.json",
+      "company": "UnitedHealth Group",
+      "job_title": "Reporting and Data Analyst - Remote",
+      "job_url": "https://careers.unitedhealthgroup.com/job/eden-prairie/reporting-and-data-analyst-remote/34088/86860616144",
+      "status": "unavailable",
+      "link_status": "broken",
+      "availability_status": "unavailable",
+      "posting_date": "2026-04-17",
+      "last_verified_date": "2026-05-01",
+      "notes": [
+        "http status 404"
+      ],
+      "http_status": 404,
+      "final_url": "https://careers.unitedhealthgroup.com/job/eden-prairie/reporting-and-data-analyst-remote/34088/86860616144"
+    },
+    {
+      "path": "generated\\UnitedHealth Group\\senior-data-analyst-remote-minnetonka\\role_metadata.json",
+      "company": "UnitedHealth Group",
+      "job_title": "Senior Data Analyst - Remote",
+      "job_url": "https://careers.unitedhealthgroup.com/job/minnetonka/senior-data-analyst-remote/34088/94451213360",
+      "status": "unavailable",
+      "link_status": "broken",
+      "availability_status": "unavailable",
+      "posting_date": "2026-04-27",
+      "last_verified_date": "2026-05-01",
+      "notes": [
+        "known closed UnitedHealth Group/Taleo requisition"
+      ]
+    },
+    {
+      "path": "generated\\Veeva Systems\\senior-health-data-analyst-payer\\role_metadata.json",
+      "company": "Veeva Systems",
+      "job_title": "Senior Health Data Analyst - Payer",
+      "job_url": "https://jobs.lever.co/veeva/eecae310-1622-4e2f-bc33-24c603c53034",
+      "status": "unavailable",
+      "link_status": "broken",
+      "availability_status": "unavailable",
+      "posting_date": "",
+      "last_verified_date": "2026-05-01",
+      "notes": [
+        "posting date could not be verified"
+      ],
+      "http_status": 200,
+      "final_url": "https://jobs.lever.co/veeva/eecae310-1622-4e2f-bc33-24c603c53034"
+    },
+    {
+      "path": "generated\\veeva.json",
+      "company": "Veeva Systems",
+      "job_title": "Senior Health Data Analyst - Payer",
+      "job_url": "https://jobs.lever.co/veeva/eecae310-1622-4e2f-bc33-24c603c53034",
+      "status": "unavailable",
+      "link_status": "broken",
+      "availability_status": "unavailable",
+      "posting_date": "",
+      "last_verified_date": "2026-05-01",
+      "notes": [
+        "posting date could not be verified"
+      ],
+      "http_status": 200,
+      "final_url": "https://jobs.lever.co/veeva/eecae310-1622-4e2f-bc33-24c603c53034"
+    }
+  ]
+}

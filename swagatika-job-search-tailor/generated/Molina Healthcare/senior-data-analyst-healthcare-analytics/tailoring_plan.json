@@ -1,0 +1,12 @@
+{
+  "replacements": [
+    {
+      "find": "banking, retail, and e-commerce domains",
+      "replace": "healthcare (payer), pharmacy, and financial analytics domains"
+    },
+    {
+      "find": "ETL validation, source-to-target testing, data quality, data warehousing, and production data support",
+      "replace": "ETL validation, healthcare claims and pharmacy data analysis, source-to-target testing, data quality, and production data support"
+    }
+  ]
+}

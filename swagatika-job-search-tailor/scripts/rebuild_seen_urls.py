@@ -8,10 +8,8 @@ def main() -> int:
     base_dir = Path(__file__).resolve().parent.parent / "generated"
     seen = []
 
-    for job_file in sorted(base_dir.glob("*.json")):
-        if job_file.name == "candidate-profile.json":
-            continue
-        data = json.loads(job_file.read_text(encoding="utf-8-sig"))
+    for role_file in sorted(base_dir.rglob("role_metadata.json")):
+        data = json.loads(role_file.read_text(encoding="utf-8-sig"))
         if not isinstance(data, dict):
             continue
         if "company" not in data or "job_title" not in data or "job_url" not in data:
@@ -25,6 +23,10 @@ def main() -> int:
                 "employment_type": data.get("employment_type", ""),
                 "work_mode": data.get("work_mode", ""),
                 "location": data.get("location", ""),
+                "posting_date": data.get("posting_date", ""),
+                "last_verified_date": data.get("last_verified_date", ""),
+                "availability_status": data.get("availability_status", ""),
+                "link_status": data.get("link_status", ""),
             }
         )
 

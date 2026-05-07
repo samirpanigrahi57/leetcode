@@ -9,10 +9,10 @@
   "location": "Charlotte, NC / Remote",
   "fit_score": 82,
   "posting_date": "2026-04-19",
-  "last_verified_date": "2026-04-30",
+  "last_verified_date": "2026-05-01",
   "availability_status": "unavailable",
   "link_status": "broken",
-  "validation_notes": "Rejected after direct page check: ZipRecruiter says this job posting has expired and is no longer accepting applications.",
+  "validation_notes": "http status 403",
   "job_description": "# Remote Healthcare Data Analyst: Clinical Insights & AI\nCompany: Lucem Health Inc.\nSource: ZipRecruiter\nEmployment type: Contract\nChecked: April 30, 2026\nPosted: April 19, 2026\nURL: https://www.ziprecruiter.com/c/Lucem-Health-Inc./Job/Remote-Healthcare-Data-Analyst%3A-Clinical-Insights-%26-AI/-in-Charlotte%2CNC?jid=8cbf48fa5b00173e\n\n## Highlights\n- Remote healthcare technology contract role focused on clinical insights and AI-enabled health data workflows.\n- Responsibilities include analyzing clinical workflows, synthesizing health data, and ensuring the accuracy of reporting tools.\n- Requires SQL, analytical skills, communication, and collaboration with clinicians and product teams.",
   "strengths": [
     "Strong healthcare data analysis, SQL, reporting accuracy, and cross-functional collaboration alignment.",

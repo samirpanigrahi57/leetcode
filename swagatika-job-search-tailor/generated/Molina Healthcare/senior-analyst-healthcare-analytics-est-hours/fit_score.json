@@ -1,0 +1,24 @@
+{
+  "job_title": "Senior Analyst, Healthcare Analytics (Remote, EST Hours)",
+  "score": 80,
+  "source": "Molina Healthcare Official Careers",
+  "employment_type": "Full-time",
+  "work_mode": "Remote",
+  "location": "United States (Remote, EST Hours)",
+  "posting_date": "2026-03-27",
+  "last_verified_date": "2026-04-30",
+  "availability_status": "active",
+  "link_status": "working",
+  "strengths": [
+    "Healthcare claims and pharmacy data analysis — direct match",
+    "Advanced SQL required — core strength",
+    "Databricks preferred — resume shows self-directed Databricks learning",
+    "Power BI reporting — explicitly listed in resume",
+    "Data anomaly detection — maps to data quality and root-cause analysis experience"
+  ],
+  "gaps": [
+    "EST hours required — Swagatika is in Austin TX (CST); 1-hour difference; manageable but constraint to confirm",
+    "Databricks: upskilling in resume, not production-level; flag as in-progress",
+    "Predictive modeling: resume does not claim this directly"
+  ]
+}

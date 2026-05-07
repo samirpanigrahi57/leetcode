@@ -9,10 +9,10 @@
   "location": "Any Location / Remote",
   "fit_score": 80,
   "posting_date": "2026-04-29",
-  "last_verified_date": "2026-04-30",
+  "last_verified_date": "2026-05-01",
   "availability_status": "active",
   "link_status": "working",
-  "validation_notes": "Dice detail page loaded in browser-visible source; posted 1 day ago; Apply Now present; no expired/closed text.",
+  "validation_notes": "official_site_checked is missing or false; official career site was not verified; detail page loaded and posting date is within 60 days",
   "job_description": "# Sr. Healthcare Data Analyst (Medicaid)\nCompany: General Dynamics / GDIT\nSource: Dice\nEmployment type: Full-time\nChecked: April 30, 2026\nPosted: April 29, 2026\nURL: https://www.dice.com/job-detail/0829c8cb-ebfe-43e1-ab65-ecc8df659c31\n\n## Highlights\n- Full-time remote role posted 1 day ago on Dice.\n- Supports CMS Medicare/Medicaid program analytics for fraud, waste, and abuse detection through advanced analytics and visualization.\n- Requires 5+ years of Medicaid claims analysis and reporting, T-MSIS, SQL, Python, Tableau, Databricks, Snowflake or similar tools.\n- Remote work location with limited travel.",
   "strengths": [
     "Strong healthcare claims, Medicaid/Medicare, SQL, reporting, and data analysis alignment.",

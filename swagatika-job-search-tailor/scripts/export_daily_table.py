@@ -6,7 +6,7 @@ import sys
 from datetime import datetime
 from pathlib import Path
 
-MAX_POSTING_AGE_DAYS = 60
+MAX_POSTING_AGE_DAYS = 30
 ACTIVE_STATUS = "active"
 WORKING_STATUS = "working"
 
@@ -60,19 +60,28 @@ def is_verified_current_job(data: dict, export_date: datetime) -> bool:
 
 def load_jobs(generated_dir: Path, export_date: datetime) -> list[dict]:
     jobs: list[dict] = []
-    for path in sorted(generated_dir.glob("*.json")):
-        if path.name in {"candidate-profile.json", "seen_job_urls.json"}:
-            continue
+    for path in sorted(generated_dir.rglob("role_metadata.json")):
         data = json.loads(path.read_text(encoding="utf-8-sig"))
         if not isinstance(data, dict):
             continue
         if "company" not in data or "job_title" not in data or "job_url" not in data:
             continue
         if not is_verified_current_job(data, export_date):
-            print(f"Skipping unverified, expired, or unavailable job: {path.name}")
+            print(f"Skipping unverified, expired, or unavailable job: {path.parent.name}")
             continue
         jobs.append(data)
     return jobs
+
+
+def load_known_job_urls(generated_dir: Path) -> set[str]:
+    urls: set[str] = set()
+    for path in sorted(generated_dir.rglob("role_metadata.json")):
+        data = json.loads(path.read_text(encoding="utf-8-sig"))
+        if isinstance(data, dict):
+            job_url = str(data.get("job_url", "")).strip()
+            if job_url:
+                urls.add(job_url)
+    return urls
 
 
 def parse_existing_export(path: Path) -> list[dict]:
@@ -122,14 +131,13 @@ def slugify(value: str) -> str:
     return slug or "role"
 
 
-def merge_rows(existing_rows: list[dict], new_rows: list[dict], export_date: datetime) -> list[dict]:
+def merge_rows(existing_rows: list[dict], new_rows: list[dict], export_date: datetime, known_job_urls: set[str]) -> list[dict]:
     merged: dict[str, dict] = {}
-    for row in existing_rows + new_rows:
+    # Export only rows backed by current generated metadata. Stale same-day table rows
+    # must not survive after validation marks their metadata unavailable.
+    for row in new_rows:
         job_url = row.get("job_url", "").strip()
         if not job_url:
-            continue
-        if not is_verified_current_job(row, export_date):
-            print(f"Skipping unverified, expired, or unavailable existing row: {job_url}")
             continue
         normalized = dict(row)
         normalized["resume_folder"] = row.get("resume_folder") or (
@@ -199,8 +207,9 @@ def main() -> int:
     output_dir.mkdir(parents=True, exist_ok=True)
     out_path = output_dir / f"job-search-table-{date_str}.md"
     jobs = load_jobs(generated_dir, export_date)
+    known_job_urls = load_known_job_urls(generated_dir)
     existing_rows = parse_existing_export(out_path)
-    merged_rows = merge_rows(existing_rows, jobs, export_date)
+    merged_rows = merge_rows(existing_rows, jobs, export_date, known_job_urls)
     content = render_table(merged_rows, applications_root)
     out_path.write_text(content, encoding="utf-8")
     print(out_path)

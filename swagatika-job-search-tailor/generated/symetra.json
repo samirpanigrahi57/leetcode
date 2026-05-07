@@ -44,5 +44,9 @@
   "employment_type": "Full-time",
   "file": "symetra.json",
   "work_mode": "Remote",
-  "location": "US Remote"
+  "location": "US Remote",
+  "last_verified_date": "2026-05-01",
+  "availability_status": "unavailable",
+  "link_status": "broken",
+  "validation_notes": "posting date could not be verified"
 }
