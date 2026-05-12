@@ -22,6 +22,7 @@ $doc = $null
 try {
     $word = New-Object -ComObject Word.Application
     $word.Visible = $false
+    $word.DisplayAlerts = 0
     $doc = $word.Documents.Open($OutputResumePath)
 
     foreach ($replacement in $plan.replacements) {
@@ -47,12 +48,12 @@ try {
 
     if ($PdfOutputPath) {
         $wdExportFormatPDF = 17
-        $doc.ExportAsFixedFormat($PdfOutputPath, $wdExportFormatPDF)
+        $doc.SaveAs([ref]$PdfOutputPath, [ref]$wdExportFormatPDF)
     }
 }
 finally {
     if ($doc -ne $null) {
-        $doc.Close()
+        $doc.Close($false)
     }
     if ($word -ne $null) {
         $word.Quit()

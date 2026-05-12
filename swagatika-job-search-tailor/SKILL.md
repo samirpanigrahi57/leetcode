@@ -1,25 +1,57 @@
 ---
 name: swagatika-job-search-tailor
-description: Use when searching current jobs for Swagatika Nayak across LinkedIn, Dice, Indeed, company career pages, and structured boards, deduplicating by URL, validating live apply links, creating one tailored resume package per accepted role under generated, and exporting one daily table. Do not write to jobs_application.
+description: Use when searching current jobs for Swagatika Nayak across LinkedIn, Dice, Indeed, company career pages, and structured boards, deduplicating by URL, validating live job detail pages and active apply paths, creating one tailored resume package per accepted role under generated, and exporting one daily table. Also use for one-off resume tailoring from a valid job posting URL or pasted job description. Do not write to jobs_application.
 ---
 
 # Swagatika Job Search Tailor
 
-## Quick Command
+## Quick Commands
 
 Start from:
 
 ```text
-C:\Users\samir\Documents\Learning\Java\Projects\leetcode
+C:\Users\samir\OneDrive\Documents\Swagatika\leetcode
 ```
 
-Use this prompt for a search run:
+### Search Run Prompt
 
 ```text
-Use the swagatika-job-search-tailor skill. Set a run_started_at timestamp, then search LinkedIn, Dice, Indeed, ZipRecruiter, Built In, Glassdoor, Monster, CareerBuilder, FlexJobs, Wellfound, USAJOBS, Ladders, official company career pages, and common ATS boards for Swagatika's target roles. Build a broad discovery inventory before shortlisting: include healthcare, payer, claims, ETL, data quality, validation, RCM, prompt/AI-adjacent analyst roles, plus general Data Analyst, Business Data Analyst, Reporting Analyst, BI Analyst, and SQL Analyst roles that mention SQL, Excel, Tableau, Power BI, Looker, dashboards, reporting, stakeholder analytics, or data integrity. Skip anything already present in generated/seen_job_urls.json. Only accept jobs posted within the last 30 days whose exact final apply/detail URL is live in the current run; reject anything expired, closed, unavailable, older, redirected to generic search, removed, or whose apply link is broken. Search snippets may prove posting date for lower tiers, but never link availability. Prefer official company ATS URLs over aggregator URLs when found. Treat Dice, UHG/Optum/UnitedHealthcare, Monster, CareerBuilder, and Indeed links as fragile: reject any final URL you cannot confirm live in the same run. Keep an audit trail for relevant rejected postings. Before finalizing, run a brief miss-check with two broad searches. Show me a ranked table grouped by Apply First / Apply If Time / Skip Stretch. For each accepted job, create the tailored resume package under swagatika-job-search-tailor\generated\<Company>\<job-slug>\ with exactly Swagatika_Nayak_Resume.docx and <company_name>_resume.pdf. Export only this run's accepted jobs to swagatika-job-search-tailor\generated\daily-exports\job-search-table-YYYY-MM-DD.md. Update generated/seen_job_urls.json for dedupe only. Do not write to jobs_application.
+Use the swagatika-job-search-tailor skill. Set run_started_at, then search current jobs across LinkedIn, Dice, Indeed, ZipRecruiter, Built In, Glassdoor, Monster, CareerBuilder, FlexJobs, Wellfound, USAJOBS, Ladders, official company career pages, and common ATS boards. Build a broad inventory for Swagatika's target roles: healthcare/payer/claims/provider data, ETL, data quality, validation, RCM, reporting, BI, SQL analyst, business data analyst, and prompt/AI-adjacent analyst roles that still require SQL/data analysis. Skip URLs already in generated/seen_job_urls.json. Only accept postings from the last 30 days whose exact public detail URL is live in this run, shows the same employer/title, and has an active apply path. Prefer official company/ATS URLs over aggregators. Treat Dice, UHG/Optum/UnitedHealthcare, Centene, Indeed, Monster, CareerBuilder, Glassdoor, and ZipRecruiter as fragile. For UHG and Centene, store the public job detail URL, exact title, req/job number when visible, and a practical apply instruction; UHG instructions should prefer exact title search when the apply flow fails, while Centene instructions should prefer job number search. Keep a rejected-posting audit. Run exactly two miss-check searches before finalizing. Create each accepted resume package under swagatika-job-search-tailor\generated\<Company>\<job-slug>\ with exactly Swagatika_Nayak_Resume.docx and <company_name>_resume.pdf. Write accepted-jobs-YYYY-MM-DD.json, rejected-YYYY-MM-DD.md, and job-search-table-YYYY-MM-DD.md under generated\daily-exports. Update generated/seen_job_urls.json for dedupe only. Do not write to jobs_application.
 ```
 
-Use this skill when the task is to find current jobs for Swagatika Nayak, validate links, create ready-to-use Word and PDF resumes under `generated`, and export a daily job table without writing to `jobs_application`.
+### One-Off Tailoring Prompt
+
+```text
+Use the swagatika-job-search-tailor skill in one-off tailoring mode. I will provide a valid job posting URL, a pasted job description, or company/role requirements. Do not run a broad job search. If I provide a URL, verify that the exact public detail URL is live and shows the role/employer before tailoring. If I paste a JD without a URL, tailor from the pasted content only and do not update generated/seen_job_urls.json. Create the tailored resume package under swagatika-job-search-tailor\generated\<Company-or-valid-company-name>\<job-slug>\ with exactly Swagatika_Nayak_Resume.docx and <company_name>_resume.pdf. Use generated\base-resume\Swagatika_Nayak_Resume.docx as the base resume. Preserve truthful experience only: do not invent skills, tools, responsibilities, dates, employers, metrics, domains, or certifications. Return the final folder path and whether the source was a verified URL or pasted JD.
+```
+
+Use this skill when the task is to find current jobs for Swagatika Nayak, validate live detail pages and active apply paths, create ready-to-use Word and PDF resumes under `generated`, and export a daily job table without writing to `jobs_application`.
+
+Also use this skill when the user provides a single valid job posting URL or pastes a job description and asks for a tailored resume. In that one-off tailoring mode, do not run a broad job search unless the user explicitly asks for one.
+
+## One-Off Tailoring Mode
+
+Use this mode when the user provides:
+
+- a single job posting URL
+- a pasted job description
+- a company and role title plus requirements
+
+Rules:
+
+- Do not perform broad search, miss-check searches, daily table export, or current-run accepted jobs export unless the user explicitly asks.
+- If the user provides a URL, fetch or otherwise verify the exact final URL is live, still available, and shows the same role/employer before using it as a validated posting.
+- If the user pastes only a JD, treat it as user-provided source text. Do not claim live-posting validation and do not add it to `generated/seen_job_urls.json`.
+- Infer a filesystem-safe company folder and job slug from the posting or pasted JD. If company name is missing, use `Unknown Company`; if role title is missing, use a concise role slug inferred from the strongest visible title or responsibilities.
+- Create exactly:
+
+```text
+<repo>\swagatika-job-search-tailor\generated\<Company-or-valid-company-name>\<job-slug>\Swagatika_Nayak_Resume.docx
+<repo>\swagatika-job-search-tailor\generated\<Company-or-valid-company-name>\<job-slug>\<company_name>_resume.pdf
+```
+
+- Keep the role folder limited to the two resume files.
+- Return the final folder path and note whether the resume was based on a verified URL or pasted JD.
 
 ## Output Model
 
@@ -28,6 +60,11 @@ The search run has one user-facing output root:
 ```text
 <repo>\swagatika-job-search-tailor\generated
 ```
+
+New run outputs should be written under company/job folders and `daily-exports`.
+Older legacy folders such as `exports`, `daily-run-*`, or folders containing
+`role_metadata.json` may exist in `generated`; treat them as historical artifacts
+unless the user explicitly asks to inspect or migrate them.
 
 For each accepted job, create exactly:
 
@@ -49,6 +86,16 @@ Also write exactly one daily table:
 
 Use `generated/seen_job_urls.json` only as the dedupe registry. Never mirror or copy the same job into `jobs_application`.
 
+For every search run, create one temporary current-run accepted jobs file outside
+role folders:
+
+```text
+<repo>\swagatika-job-search-tailor\generated\daily-exports\accepted-jobs-YYYY-MM-DD.json
+```
+
+This file is the input for daily table export and package validation. It may be
+kept as the run audit record because it is not a per-role metadata file.
+
 Do not write during a search run:
 
 - `role_metadata.json`
@@ -67,6 +114,7 @@ Do not write during a search run:
 - Resume script: `scripts\tailor_resume_copy.ps1`
 - Preserve the base resume formatting by copying the `.docx` and applying truthful, minimal Word Find/Replace changes.
 - Export the final tailored Word document to PDF in the same role folder. Name the PDF `<company_name>_resume.pdf`, using a lowercase or filesystem-safe company name when needed.
+- After resume generation, run `scripts\validate_generated_package.ps1` against the accepted jobs file and generated root. Do not finalize until every accepted role folder contains exactly the required `.docx` and `.pdf`.
 - Do not invent skills, tools, responsibilities, dates, employers, metrics, domains, or certifications.
 - If a replacement plan is needed, keep it temporary outside the role folder and delete it after the resume is created. The final role folder must still contain only the required `.docx` and `.pdf`.
 - If Word COM or resume generation fails for a role, do not create placeholder files. Report the failure and keep the job in the table only if the link validation was otherwise valid.
@@ -168,7 +216,8 @@ Validation tiers:
 Fragile-source rules:
 
 - **Dice**: Always fetch the exact Dice URL in the same run. Reject if fetch fails, the connection aborts, the page says unavailable, or availability is uncertain. Prefer an official company URL whenever found.
-- **UHG / Optum / UnitedHealthcare**: Always verify the exact requisition in the current official search/detail flow. Reject old Taleo/Radancy URLs, pages with `postingAvailable: false`, generic redirects, stale snippets, or any requisition that is not confirmed open in the same run.
+- **UHG / Optum / UnitedHealthcare**: Always verify the exact requisition in the current official search/detail flow. Reject old Taleo/Radancy URLs, pages with `postingAvailable: false`, generic redirects, stale snippets, or any requisition that is not confirmed open in the same run. Do not label UHG links as durable apply links. Store the public job detail URL, requisition number, exact job title, and an apply instruction such as `Use the detail page Apply button; if Taleo fails, search the exact title on careers.unitedhealthgroup.com`. UHG title search is often more reliable than requisition-number search.
+- **Centene**: Treat `jobs.centene.com` URLs as public job detail links, not durable apply links. Verify the detail page shows the role, job number, posting date, and active `Apply Now` path, but include the Centene job number and an apply instruction such as `Search job number <job_number> on jobs.centene.com if the Workday apply redirect fails`.
 - **Indeed, Monster, CareerBuilder, Glassdoor, ZipRecruiter**: Use for discovery, but prefer official company URLs. Keep an aggregator URL only when the exact URL is confirmed live in the same run.
 - **Workday**: When possible, check the Workday CXS JSON endpoint or page content for title/date/apply state. If the shell page exposes only a JavaScript shell and `postingAvailable: false`, do not use it for Apply First.
 - **Blocked pages**: If a source blocks scripted fetch with 403/cookie gating, accept only when another current live-check path confirms the exact final URL. Otherwise reject.
@@ -179,14 +228,15 @@ Fragile-source rules:
 - Do not drop a current generic analyst role solely because it lacks healthcare language when it has strong SQL, dashboarding, reporting, stakeholder analytics, Excel/BI, or data integrity responsibilities.
 - Penalize unclear work mode, non-remote requirements, over-seniority, heavy engineering requirements, and unsupported tools rather than hiding those roles silently.
 - Keep an audit trail for rejected but relevant postings with the company, title or URL when available, and reason.
+- Write the rejected-posting audit to `generated\daily-exports\rejected-YYYY-MM-DD.md`. This is allowed as a run-level audit file and does not violate the no per-role metadata rule.
 
 ## Daily Export Table
 
 - Show a ranked table grouped by Apply First / Apply If Time / Skip Stretch.
-- Include company, role, source, type, work mode, location, score, apply link, and resume folder.
-- Export only this run's accepted jobs unless the user explicitly asks for the full active backlog.
+- Include company, role, source, type, work mode, location, posting date, verification date, score, job detail link, apply instruction, and resume folder.
+- Export only this run's accepted jobs by default. On same-day reruns, replace the same-day table with the newest run snapshot unless the user explicitly asks for an appended/cumulative same-day table.
 - Use `generated\daily-exports\job-search-table-YYYY-MM-DD.md`.
-- On same-day reruns, append only newly accepted rows and deduplicate by URL.
+- Use `scripts\export_daily_table.py` with the current-run accepted jobs JSON; do not export from legacy `role_metadata.json`.
 - Do not carry stale same-day rows forward after validation marks a posting unavailable.
 
 ## Dedupe Registry
@@ -221,10 +271,11 @@ Add any new valid result, or record why it was rejected.
 ## Local Scripts
 
 - `scripts/extract_profile.py`: extracts plain text from the base `.docx` resume.
-- `scripts\tailor_resume_copy.ps1`: creates the final resume copy and can export PDF when `-PdfOutputPath` is provided. Use this during search runs.
+- `scripts\tailor_resume_copy.ps1`: creates the final resume copy and exports PDF when `-PdfOutputPath` is provided. It uses Word SaveAs PDF because it has been more reliable than `ExportAsFixedFormat` in this environment. Use this during search runs.
 - `scripts\make_application.py`: old full-package writer. Do not use during search runs because it creates `job_description.md`, `job_url.txt`, `role_metadata.json`, `fit_score.json`, `notes.md`, `tailoring_plan.json`, and `open_positions.json`.
 - `scripts\rebuild_seen_urls.py`: scans generated metadata. Do not use for search runs that write no per-job generated metadata.
-- `scripts\export_daily_table.py`: exports from generated metadata. Do not use for search runs that write only resumes and a manual daily table.
+- `scripts\export_daily_table.py`: exports a daily table from the current-run accepted jobs JSON and validates each URL against `seen_job_urls.json`.
+- `scripts\validate_generated_package.ps1`: verifies each accepted role folder contains exactly `Swagatika_Nayak_Resume.docx` and `<company_name>_resume.pdf`.
 - `scripts\validate_job_links.py`: checks existing generated records or application folders for broken/expired links, stale posting dates, known closed UHG links, and past application deadlines.
 
 ## Named Sources To Cover
